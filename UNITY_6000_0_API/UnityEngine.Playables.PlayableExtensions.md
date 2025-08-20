@@ -1,0 +1,40 @@
+class in UnityEngine.Playables
+# PlayableExtensions
+
+## Static Methods
+- `AddInput`
+- `CanChangeInputs`
+- `CanDestroy`
+- `CanSetWeights`
+- `ConnectInput`
+- `Destroy`
+- `DisconnectInput`
+- `GetDuration`
+- `GetGraph`
+- `GetInput`
+- `GetInputCount`
+- `GetInputWeight`
+- `GetLeadTime`
+- `GetOutput`
+- `GetOutputCount`
+- `GetPlayState`
+- `GetPreviousTime`
+- `GetPropagateSetTime`
+- `GetSpeed`
+- `GetTime`
+- `GetTraversalMode`
+- `IsDone`
+- `IsNull`
+- `IsValid`
+- `Pause`
+- `Play`
+- `SetDone`
+- `SetDuration`
+- `SetInputCount`
+- `SetInputWeight`
+- `SetLeadTime`
+- `SetOutputCount`
+- `SetPropagateSetTime`
+- `SetSpeed`
+- `SetTime`
+- `SetTraversalMode`

@@ -1,0 +1,35 @@
+class in UnityEditor
+# ModelImporterClipAnimation
+
+## Properties
+- `additiveReferencePoseFrame`
+- `curves`
+- `cycleOffset`
+- `events`
+- `firstFrame`
+- `hasAdditiveReferencePose`
+- `heightFromFeet`
+- `heightOffset`
+- `keepOriginalOrientation`
+- `keepOriginalPositionXZ`
+- `keepOriginalPositionY`
+- `lastFrame`
+- `lockRootHeightY`
+- `lockRootPositionXZ`
+- `lockRootRotation`
+- `loop`
+- `loopPose`
+- `loopTime`
+- `maskNeedsUpdating`
+- `maskSource`
+- `maskType`
+- `mirror`
+- `name`
+- `rotationOffset`
+- `takeName`
+- `wrapMode`
+## Methods
+- `ConfigureClipFromMask`
+- `ConfigureMaskFromClip`
+- `Equals`
+- `GetHashCode`

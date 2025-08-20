@@ -1,0 +1,42 @@
+struct in UnityEngine.Rendering
+# ScriptableRenderContext
+
+## Methods
+- `BeginRenderPass`
+- `BeginScopedRenderPass`
+- `BeginScopedSubPass`
+- `BeginSubPass`
+- `CreateGizmoRendererList`
+- `CreateRendererList`
+- `CreateShadowRendererList`
+- `CreateSkyboxRendererList`
+- `CreateUIOverlayRendererList`
+- `CreateWireOverlayRendererList`
+- `Cull`
+- `CullShadowCasters`
+- `DrawGizmos`
+- `DrawUIOverlay`
+- `DrawWireOverlay`
+- `EndRenderPass`
+- `EndSubPass`
+- `Equals`
+- `ExecuteCommandBuffer`
+- `ExecuteCommandBufferAsync`
+- `GetHashCode`
+- `HasInvokeOnRenderObjectCallbacks`
+- `InvokeOnRenderObjectCallback`
+- `PrepareRendererListsAsync`
+- `QueryRendererListStatus`
+- `SetupCameraProperties`
+- `StartMultiEye`
+- `StereoEndRender`
+- `StopMultiEye`
+- `Submit`
+- `SubmitForRenderPassValidation`
+## Static Methods
+- `EmitGeometryForCamera`
+- `PopDisableApiRenderers`
+- `PushDisableApiRenderers`
+## Operators
+- `op_Equality`
+- `op_Inequality`

@@ -1,0 +1,34 @@
+class in UnityEditor
+# VideoClipImporter
+
+## Properties
+- `defaultTargetSettings`
+- `deinterlaceMode`
+- `flipHorizontal`
+- `flipVertical`
+- `frameCount`
+- `frameRate`
+- `importAudio`
+- `isPlayingPreview`
+- `keepAlpha`
+- `outputFileSize`
+- `pixelAspectRatioDenominator`
+- `pixelAspectRatioNumerator`
+- `sourceAudioTrackCount`
+- `sourceFileSize`
+- `sourceHasAlpha`
+- `sRGBClip`
+- `transcodeSkipped`
+## Methods
+- `ClearTargetSettings`
+- `Equals`
+- `GetPreviewTexture`
+- `GetResizeHeight`
+- `GetResizeModeName`
+- `GetResizeWidth`
+- `GetSourceAudioChannelCount`
+- `GetSourceAudioSampleRate`
+- `GetTargetSettings`
+- `PlayPreview`
+- `SetTargetSettings`
+- `StopPreview`

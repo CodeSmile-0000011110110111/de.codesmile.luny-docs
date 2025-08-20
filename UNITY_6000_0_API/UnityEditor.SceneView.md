@@ -1,0 +1,55 @@
+class in UnityEditor
+# SceneView
+
+## Properties
+- `audioPlay`
+- `camera`
+- `cameraDistance`
+- `cameraMode`
+- `cameraSettings`
+- `cameraViewport`
+- `drawGizmos`
+- `in2DMode`
+- `isRotationLocked`
+- `isUsingSceneFiltering`
+- `lastSceneViewRotation`
+- `orthographic`
+- `pivot`
+- `rotation`
+- `sceneLighting`
+- `sceneViewState`
+- `showGrid`
+- `size`
+- `validateTrueMetals`
+## Methods
+- `AddItemsToMenu`
+- `AlignViewToObject`
+- `AlignWithView`
+- `FixNegativeSize`
+- `Frame`
+- `FrameSelected`
+- `IsCameraDrawModeEnabled`
+- `IsCameraDrawModeSupported`
+- `LookAt`
+- `LookAtDirect`
+- `MoveToView`
+- `OnDestroy`
+- `OnDisable`
+- `OnEnable`
+- `ResetCameraSettings`
+- `SetSceneViewShaderReplace`
+## Static Properties
+- `currentDrawingSceneView`
+- `lastActiveSceneView`
+- `sceneViews`
+- `selectedOutlineColor`
+## Static Methods
+- `AddCameraMode`
+- `AddOverlayToActiveView`
+- `ClearUserDefinedCameraModes`
+- `FrameLastActiveSceneView`
+- `FrameLastActiveSceneViewWithLock`
+- `GetAllSceneCameras`
+- `GetBuiltinCameraMode`
+- `RemoveOverlayFromActiveView`
+- `RepaintAll`

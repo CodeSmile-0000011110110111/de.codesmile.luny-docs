@@ -1,0 +1,53 @@
+class in UnityEditor
+# ShaderUtil
+
+## Static Properties
+- `allowAsyncCompilation`
+- `anythingCompiling`
+- `disableShaderOptimization`
+- `hardwareSupportsRectRenderTexture`
+## Static Methods
+- `ClearCachedData`
+- `ClearShaderMessages`
+- `CompilePass`
+- `CreateComputeShaderAsset`
+- `CreateRayTracingShaderAsset`
+- `CreateShaderAsset`
+- `GetAllShaderInfo`
+- `GetCallableShaderCount`
+- `GetCallableShaderName`
+- `GetCallableShaderParamSize`
+- `GetComputeShaderMessageCount`
+- `GetComputeShaderMessages`
+- `GetCurrentCustomEditor`
+- `GetCustomEditorForRenderPipeline`
+- `GetMissShaderCount`
+- `GetMissShaderName`
+- `GetMissShaderRayPayloadSize`
+- `GetPassKeywords`
+- `GetPropertyCount`
+- `GetPropertyDescription`
+- `GetPropertyName`
+- `GetPropertyType`
+- `GetRangeLimits`
+- `GetRayGenerationShaderCount`
+- `GetRayGenerationShaderName`
+- `GetRayTracingShaderMessageCount`
+- `GetRayTracingShaderMessages`
+- `GetShaderData`
+- `GetShaderInfo`
+- `GetShaderMessageCount`
+- `GetShaderMessages`
+- `GetShaderPlatformKeywordsForBuildTarget`
+- `GetTexDim`
+- `HasProceduralInstancing`
+- `IsPassCompiled`
+- `IsShaderPropertyHidden`
+- `IsShaderPropertyNonModifiableTexureProperty`
+- `PassHasKeyword`
+- `RegisterShader`
+- `RestoreAsyncCompilation`
+- `SetAsyncCompilation`
+- `ShaderHasError`
+- `ShaderHasWarnings`
+- `UpdateShaderAsset`

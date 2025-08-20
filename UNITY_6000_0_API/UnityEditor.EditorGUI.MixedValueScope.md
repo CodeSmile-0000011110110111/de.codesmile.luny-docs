@@ -1,0 +1,3 @@
+struct in UnityEditor
+# MixedValueScope
+

@@ -1,0 +1,34 @@
+class in UnityEngine
+# TrailRenderer
+
+## Properties
+- `alignment`
+- `autodestruct`
+- `colorGradient`
+- `emitting`
+- `endColor`
+- `endWidth`
+- `generateLightingData`
+- `maskInteraction`
+- `minVertexDistance`
+- `numCapVertices`
+- `numCornerVertices`
+- `positionCount`
+- `shadowBias`
+- `startColor`
+- `startWidth`
+- `textureMode`
+- `textureScale`
+- `time`
+- `widthCurve`
+- `widthMultiplier`
+## Methods
+- `AddPosition`
+- `AddPositions`
+- `BakeMesh`
+- `Clear`
+- `GetPosition`
+- `GetPositions`
+- `GetVisiblePositions`
+- `SetPosition`
+- `SetPositions`

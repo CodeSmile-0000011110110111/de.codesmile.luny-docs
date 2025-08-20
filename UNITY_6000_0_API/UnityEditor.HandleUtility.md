@@ -1,0 +1,52 @@
+class in UnityEditor
+# HandleUtility
+
+## Static Properties
+- `acceleration`
+- `handleMaterial`
+- `nearestControl`
+- `niceMouseDelta`
+- `niceMouseDeltaZoom`
+## Static Methods
+- `AddControl`
+- `AddDefaultControl`
+- `CalcLineTranslation`
+- `ClosestPointToArc`
+- `ClosestPointToDisc`
+- `ClosestPointToPolyLine`
+- `DecodeSelectionId`
+- `DistancePointBezier`
+- `DistancePointLine`
+- `DistancePointToLine`
+- `DistancePointToLineSegment`
+- `DistanceToArc`
+- `DistanceToCircle`
+- `DistanceToCone`
+- `DistanceToCube`
+- `DistanceToDisc`
+- `DistanceToLine`
+- `DistanceToPolyLine`
+- `DistanceToRectangle`
+- `EncodeSelectionId`
+- `FindNearestVertex`
+- `GetHandleSize`
+- `GetOverlappingObjects`
+- `GetPickingIncludeExcludeList`
+- `GetSelectionOutlineIncludeExcludeList`
+- `GUIPointToScreenPixelCoordinate`
+- `GUIPointToWorldRay`
+- `PickAllObjects`
+- `PickGameObject`
+- `PickRectObjects`
+- `PlaceObject`
+- `PointOnLineParameter`
+- `PopCamera`
+- `ProjectPointLine`
+- `PushCamera`
+- `RaySnap`
+- `RegisterRenderPickingCallback`
+- `Repaint`
+- `UnregisterRenderPickingCallback`
+- `WorldPointToSizedRect`
+- `WorldToGUIPoint`
+- `WorldToGUIPointWithDepth`

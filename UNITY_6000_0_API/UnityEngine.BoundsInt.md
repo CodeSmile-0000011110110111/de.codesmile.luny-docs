@@ -1,0 +1,29 @@
+struct in UnityEngine
+# BoundsInt
+
+## Properties
+- `allPositionsWithin`
+- `center`
+- `max`
+- `min`
+- `position`
+- `size`
+- `x`
+- `xMax`
+- `xMin`
+- `y`
+- `yMax`
+- `yMin`
+- `z`
+- `zMax`
+- `zMin`
+## Methods
+- `ClampToBounds`
+- `Contains`
+- `Equals`
+- `GetHashCode`
+- `SetMinMax`
+- `ToString`
+## Operators
+- `op_Equality`
+- `op_Inequality`

@@ -1,0 +1,31 @@
+class in UnityEditor.Animations
+# AnimatorStateMachine
+
+## Properties
+- `anyStatePosition`
+- `anyStateTransitions`
+- `behaviours`
+- `defaultState`
+- `entryPosition`
+- `entryTransitions`
+- `exitPosition`
+- `parentStateMachinePosition`
+- `stateMachines`
+- `states`
+## Methods
+- `AddAnyStateTransition`
+- `AddEntryTransition`
+- `AddState`
+- `AddStateMachine`
+- `AddStateMachineBehaviour`
+- `AddStateMachineExitTransition`
+- `AddStateMachineTransition`
+- `GetStateMachineTransitions`
+- `MakeUniqueStateMachineName`
+- `MakeUniqueStateName`
+- `RemoveAnyStateTransition`
+- `RemoveEntryTransition`
+- `RemoveState`
+- `RemoveStateMachine`
+- `RemoveStateMachineTransition`
+- `SetStateMachineTransitions`

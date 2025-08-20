@@ -1,0 +1,32 @@
+class in UnityEngine
+# ComputeShader
+
+## Properties
+- `enabledKeywords`
+- `keywordSpace`
+- `shaderKeywords`
+## Methods
+- `DisableKeyword`
+- `Dispatch`
+- `DispatchIndirect`
+- `EnableKeyword`
+- `FindKernel`
+- `GetKernelThreadGroupSizes`
+- `HasKernel`
+- `IsKeywordEnabled`
+- `IsSupported`
+- `SetBool`
+- `SetBuffer`
+- `SetConstantBuffer`
+- `SetFloat`
+- `SetFloats`
+- `SetInt`
+- `SetInts`
+- `SetKeyword`
+- `SetMatrix`
+- `SetMatrixArray`
+- `SetRayTracingAccelerationStructure`
+- `SetTexture`
+- `SetTextureFromGlobal`
+- `SetVector`
+- `SetVectorArray`

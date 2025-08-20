@@ -1,0 +1,3 @@
+class in UnityEditor
+# ClipboardUtility
+

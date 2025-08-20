@@ -1,0 +1,51 @@
+class in UnityEditor
+# EditorWindow
+
+## Properties
+- `autoRepaintOnSceneChange`
+- `dataModeController`
+- `depthBufferBits`
+- `docked`
+- `hasFocus`
+- `hasUnsavedChanges`
+- `maximized`
+- `maxSize`
+- `minSize`
+- `overlayCanvas`
+- `position`
+- `rootVisualElement`
+- `saveChangesMessage`
+- `titleContent`
+- `wantsLessLayoutEvents`
+- `wantsMouseEnterLeaveWindow`
+- `wantsMouseMove`
+## Methods
+- `BeginWindows`
+- `Close`
+- `DiscardChanges`
+- `EndWindows`
+- `Focus`
+- `GetExtraPaneTypes`
+- `RemoveNotification`
+- `Repaint`
+- `SaveChanges`
+- `SendEvent`
+- `Show`
+- `ShowAsDropDown`
+- `ShowAuxWindow`
+- `ShowModal`
+- `ShowModalUtility`
+- `ShowNotification`
+- `ShowPopup`
+- `ShowTab`
+- `ShowUtility`
+- `TryGetOverlay`
+## Static Properties
+- `focusedWindow`
+- `mouseOverWindow`
+## Static Methods
+- `CreateWindow`
+- `FocusWindowIfItsOpen`
+- `GetWindow`
+- `GetWindowWithRect`
+- `HasOpenInstances`
