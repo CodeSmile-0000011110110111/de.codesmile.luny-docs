@@ -1,23 +1,7 @@
-# Luny v0.5 Manual
+# [Luny Manual](https://codesmile-0000011110110111.github.io/de.codesmile.luny-docs/)
 
-You will find the Luny Bindings API Reference detailing which C# Types and Members are available in Lua. [Report any missing types and members](https://github.com/CodeSmile-0000011110110111/de.codesmile.luny/issues) and mention your use case.
+[View the Luny Documentation here](https://codesmile-0000011110110111.github.io/de.codesmile.luny-docs/)
 
-Please consider sponsoring Luny on [Patreon](http://www.patreon.com/c/codesmile) or [GitHub](https://github.com/CodeSmile-0000011110110111).
+Don't navigate through the documentation source files in the repository! They are not representative.
 
-For more info visit the [Luny package repository](https://github.com/CodeSmile-0000011110110111/de.codesmile.luny).
-
-# API Reference
-
-Choose your Unity version:
-
-### [Unity 6.2](UNITY_6000_2_API/index.md)
-### [Unity 6.1](UNITY_6000_1_API/index.md)
-### [Unity 6.0 LTS](UNITY_6000_0_API/index.md)
-
-# Installing Luny
-
-In the Unity Editor:
-
-- Open Package Manager -- **Window / Package Management / Package Manager**
-- Click [➕] and **Install package from git URL...**
-- Enter URL: `https://github.com/CodeSmile-0000011110110111/de.codesmile.luny.git`
+For more info about Luny visit the [Luny package repository](https://github.com/CodeSmile-0000011110110111/de.codesmile.luny).
