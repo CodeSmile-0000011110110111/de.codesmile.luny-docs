@@ -1,5 +1,7 @@
 # Luny v0.5 Manual
 
+[![Luny Logo](LunyLogo.png)](https://lunyscript.com)
+
 You will find the Luny Bindings API Reference detailing which C# Types and Members are available in Lua. [Report any missing types and members](https://github.com/CodeSmile-0000011110110111/de.codesmile.luny/issues) and mention your use case.
 
 Please consider sponsoring Luny on [Patreon](http://www.patreon.com/c/codesmile) or [GitHub](https://github.com/CodeSmile-0000011110110111).

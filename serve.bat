@@ -1,3 +1,3 @@
 @echo off 
 
-start "jekyll serve" bundle exec jekyll serve
+start "jekyll serve" bundle exec jekyll serve --incremental
