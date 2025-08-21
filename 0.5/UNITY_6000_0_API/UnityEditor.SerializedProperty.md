@@ -1,0 +1,77 @@
+# SerializedProperty
+class in UnityEditor
+ / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html" target="_blank">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html" target="_blank">UnityEditor.CoreModule</a>
+## Properties
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-animationCurveValue.html" target="_blank">animationCurveValue</a> : AnimationCurve
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-arrayElementType.html" target="_blank">arrayElementType</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-arraySize.html" target="_blank">arraySize</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-boolValue.html" target="_blank">boolValue</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-boundsIntValue.html" target="_blank">boundsIntValue</a> : BoundsInt
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-boundsValue.html" target="_blank">boundsValue</a> : Bounds
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-boxedValue.html" target="_blank">boxedValue</a> : Object
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-colorValue.html" target="_blank">colorValue</a> : Color
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-contentHash.html" target="_blank">contentHash</a> : UInt32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-depth.html" target="_blank">depth</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-displayName.html" target="_blank">displayName</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-doubleValue.html" target="_blank">doubleValue</a> : Double
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-editable.html" target="_blank">editable</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-enumDisplayNames.html" target="_blank">enumDisplayNames</a> : String[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-enumNames.html" target="_blank">enumNames</a> : String[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-enumValueFlag.html" target="_blank">enumValueFlag</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-enumValueIndex.html" target="_blank">enumValueIndex</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-exposedReferenceValue.html" target="_blank">exposedReferenceValue</a> : Object
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-fixedBufferSize.html" target="_blank">fixedBufferSize</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-floatValue.html" target="_blank">floatValue</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-gradientValue.html" target="_blank">gradientValue</a> : Gradient
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-hasChildren.html" target="_blank">hasChildren</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-hash128Value.html" target="_blank">hash128Value</a> : Hash128
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-hasMultipleDifferentValues.html" target="_blank">hasMultipleDifferentValues</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-hasVisibleChildren.html" target="_blank">hasVisibleChildren</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-intValue.html" target="_blank">intValue</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-isAnimated.html" target="_blank">isAnimated</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-isArray.html" target="_blank">isArray</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-isDefaultOverride.html" target="_blank">isDefaultOverride</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-isExpanded.html" target="_blank">isExpanded</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-isFixedBuffer.html" target="_blank">isFixedBuffer</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-isInstantiatedPrefab.html" target="_blank">isInstantiatedPrefab</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-longValue.html" target="_blank">longValue</a> : Int64
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-managedReferenceFieldTypename.html" target="_blank">managedReferenceFieldTypename</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-managedReferenceFullTypename.html" target="_blank">managedReferenceFullTypename</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-managedReferenceId.html" target="_blank">managedReferenceId</a> : Int64
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-managedReferenceValue.html" target="_blank">managedReferenceValue</a> : Object
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-minArraySize.html" target="_blank">minArraySize</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-name.html" target="_blank">name</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-numericType.html" target="_blank">numericType</a> : SerializedPropertyNumericType
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-objectReferenceInstanceIDValue.html" target="_blank">objectReferenceInstanceIDValue</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-objectReferenceValue.html" target="_blank">objectReferenceValue</a> : Object
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-prefabOverride.html" target="_blank">prefabOverride</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-propertyPath.html" target="_blank">propertyPath</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-propertyType.html" target="_blank">propertyType</a> : SerializedPropertyType
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-quaternionValue.html" target="_blank">quaternionValue</a> : Quaternion
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-rectIntValue.html" target="_blank">rectIntValue</a> : RectInt
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-rectValue.html" target="_blank">rectValue</a> : Rect
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-serializedObject.html" target="_blank">serializedObject</a> : SerializedObject
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-stringValue.html" target="_blank">stringValue</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-tooltip.html" target="_blank">tooltip</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-type.html" target="_blank">type</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-uintValue.html" target="_blank">uintValue</a> : UInt32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-ulongValue.html" target="_blank">ulongValue</a> : UInt64
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-vector2IntValue.html" target="_blank">vector2IntValue</a> : Vector2Int
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-vector2Value.html" target="_blank">vector2Value</a> : Vector2
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-vector3IntValue.html" target="_blank">vector3IntValue</a> : Vector3Int
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-vector3Value.html" target="_blank">vector3Value</a> : Vector3
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-vector4Value.html" target="_blank">vector4Value</a> : Vector4
+## Methods
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty.ClearArray.html" target="_blank">ClearArray</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty.CountInProperty.html" target="_blank">CountInProperty</a> returns Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty.CountRemaining.html" target="_blank">CountRemaining</a> returns Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty.DeleteArrayElementAtIndex.html" target="_blank">DeleteArrayElementAtIndex</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty.DeleteCommand.html" target="_blank">DeleteCommand</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty.Dispose.html" target="_blank">Dispose</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty.DuplicateCommand.html" target="_blank">DuplicateCommand</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty.InsertArrayElementAtIndex.html" target="_blank">InsertArrayElementAtIndex</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty.MoveArrayElement.html" target="_blank">MoveArrayElement</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty.Next.html" target="_blank">Next</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty.NextVisible.html" target="_blank">NextVisible</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty.Reset.html" target="_blank">Reset</a>
+## Static Methods

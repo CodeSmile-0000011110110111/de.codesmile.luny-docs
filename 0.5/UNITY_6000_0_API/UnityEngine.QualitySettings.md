@@ -1,0 +1,64 @@
+# QualitySettings
+class in UnityEngine
+ / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html" target="_blank">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html" target="_blank">UnityEngine.CoreModule</a>
+## Static Properties
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-activeColorSpace.html" target="_blank">activeColorSpace</a> : ColorSpace
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-anisotropicFiltering.html" target="_blank">anisotropicFiltering</a> : AnisotropicFiltering
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-antiAliasing.html" target="_blank">antiAliasing</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-asyncUploadBufferSize.html" target="_blank">asyncUploadBufferSize</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-asyncUploadPersistentBuffer.html" target="_blank">asyncUploadPersistentBuffer</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-asyncUploadTimeSlice.html" target="_blank">asyncUploadTimeSlice</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-billboardsFaceCameraPosition.html" target="_blank">billboardsFaceCameraPosition</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-count.html" target="_blank">count</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-desiredColorSpace.html" target="_blank">desiredColorSpace</a> : ColorSpace
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-enableLODCrossFade.html" target="_blank">enableLODCrossFade</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-globalTextureMipmapLimit.html" target="_blank">globalTextureMipmapLimit</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-lodBias.html" target="_blank">lodBias</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-maximumLODLevel.html" target="_blank">maximumLODLevel</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-maxQueuedFrames.html" target="_blank">maxQueuedFrames</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-names.html" target="_blank">names</a> : String[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-particleRaycastBudget.html" target="_blank">particleRaycastBudget</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-pixelLightCount.html" target="_blank">pixelLightCount</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-realtimeGICPUUsage.html" target="_blank">realtimeGICPUUsage</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-realtimeReflectionProbes.html" target="_blank">realtimeReflectionProbes</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-renderPipeline.html" target="_blank">renderPipeline</a> : RenderPipelineAsset
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-resolutionScalingFixedDPIFactor.html" target="_blank">resolutionScalingFixedDPIFactor</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-shadowCascade2Split.html" target="_blank">shadowCascade2Split</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-shadowCascade4Split.html" target="_blank">shadowCascade4Split</a> : Vector3
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-shadowCascades.html" target="_blank">shadowCascades</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-shadowDistance.html" target="_blank">shadowDistance</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-shadowmaskMode.html" target="_blank">shadowmaskMode</a> : ShadowmaskMode
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-shadowNearPlaneOffset.html" target="_blank">shadowNearPlaneOffset</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-shadowProjection.html" target="_blank">shadowProjection</a> : ShadowProjection
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-shadowResolution.html" target="_blank">shadowResolution</a> : ShadowResolution
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-shadows.html" target="_blank">shadows</a> : ShadowQuality
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-skinWeights.html" target="_blank">skinWeights</a> : SkinWeights
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-softParticles.html" target="_blank">softParticles</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-softVegetation.html" target="_blank">softVegetation</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-streamingMipmapsActive.html" target="_blank">streamingMipmapsActive</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-streamingMipmapsAddAllCameras.html" target="_blank">streamingMipmapsAddAllCameras</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-streamingMipmapsMaxFileIORequests.html" target="_blank">streamingMipmapsMaxFileIORequests</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-streamingMipmapsMaxLevelReduction.html" target="_blank">streamingMipmapsMaxLevelReduction</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-streamingMipmapsMemoryBudget.html" target="_blank">streamingMipmapsMemoryBudget</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-streamingMipmapsRenderersPerFrame.html" target="_blank">streamingMipmapsRenderersPerFrame</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-terrainBasemapDistance.html" target="_blank">terrainBasemapDistance</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-terrainBillboardStart.html" target="_blank">terrainBillboardStart</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-terrainDetailDensityScale.html" target="_blank">terrainDetailDensityScale</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-terrainDetailDistance.html" target="_blank">terrainDetailDistance</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-terrainFadeLength.html" target="_blank">terrainFadeLength</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-terrainMaxTrees.html" target="_blank">terrainMaxTrees</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-terrainPixelError.html" target="_blank">terrainPixelError</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-terrainQualityOverrides.html" target="_blank">terrainQualityOverrides</a> : TerrainQualityOverrides
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-terrainTreeDistance.html" target="_blank">terrainTreeDistance</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-useLegacyDetailDistribution.html" target="_blank">useLegacyDetailDistribution</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-vSyncCount.html" target="_blank">vSyncCount</a> : Int32
+## Static Methods
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings.DecreaseLevel.html" target="_blank">DecreaseLevel</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings.GetQualityLevel.html" target="_blank">GetQualityLevel</a> returns Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings.GetQualitySettings.html" target="_blank">GetQualitySettings</a> returns Object
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings.GetRenderPipelineAssetAt.html" target="_blank">GetRenderPipelineAssetAt</a> returns RenderPipelineAsset
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings.GetTextureMipmapLimitSettings.html" target="_blank">GetTextureMipmapLimitSettings</a> returns TextureMipmapLimitSettings
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings.IncreaseLevel.html" target="_blank">IncreaseLevel</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings.SetLODSettings.html" target="_blank">SetLODSettings</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings.SetQualityLevel.html" target="_blank">SetQualityLevel</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings.SetTextureMipmapLimitSettings.html" target="_blank">SetTextureMipmapLimitSettings</a>

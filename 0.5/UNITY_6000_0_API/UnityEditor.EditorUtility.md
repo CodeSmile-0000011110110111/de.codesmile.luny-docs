@@ -1,0 +1,58 @@
+# EditorUtility
+class in UnityEditor
+ / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html" target="_blank">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html" target="_blank">UnityEditor.CoreModule</a>
+## Static Properties
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility-audioMasterMute.html" target="_blank">audioMasterMute</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility-scriptCompilationFailed.html" target="_blank">scriptCompilationFailed</a> : Boolean
+## Static Methods
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.ClearDefaultParentObject.html" target="_blank">ClearDefaultParentObject</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.ClearDirty.html" target="_blank">ClearDirty</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.ClearProgressBar.html" target="_blank">ClearProgressBar</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.CollectDeepHierarchy.html" target="_blank">CollectDeepHierarchy</a> returns Object[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.CollectDependencies.html" target="_blank">CollectDependencies</a> returns Object[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.CompressCubemapTexture.html" target="_blank">CompressCubemapTexture</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.CompressTexture.html" target="_blank">CompressTexture</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.CopySerialized.html" target="_blank">CopySerialized</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.CopySerializedIfDifferent.html" target="_blank">CopySerializedIfDifferent</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.CopySerializedManagedFieldsOnly.html" target="_blank">CopySerializedManagedFieldsOnly</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.CreateGameObjectWithHideFlags.html" target="_blank">CreateGameObjectWithHideFlags</a> returns GameObject
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.DisplayCancelableProgressBar.html" target="_blank">DisplayCancelableProgressBar</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.DisplayDialog.html" target="_blank">DisplayDialog</a> returns Boolean (4 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.DisplayDialogComplex.html" target="_blank">DisplayDialogComplex</a> returns Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.DisplayPopupMenu.html" target="_blank">DisplayPopupMenu</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.DisplayProgressBar.html" target="_blank">DisplayProgressBar</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.FocusProjectWindow.html" target="_blank">FocusProjectWindow</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.FormatBytes.html" target="_blank">FormatBytes</a> returns String (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.GetDialogOptOutDecision.html" target="_blank">GetDialogOptOutDecision</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.GetDirtyCount.html" target="_blank">GetDirtyCount</a> returns Int32 (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.GetObjectEnabled.html" target="_blank">GetObjectEnabled</a> returns Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.InstanceIDToObject.html" target="_blank">InstanceIDToObject</a> returns Object
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.InvokeDiffTool.html" target="_blank">InvokeDiffTool</a> returns String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.IsDirty.html" target="_blank">IsDirty</a> returns Boolean (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.IsPersistent.html" target="_blank">IsPersistent</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.IsRunningUnderCPUEmulation.html" target="_blank">IsRunningUnderCPUEmulation</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.IsUnityExtensionsInitialized.html" target="_blank">IsUnityExtensionsInitialized</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.IsValidUnityYAML.html" target="_blank">IsValidUnityYAML</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.LoadWindowLayout.html" target="_blank">LoadWindowLayout</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.NaturalCompare.html" target="_blank">NaturalCompare</a> returns Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.OpenFilePanel.html" target="_blank">OpenFilePanel</a> returns String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.OpenFilePanelWithFilters.html" target="_blank">OpenFilePanelWithFilters</a> returns String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.OpenFolderPanel.html" target="_blank">OpenFolderPanel</a> returns String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.OpenPropertyEditor.html" target="_blank">OpenPropertyEditor</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.OpenWithDefaultApp.html" target="_blank">OpenWithDefaultApp</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.RequestScriptReload.html" target="_blank">RequestScriptReload</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.RevealInFinder.html" target="_blank">RevealInFinder</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.SaveFilePanel.html" target="_blank">SaveFilePanel</a> returns String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.SaveFilePanelInProject.html" target="_blank">SaveFilePanelInProject</a> returns String (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.SaveFolderPanel.html" target="_blank">SaveFolderPanel</a> returns String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.SetCameraAnimateMaterials.html" target="_blank">SetCameraAnimateMaterials</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.SetCameraAnimateMaterialsTime.html" target="_blank">SetCameraAnimateMaterialsTime</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.SetCustomDiffTool.html" target="_blank">SetCustomDiffTool</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.SetDefaultParentObject.html" target="_blank">SetDefaultParentObject</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.SetDialogOptOutDecision.html" target="_blank">SetDialogOptOutDecision</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.SetDirty.html" target="_blank">SetDirty</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.SetObjectEnabled.html" target="_blank">SetObjectEnabled</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.SetSelectedRenderState.html" target="_blank">SetSelectedRenderState</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.UnloadUnusedAssetsImmediate.html" target="_blank">UnloadUnusedAssetsImmediate</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.UpdateGlobalShaderProperties.html" target="_blank">UpdateGlobalShaderProperties</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUtility.WarnPrefab.html" target="_blank">WarnPrefab</a> returns Boolean

@@ -1,0 +1,51 @@
+# ShaderUtil
+class in UnityEditor
+ / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html" target="_blank">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html" target="_blank">UnityEditor.CoreModule</a>
+## Static Properties
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil-allowAsyncCompilation.html" target="_blank">allowAsyncCompilation</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil-anythingCompiling.html" target="_blank">anythingCompiling</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil-disableShaderOptimization.html" target="_blank">disableShaderOptimization</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil-hardwareSupportsRectRenderTexture.html" target="_blank">hardwareSupportsRectRenderTexture</a> : Boolean
+## Static Methods
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.ClearCachedData.html" target="_blank">ClearCachedData</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.ClearShaderMessages.html" target="_blank">ClearShaderMessages</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.CompilePass.html" target="_blank">CompilePass</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.CreateComputeShaderAsset.html" target="_blank">CreateComputeShaderAsset</a> returns ComputeShader
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.CreateRayTracingShaderAsset.html" target="_blank">CreateRayTracingShaderAsset</a> returns RayTracingShader
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.CreateShaderAsset.html" target="_blank">CreateShaderAsset</a> returns Shader (3 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.GetAllShaderInfo.html" target="_blank">GetAllShaderInfo</a> returns ShaderInfo[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.GetCallableShaderCount.html" target="_blank">GetCallableShaderCount</a> returns Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.GetCallableShaderName.html" target="_blank">GetCallableShaderName</a> returns String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.GetCallableShaderParamSize.html" target="_blank">GetCallableShaderParamSize</a> returns Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.GetComputeShaderMessageCount.html" target="_blank">GetComputeShaderMessageCount</a> returns Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.GetComputeShaderMessages.html" target="_blank">GetComputeShaderMessages</a> returns ShaderMessage[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.GetCurrentCustomEditor.html" target="_blank">GetCurrentCustomEditor</a> returns String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.GetCustomEditorForRenderPipeline.html" target="_blank">GetCustomEditorForRenderPipeline</a> returns String (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.GetMissShaderCount.html" target="_blank">GetMissShaderCount</a> returns Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.GetMissShaderName.html" target="_blank">GetMissShaderName</a> returns String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.GetMissShaderRayPayloadSize.html" target="_blank">GetMissShaderRayPayloadSize</a> returns Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.GetPropertyCount.html" target="_blank">GetPropertyCount</a> returns Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.GetPropertyDescription.html" target="_blank">GetPropertyDescription</a> returns String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.GetPropertyName.html" target="_blank">GetPropertyName</a> returns String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.GetPropertyType.html" target="_blank">GetPropertyType</a> returns ShaderPropertyType
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.GetRangeLimits.html" target="_blank">GetRangeLimits</a> returns Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.GetRayGenerationShaderCount.html" target="_blank">GetRayGenerationShaderCount</a> returns Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.GetRayGenerationShaderName.html" target="_blank">GetRayGenerationShaderName</a> returns String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.GetRayTracingShaderMessageCount.html" target="_blank">GetRayTracingShaderMessageCount</a> returns Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.GetRayTracingShaderMessages.html" target="_blank">GetRayTracingShaderMessages</a> returns ShaderMessage[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.GetShaderData.html" target="_blank">GetShaderData</a> returns ShaderData
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.GetShaderInfo.html" target="_blank">GetShaderInfo</a> returns ShaderInfo
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.GetShaderMessageCount.html" target="_blank">GetShaderMessageCount</a> returns Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.GetShaderMessages.html" target="_blank">GetShaderMessages</a> returns ShaderMessage[] (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.GetShaderPlatformKeywordsForBuildTarget.html" target="_blank">GetShaderPlatformKeywordsForBuildTarget</a> returns BuiltinShaderDefine[] (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.GetTexDim.html" target="_blank">GetTexDim</a> returns TextureDimension
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.HasProceduralInstancing.html" target="_blank">HasProceduralInstancing</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.IsPassCompiled.html" target="_blank">IsPassCompiled</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.IsShaderPropertyHidden.html" target="_blank">IsShaderPropertyHidden</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.IsShaderPropertyNonModifiableTexureProperty.html" target="_blank">IsShaderPropertyNonModifiableTexureProperty</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.RegisterShader.html" target="_blank">RegisterShader</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.RestoreAsyncCompilation.html" target="_blank">RestoreAsyncCompilation</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.SetAsyncCompilation.html" target="_blank">SetAsyncCompilation</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.ShaderHasError.html" target="_blank">ShaderHasError</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.ShaderHasWarnings.html" target="_blank">ShaderHasWarnings</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ShaderUtil.UpdateShaderAsset.html" target="_blank">UpdateShaderAsset</a> (3 overloads)

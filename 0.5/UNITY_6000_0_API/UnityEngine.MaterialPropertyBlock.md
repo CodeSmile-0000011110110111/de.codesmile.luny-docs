@@ -1,0 +1,41 @@
+# MaterialPropertyBlock
+class in UnityEngine
+ / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html" target="_blank">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html" target="_blank">UnityEngine.CoreModule</a>
+## Properties
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialPropertyBlock-isEmpty.html" target="_blank">isEmpty</a> : Boolean
+## Methods
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialPropertyBlock.Clear.html" target="_blank">Clear</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialPropertyBlock.CopyProbeOcclusionArrayFrom.html" target="_blank">CopyProbeOcclusionArrayFrom</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialPropertyBlock.CopySHCoefficientArraysFrom.html" target="_blank">CopySHCoefficientArraysFrom</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialPropertyBlock.GetColor.html" target="_blank">GetColor</a> returns Color (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialPropertyBlock.GetFloat.html" target="_blank">GetFloat</a> returns Single (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialPropertyBlock.GetFloatArray.html" target="_blank">GetFloatArray</a> returns Single[] (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialPropertyBlock.GetInt.html" target="_blank">GetInt</a> returns Int32 (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialPropertyBlock.GetInteger.html" target="_blank">GetInteger</a> returns Int32 (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialPropertyBlock.GetMatrix.html" target="_blank">GetMatrix</a> returns Matrix4x4 (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialPropertyBlock.GetMatrixArray.html" target="_blank">GetMatrixArray</a> returns Matrix4x4[] (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialPropertyBlock.GetTexture.html" target="_blank">GetTexture</a> returns Texture (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialPropertyBlock.GetVector.html" target="_blank">GetVector</a> returns Vector4 (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialPropertyBlock.GetVectorArray.html" target="_blank">GetVectorArray</a> returns Vector4[] (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialPropertyBlock.HasBuffer.html" target="_blank">HasBuffer</a> returns Boolean (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialPropertyBlock.HasColor.html" target="_blank">HasColor</a> returns Boolean (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialPropertyBlock.HasConstantBuffer.html" target="_blank">HasConstantBuffer</a> returns Boolean (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialPropertyBlock.HasFloat.html" target="_blank">HasFloat</a> returns Boolean (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialPropertyBlock.HasInt.html" target="_blank">HasInt</a> returns Boolean (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialPropertyBlock.HasInteger.html" target="_blank">HasInteger</a> returns Boolean (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialPropertyBlock.HasMatrix.html" target="_blank">HasMatrix</a> returns Boolean (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialPropertyBlock.HasProperty.html" target="_blank">HasProperty</a> returns Boolean (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialPropertyBlock.HasTexture.html" target="_blank">HasTexture</a> returns Boolean (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialPropertyBlock.HasVector.html" target="_blank">HasVector</a> returns Boolean (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialPropertyBlock.SetBuffer.html" target="_blank">SetBuffer</a> (4 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialPropertyBlock.SetColor.html" target="_blank">SetColor</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialPropertyBlock.SetConstantBuffer.html" target="_blank">SetConstantBuffer</a> (4 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialPropertyBlock.SetFloat.html" target="_blank">SetFloat</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialPropertyBlock.SetFloatArray.html" target="_blank">SetFloatArray</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialPropertyBlock.SetInt.html" target="_blank">SetInt</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialPropertyBlock.SetInteger.html" target="_blank">SetInteger</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialPropertyBlock.SetMatrix.html" target="_blank">SetMatrix</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialPropertyBlock.SetMatrixArray.html" target="_blank">SetMatrixArray</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialPropertyBlock.SetTexture.html" target="_blank">SetTexture</a> (4 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialPropertyBlock.SetVector.html" target="_blank">SetVector</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialPropertyBlock.SetVectorArray.html" target="_blank">SetVectorArray</a> (2 overloads)

@@ -1,0 +1,151 @@
+# PlayerSettings
+class in UnityEditor
+ / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html" target="_blank">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html" target="_blank">UnityEditor.CoreModule</a>
+## Static Properties
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-accelerometerFrequency.html" target="_blank">accelerometerFrequency</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-actionOnDotNetUnhandledException.html" target="_blank">actionOnDotNetUnhandledException</a> : ActionOnDotNetUnhandledException
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-advancedLicense.html" target="_blank">advancedLicense</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-allowedAutorotateToLandscapeLeft.html" target="_blank">allowedAutorotateToLandscapeLeft</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-allowedAutorotateToLandscapeRight.html" target="_blank">allowedAutorotateToLandscapeRight</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-allowedAutorotateToPortrait.html" target="_blank">allowedAutorotateToPortrait</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-allowedAutorotateToPortraitUpsideDown.html" target="_blank">allowedAutorotateToPortraitUpsideDown</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-allowFullscreenSwitch.html" target="_blank">allowFullscreenSwitch</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-allowHDRDisplaySupport.html" target="_blank">allowHDRDisplaySupport</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-allowUnsafeCode.html" target="_blank">allowUnsafeCode</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-applicationIdentifier.html" target="_blank">applicationIdentifier</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-bakeCollisionMeshes.html" target="_blank">bakeCollisionMeshes</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-bundleVersion.html" target="_blank">bundleVersion</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-colorSpace.html" target="_blank">colorSpace</a> : ColorSpace
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-companyName.html" target="_blank">companyName</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-cursorHotspot.html" target="_blank">cursorHotspot</a> : Vector2
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-dedicatedServerOptimizations.html" target="_blank">dedicatedServerOptimizations</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-defaultCursor.html" target="_blank">defaultCursor</a> : Texture2D
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-defaultInterfaceOrientation.html" target="_blank">defaultInterfaceOrientation</a> : UIOrientation
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-defaultIsNativeResolution.html" target="_blank">defaultIsNativeResolution</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-defaultScreenHeight.html" target="_blank">defaultScreenHeight</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-defaultScreenWidth.html" target="_blank">defaultScreenWidth</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-defaultWebScreenHeight.html" target="_blank">defaultWebScreenHeight</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-defaultWebScreenWidth.html" target="_blank">defaultWebScreenWidth</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-enable360StereoCapture.html" target="_blank">enable360StereoCapture</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-enableCrashReportAPI.html" target="_blank">enableCrashReportAPI</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-enableFrameTimingStats.html" target="_blank">enableFrameTimingStats</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-enableInternalProfiler.html" target="_blank">enableInternalProfiler</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-enableMetalAPIValidation.html" target="_blank">enableMetalAPIValidation</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-enableOpenGLProfilerGPURecorders.html" target="_blank">enableOpenGLProfilerGPURecorders</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-forceSingleInstance.html" target="_blank">forceSingleInstance</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-fullScreenMode.html" target="_blank">fullScreenMode</a> : FullScreenMode
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-gcIncremental.html" target="_blank">gcIncremental</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-gpuSkinning.html" target="_blank">gpuSkinning</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-graphicsJobMode.html" target="_blank">graphicsJobMode</a> : GraphicsJobMode
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-graphicsJobs.html" target="_blank">graphicsJobs</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-hdrBitDepth.html" target="_blank">hdrBitDepth</a> : HDRDisplayBitDepth
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-insecureHttpOption.html" target="_blank">insecureHttpOption</a> : InsecureHttpOption
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-legacyClampBlendShapeWeights.html" target="_blank">legacyClampBlendShapeWeights</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-logObjCUncaughtExceptions.html" target="_blank">logObjCUncaughtExceptions</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-macRetinaSupport.html" target="_blank">macRetinaSupport</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-meshDeformation.html" target="_blank">meshDeformation</a> : MeshDeformation
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-mipStripping.html" target="_blank">mipStripping</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-MTRendering.html" target="_blank">MTRendering</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-muteOtherAudioSources.html" target="_blank">muteOtherAudioSources</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-openGLRequireES31.html" target="_blank">openGLRequireES31</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-openGLRequireES31AEP.html" target="_blank">openGLRequireES31AEP</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-openGLRequireES32.html" target="_blank">openGLRequireES32</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-preserveFramebufferAlpha.html" target="_blank">preserveFramebufferAlpha</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-productGUID.html" target="_blank">productGUID</a> : Guid
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-productName.html" target="_blank">productName</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-resetResolutionOnWindowResize.html" target="_blank">resetResolutionOnWindowResize</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-resizableWindow.html" target="_blank">resizableWindow</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-runInBackground.html" target="_blank">runInBackground</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-spriteBatchVertexThreshold.html" target="_blank">spriteBatchVertexThreshold</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-statusBarHidden.html" target="_blank">statusBarHidden</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-stereoRenderingPath.html" target="_blank">stereoRenderingPath</a> : StereoRenderingPath
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-strictShaderVariantMatching.html" target="_blank">strictShaderVariantMatching</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-stripEngineCode.html" target="_blank">stripEngineCode</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-stripUnusedMeshComponents.html" target="_blank">stripUnusedMeshComponents</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-suppressCommonWarnings.html" target="_blank">suppressCommonWarnings</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-tvOSBundleVersion.html" target="_blank">tvOSBundleVersion</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-use32BitDisplayBuffer.html" target="_blank">use32BitDisplayBuffer</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-useAnimatedAutorotation.html" target="_blank">useAnimatedAutorotation</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-useFlipModelSwapchain.html" target="_blank">useFlipModelSwapchain</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-useHDRDisplay.html" target="_blank">useHDRDisplay</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-useMacAppStoreValidation.html" target="_blank">useMacAppStoreValidation</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-usePlayerLog.html" target="_blank">usePlayerLog</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-virtualRealitySplashScreen.html" target="_blank">virtualRealitySplashScreen</a> : Texture2D
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-visibleInBackground.html" target="_blank">visibleInBackground</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-visionOSBundleVersion.html" target="_blank">visionOSBundleVersion</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-vulkanEnableLateAcquireNextImage.html" target="_blank">vulkanEnableLateAcquireNextImage</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-vulkanEnablePreTransform.html" target="_blank">vulkanEnablePreTransform</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-vulkanEnableSetSRGBWrite.html" target="_blank">vulkanEnableSetSRGBWrite</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-vulkanNumSwapchainBuffers.html" target="_blank">vulkanNumSwapchainBuffers</a> : UInt32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-windowsGamepadBackendHint.html" target="_blank">windowsGamepadBackendHint</a> : WindowsGamepadBackendHint
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-xboxEnableAvatar.html" target="_blank">xboxEnableAvatar</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-xboxOneResolution.html" target="_blank">xboxOneResolution</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-xboxPIXTextureCapture.html" target="_blank">xboxPIXTextureCapture</a> : Boolean
+## Static Methods
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.GetAdditionalCompilerArguments.html" target="_blank">GetAdditionalCompilerArguments</a> returns String[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.GetAdditionalIl2CppArgs.html" target="_blank">GetAdditionalIl2CppArgs</a> returns String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.GetApiCompatibilityLevel.html" target="_blank">GetApiCompatibilityLevel</a> returns ApiCompatibilityLevel
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.GetApplicationIdentifier.html" target="_blank">GetApplicationIdentifier</a> returns String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.GetArchitecture.html" target="_blank">GetArchitecture</a> returns Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.GetCaptureStartupLogs.html" target="_blank">GetCaptureStartupLogs</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.GetDefaultScriptingBackend.html" target="_blank">GetDefaultScriptingBackend</a> returns ScriptingImplementation
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.GetDefaultShaderChunkCount.html" target="_blank">GetDefaultShaderChunkCount</a> returns Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.GetDefaultShaderChunkSizeInMB.html" target="_blank">GetDefaultShaderChunkSizeInMB</a> returns Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.GetDynamicBatchingForPlatform.html" target="_blank">GetDynamicBatchingForPlatform</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.GetEditorAssembliesCompatibilityLevel.html" target="_blank">GetEditorAssembliesCompatibilityLevel</a> returns EditorAssembliesCompatibilityLevel
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.GetGraphicsAPIs.html" target="_blank">GetGraphicsAPIs</a> returns GraphicsDeviceType[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.GetIcons.html" target="_blank">GetIcons</a> returns Texture2D[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.GetIconSizes.html" target="_blank">GetIconSizes</a> returns Int32[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.GetIl2CppCodeGeneration.html" target="_blank">GetIl2CppCodeGeneration</a> returns Il2CppCodeGeneration
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.GetIl2CppCompilerConfiguration.html" target="_blank">GetIl2CppCompilerConfiguration</a> returns Il2CppCompilerConfiguration
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.GetIl2CppStacktraceInformation.html" target="_blank">GetIl2CppStacktraceInformation</a> returns Il2CppStacktraceInformation
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.GetManagedStrippingLevel.html" target="_blank">GetManagedStrippingLevel</a> returns ManagedStrippingLevel
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.GetMobileMTRendering.html" target="_blank">GetMobileMTRendering</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.GetNormalMapEncoding.html" target="_blank">GetNormalMapEncoding</a> returns NormalMapEncoding
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.GetOverrideShaderChunkSettingsForPlatform.html" target="_blank">GetOverrideShaderChunkSettingsForPlatform</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.GetPlatformIcons.html" target="_blank">GetPlatformIcons</a> returns PlatformIcon[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.GetPreloadedAssets.html" target="_blank">GetPreloadedAssets</a> returns Object[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.GetScriptingBackend.html" target="_blank">GetScriptingBackend</a> returns ScriptingImplementation
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.GetScriptingDefineSymbols.html" target="_blank">GetScriptingDefineSymbols</a> returns String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.GetShaderChunkCountForPlatform.html" target="_blank">GetShaderChunkCountForPlatform</a> returns Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.GetShaderChunkSizeInMBForPlatform.html" target="_blank">GetShaderChunkSizeInMBForPlatform</a> returns Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.GetShaderPrecisionModel.html" target="_blank">GetShaderPrecisionModel</a> returns ShaderPrecisionModel
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.GetStackTraceLogType.html" target="_blank">GetStackTraceLogType</a> returns StackTraceLogType
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.GetStaticBatchingForPlatform.html" target="_blank">GetStaticBatchingForPlatform</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.GetSupportedIconKinds.html" target="_blank">GetSupportedIconKinds</a> returns PlatformIconKind[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.GetTemplateCustomValue.html" target="_blank">GetTemplateCustomValue</a> returns String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.GetUseDefaultGraphicsAPIs.html" target="_blank">GetUseDefaultGraphicsAPIs</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.GetVirtualTexturingSupportEnabled.html" target="_blank">GetVirtualTexturingSupportEnabled</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.GetWsaHolographicRemotingEnabled.html" target="_blank">GetWsaHolographicRemotingEnabled</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.SetAdditionalCompilerArguments.html" target="_blank">SetAdditionalCompilerArguments</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.SetAdditionalIl2CppArgs.html" target="_blank">SetAdditionalIl2CppArgs</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.SetApiCompatibilityLevel.html" target="_blank">SetApiCompatibilityLevel</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.SetApplicationIdentifier.html" target="_blank">SetApplicationIdentifier</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.SetArchitecture.html" target="_blank">SetArchitecture</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.SetCaptureStartupLogs.html" target="_blank">SetCaptureStartupLogs</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.SetDefaultShaderChunkCount.html" target="_blank">SetDefaultShaderChunkCount</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.SetDefaultShaderChunkSizeInMB.html" target="_blank">SetDefaultShaderChunkSizeInMB</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.SetDynamicBatchingForPlatform.html" target="_blank">SetDynamicBatchingForPlatform</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.SetEditorAssembliesCompatibilityLevel.html" target="_blank">SetEditorAssembliesCompatibilityLevel</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.SetGraphicsAPIs.html" target="_blank">SetGraphicsAPIs</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.SetIcons.html" target="_blank">SetIcons</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.SetIl2CppCodeGeneration.html" target="_blank">SetIl2CppCodeGeneration</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.SetIl2CppCompilerConfiguration.html" target="_blank">SetIl2CppCompilerConfiguration</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.SetIl2CppStacktraceInformation.html" target="_blank">SetIl2CppStacktraceInformation</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.SetManagedStrippingLevel.html" target="_blank">SetManagedStrippingLevel</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.SetMobileMTRendering.html" target="_blank">SetMobileMTRendering</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.SetNormalMapEncoding.html" target="_blank">SetNormalMapEncoding</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.SetOverrideShaderChunkSettingsForPlatform.html" target="_blank">SetOverrideShaderChunkSettingsForPlatform</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.SetPlatformIcons.html" target="_blank">SetPlatformIcons</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.SetPreloadedAssets.html" target="_blank">SetPreloadedAssets</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.SetScriptingBackend.html" target="_blank">SetScriptingBackend</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.SetScriptingDefineSymbols.html" target="_blank">SetScriptingDefineSymbols</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.SetShaderChunkCountForPlatform.html" target="_blank">SetShaderChunkCountForPlatform</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.SetShaderChunkSizeInMBForPlatform.html" target="_blank">SetShaderChunkSizeInMBForPlatform</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.SetShaderPrecisionModel.html" target="_blank">SetShaderPrecisionModel</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.SetStackTraceLogType.html" target="_blank">SetStackTraceLogType</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.SetStaticBatchingForPlatform.html" target="_blank">SetStaticBatchingForPlatform</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.SetTemplateCustomValue.html" target="_blank">SetTemplateCustomValue</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.SetUseDefaultGraphicsAPIs.html" target="_blank">SetUseDefaultGraphicsAPIs</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.SetVirtualTexturingSupportEnabled.html" target="_blank">SetVirtualTexturingSupportEnabled</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.SetWsaHolographicRemotingEnabled.html" target="_blank">SetWsaHolographicRemotingEnabled</a>

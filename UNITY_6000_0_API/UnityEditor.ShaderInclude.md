@@ -1,3 +1,0 @@
-class in UnityEditor
-# ShaderInclude
-

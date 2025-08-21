@@ -1,0 +1,56 @@
+# Switch
+class in UnityEditor
+ / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html" target="_blank">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html" target="_blank">UnityEditor.CoreModule</a>
+## Static Properties
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-AllowGpuScratchShrinking.html" target="_blank">AllowGpuScratchShrinking</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-compilerFlags.html" target="_blank">compilerFlags</a> : String[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-defaultSwitchNVNGraphicsFirmwareMemory.html" target="_blank">defaultSwitchNVNGraphicsFirmwareMemory</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-defaultSwitchQueueCommandMemory.html" target="_blank">defaultSwitchQueueCommandMemory</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-defaultSwitchQueueComputeMemory.html" target="_blank">defaultSwitchQueueComputeMemory</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-defaultSwitchQueueControlMemory.html" target="_blank">defaultSwitchQueueControlMemory</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-disableHTCSPlayerConnection.html" target="_blank">disableHTCSPlayerConnection</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-enableFileSystemTrace.html" target="_blank">enableFileSystemTrace</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-enableTouchScreen.html" target="_blank">enableTouchScreen</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-GpuScratchPoolGranularity.html" target="_blank">GpuScratchPoolGranularity</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-isHoldTypeHorizontal.html" target="_blank">isHoldTypeHorizontal</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-maximumSwitchNVNGraphicsFirmwareMemory.html" target="_blank">maximumSwitchNVNGraphicsFirmwareMemory</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-minimumSwitchNVNGraphicsFirmwareMemory.html" target="_blank">minimumSwitchNVNGraphicsFirmwareMemory</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-minimumSwitchQueueCommandMemory.html" target="_blank">minimumSwitchQueueCommandMemory</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-minimumSwitchQueueControlMemory.html" target="_blank">minimumSwitchQueueControlMemory</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-nativeFsCacheSize.html" target="_blank">nativeFsCacheSize</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-networkInterfaceManagerInitializeEnabled.html" target="_blank">networkInterfaceManagerInitializeEnabled</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-NMETAOverride.html" target="_blank">NMETAOverride</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-NMETAOverrideFullPath.html" target="_blank">NMETAOverrideFullPath</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-nsoDependencies.html" target="_blank">nsoDependencies</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-NVNDefaultPoolsGranularity.html" target="_blank">NVNDefaultPoolsGranularity</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-NVNGraphicsFirmwareMemory.html" target="_blank">NVNGraphicsFirmwareMemory</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-NVNMaxPublicSamplerIDCount.html" target="_blank">NVNMaxPublicSamplerIDCount</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-NVNMaxPublicTextureIDCount.html" target="_blank">NVNMaxPublicTextureIDCount</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-NVNOtherPoolsGranularity.html" target="_blank">NVNOtherPoolsGranularity</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-NVNShaderPoolsGranularity.html" target="_blank">NVNShaderPoolsGranularity</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-queueCommandMemory.html" target="_blank">queueCommandMemory</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-queueComputeMemory.html" target="_blank">queueComputeMemory</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-queueControlMemory.html" target="_blank">queueControlMemory</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-screenResolutionBehavior.html" target="_blank">screenResolutionBehavior</a> : ScreenResolutionBehavior
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-socketAllocatorPoolSize.html" target="_blank">socketAllocatorPoolSize</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-socketBufferEfficiency.html" target="_blank">socketBufferEfficiency</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-socketConcurrencyLimit.html" target="_blank">socketConcurrencyLimit</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-socketConfigEnabled.html" target="_blank">socketConfigEnabled</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-socketInitializeEnabled.html" target="_blank">socketInitializeEnabled</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-socketMemoryPoolSize.html" target="_blank">socketMemoryPoolSize</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-supportedNpadCount.html" target="_blank">supportedNpadCount</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-supportedNpadStyles.html" target="_blank">supportedNpadStyles</a> : SupportedNpadStyle
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-switchEnableRamDiskSupport.html" target="_blank">switchEnableRamDiskSupport</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-switchLTOSetting.html" target="_blank">switchLTOSetting</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-switchMaxWorkerMultiple.html" target="_blank">switchMaxWorkerMultiple</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-switchMicroSleepForYieldTime.html" target="_blank">switchMicroSleepForYieldTime</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-switchRamDiskSpaceSize.html" target="_blank">switchRamDiskSpaceSize</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-switchUseLegacyFmodPriorities.html" target="_blank">switchUseLegacyFmodPriorities</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-switchUseMicroSleepForYield.html" target="_blank">switchUseMicroSleepForYield</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-tcpAutoReceiveBufferSizeMax.html" target="_blank">tcpAutoReceiveBufferSizeMax</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-tcpAutoSendBufferSizeMax.html" target="_blank">tcpAutoSendBufferSizeMax</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-tcpInitialReceiveBufferSize.html" target="_blank">tcpInitialReceiveBufferSize</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-tcpInitialSendBufferSize.html" target="_blank">tcpInitialSendBufferSize</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-udpReceiveBufferSize.html" target="_blank">udpReceiveBufferSize</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-udpSendBufferSize.html" target="_blank">udpSendBufferSize</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Switch-useSwitchCPUProfiler.html" target="_blank">useSwitchCPUProfiler</a> : Boolean

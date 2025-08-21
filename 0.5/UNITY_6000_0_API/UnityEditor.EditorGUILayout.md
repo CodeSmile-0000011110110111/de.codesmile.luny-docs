@@ -1,0 +1,68 @@
+# EditorGUILayout
+class in UnityEditor
+ / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html" target="_blank">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html" target="_blank">UnityEditor.CoreModule</a>
+## Static Methods
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.BeginBuildTargetSelectionGrouping.html" target="_blank">BeginBuildTargetSelectionGrouping</a> returns BuildTargetGroup
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.BeginFadeGroup.html" target="_blank">BeginFadeGroup</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.BeginHorizontal.html" target="_blank">BeginHorizontal</a> returns Rect (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.BeginScrollView.html" target="_blank">BeginScrollView</a> returns Vector2 (5 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.BeginToggleGroup.html" target="_blank">BeginToggleGroup</a> returns Boolean (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.BeginVertical.html" target="_blank">BeginVertical</a> returns Rect (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.BoundsField.html" target="_blank">BoundsField</a> returns Bounds (3 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.BoundsIntField.html" target="_blank">BoundsIntField</a> returns BoundsInt (3 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.ColorField.html" target="_blank">ColorField</a> returns Color (4 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.CurveField.html" target="_blank">CurveField</a> returns AnimationCurve (6 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.DelayedDoubleField.html" target="_blank">DelayedDoubleField</a> returns Double (6 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.DelayedFloatField.html" target="_blank">DelayedFloatField</a> returns Single (6 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.DelayedIntField.html" target="_blank">DelayedIntField</a> returns Int32 (6 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.DelayedTextField.html" target="_blank">DelayedTextField</a> returns String (6 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.DoubleField.html" target="_blank">DoubleField</a> returns Double (6 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.DropdownButton.html" target="_blank">DropdownButton</a> returns Boolean (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.EditorToolbar.html" target="_blank">EditorToolbar</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.EditorToolbarForTarget.html" target="_blank">EditorToolbarForTarget</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.EndBuildTargetSelectionGrouping.html" target="_blank">EndBuildTargetSelectionGrouping</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.EndFadeGroup.html" target="_blank">EndFadeGroup</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.EndFoldoutHeaderGroup.html" target="_blank">EndFoldoutHeaderGroup</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.EndHorizontal.html" target="_blank">EndHorizontal</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.EndScrollView.html" target="_blank">EndScrollView</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.EndToggleGroup.html" target="_blank">EndToggleGroup</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.EndVertical.html" target="_blank">EndVertical</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.EnumFlagsField.html" target="_blank">EnumFlagsField</a> returns Enum (8 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.EnumPopup.html" target="_blank">EnumPopup</a> returns Enum (6 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.FloatField.html" target="_blank">FloatField</a> returns Single (6 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.Foldout.html" target="_blank">Foldout</a> returns Boolean (8 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.GetControlRect.html" target="_blank">GetControlRect</a> returns Rect (4 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.GradientField.html" target="_blank">GradientField</a> returns Gradient (4 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.HelpBox.html" target="_blank">HelpBox</a> (4 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.InspectorTitlebar.html" target="_blank">InspectorTitlebar</a> (6 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.IntField.html" target="_blank">IntField</a> returns Int32 (6 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.IntPopup.html" target="_blank">IntPopup</a> returns Int32 (8 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.IntSlider.html" target="_blank">IntSlider</a> returns Int32 (3 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.Knob.html" target="_blank">Knob</a> returns Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.LabelField.html" target="_blank">LabelField</a> (8 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.LayerField.html" target="_blank">LayerField</a> returns Int32 (6 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.LinkButton.html" target="_blank">LinkButton</a> returns Boolean (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.LongField.html" target="_blank">LongField</a> returns Int64 (6 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.MaskField.html" target="_blank">MaskField</a> returns Int32 (6 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.ObjectField.html" target="_blank">ObjectField</a> returns Object (6 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.PasswordField.html" target="_blank">PasswordField</a> returns String (6 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.Popup.html" target="_blank">Popup</a> returns Int32 (9 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.PrefixLabel.html" target="_blank">PrefixLabel</a> (6 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.RectField.html" target="_blank">RectField</a> returns Rect (3 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.RectIntField.html" target="_blank">RectIntField</a> returns RectInt (3 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.RenderingLayerMaskField.html" target="_blank">RenderingLayerMaskField</a> returns UInt32 (8 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.SelectableLabel.html" target="_blank">SelectableLabel</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.Separator.html" target="_blank">Separator</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.Slider.html" target="_blank">Slider</a> returns Single (3 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.Space.html" target="_blank">Space</a> (3 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.TagField.html" target="_blank">TagField</a> returns String (6 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.TextArea.html" target="_blank">TextArea</a> returns String (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.TextField.html" target="_blank">TextField</a> returns String (6 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.Toggle.html" target="_blank">Toggle</a> returns Boolean (6 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.ToggleLeft.html" target="_blank">ToggleLeft</a> returns Boolean (4 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.ToolContextToolbarForTarget.html" target="_blank">ToolContextToolbarForTarget</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.Vector2Field.html" target="_blank">Vector2Field</a> returns Vector2 (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.Vector2IntField.html" target="_blank">Vector2IntField</a> returns Vector2Int (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.Vector3Field.html" target="_blank">Vector3Field</a> returns Vector3 (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.Vector3IntField.html" target="_blank">Vector3IntField</a> returns Vector3Int (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUILayout.Vector4Field.html" target="_blank">Vector4Field</a> returns Vector4 (2 overloads)

@@ -1,3 +1,0 @@
-enum in UnityEngine
-# NetworkReachability
-

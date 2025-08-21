@@ -1,3 +1,0 @@
-struct in UnityEditor
-# CacheServerConnectionChangedParameters
-
