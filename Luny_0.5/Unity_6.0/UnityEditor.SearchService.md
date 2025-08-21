@@ -1,0 +1,13 @@
+# UnityEditor.SearchService
+[<< Back to Modules](index.md)
+- [AdvancedObjectSelectorEventType](UnityEditor.SearchService.AdvancedObjectSelectorEventType.md)
+- [AdvancedObjectSelectorParameters](UnityEditor.SearchService.AdvancedObjectSelectorParameters.md)
+- [ObjectSelectorSearch](UnityEditor.SearchService.ObjectSelectorSearch.md)
+- [ObjectSelectorSearchContext](UnityEditor.SearchService.ObjectSelectorSearchContext.md)
+- [ObjectSelectorSearchEndSessionModes](UnityEditor.SearchService.ObjectSelectorSearchEndSessionModes.md)
+- [ProjectSearch](UnityEditor.SearchService.ProjectSearch.md)
+- [ProjectSearchContext](UnityEditor.SearchService.ProjectSearchContext.md)
+- [SceneSearch](UnityEditor.SearchService.SceneSearch.md)
+- [SceneSearchContext](UnityEditor.SearchService.SceneSearchContext.md)
+- [SearchEngineScope](UnityEditor.SearchService.SearchEngineScope.md)
+- [VisibleObjects](UnityEditor.SearchService.VisibleObjects.md)

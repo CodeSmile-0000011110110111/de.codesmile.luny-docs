@@ -12,9 +12,9 @@ For more info visit the [Luny package repository](https://github.com/CodeSmile-0
 
 Choose the matching Luny and Unity versions:
 
-- **[Luny 0.5 - Unity 6.2](0.5/UNITY_6000_2_API/index.md)**
-- **[Luny 0.5 - Unity 6.1](0.5/UNITY_6000_1_API/index.md)**
-- **[Luny 0.5 - Unity 6.0 LTS](0.5/UNITY_6000_0_API/index.md)**
+- **[Luny 0.5 - Unity 6.2](Luny_0.5/Unity_6.2/index.md)**
+- **[Luny 0.5 - Unity 6.1](Luny_0.5/Unity_6.1/index.md)**
+- **[Luny 0.5 - Unity 6.0 LTS](Luny_0.5/Unity_6.0/index.md)**
 
 # Installing Luny
 
