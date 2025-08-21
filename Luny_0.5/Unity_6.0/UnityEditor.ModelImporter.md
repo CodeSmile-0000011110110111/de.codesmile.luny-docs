@@ -1,86 +1,86 @@
 # ModelImporter
 class in UnityEditor
- / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetImporter.html" target="_blank">AssetImporter</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html" target="_blank">UnityEditor.CoreModule</a>
+ / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetImporter.html">AssetImporter</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
 ## Properties
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-addCollider.html" target="_blank">addCollider</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-animationCompression.html" target="_blank">animationCompression</a> : ModelImporterAnimationCompression
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-animationPositionError.html" target="_blank">animationPositionError</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-animationRotationError.html" target="_blank">animationRotationError</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-animationScaleError.html" target="_blank">animationScaleError</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-animationType.html" target="_blank">animationType</a> : ModelImporterAnimationType
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-animationWrapMode.html" target="_blank">animationWrapMode</a> : WrapMode
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-autoGenerateAvatarMappingIfUnspecified.html" target="_blank">autoGenerateAvatarMappingIfUnspecified</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-avatarSetup.html" target="_blank">avatarSetup</a> : ModelImporterAvatarSetup
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-bakeAxisConversion.html" target="_blank">bakeAxisConversion</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-bakeIK.html" target="_blank">bakeIK</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-clipAnimations.html" target="_blank">clipAnimations</a> : ModelImporterClipAnimation[]
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-defaultClipAnimations.html" target="_blank">defaultClipAnimations</a> : ModelImporterClipAnimation[]
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-extraExposedTransformPaths.html" target="_blank">extraExposedTransformPaths</a> : String[]
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-extraUserProperties.html" target="_blank">extraUserProperties</a> : String[]
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-fileScale.html" target="_blank">fileScale</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-generateAnimations.html" target="_blank">generateAnimations</a> : ModelImporterGenerateAnimations
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-generateSecondaryUV.html" target="_blank">generateSecondaryUV</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-globalScale.html" target="_blank">globalScale</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-humanDescription.html" target="_blank">humanDescription</a> : HumanDescription
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-humanoidOversampling.html" target="_blank">humanoidOversampling</a> : ModelImporterHumanoidOversampling
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-importAnimatedCustomProperties.html" target="_blank">importAnimatedCustomProperties</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-importAnimation.html" target="_blank">importAnimation</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-importBlendShapeDeformPercent.html" target="_blank">importBlendShapeDeformPercent</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-importBlendShapeNormals.html" target="_blank">importBlendShapeNormals</a> : ModelImporterNormals
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-importBlendShapes.html" target="_blank">importBlendShapes</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-importCameras.html" target="_blank">importCameras</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-importConstraints.html" target="_blank">importConstraints</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-importedTakeInfos.html" target="_blank">importedTakeInfos</a> : TakeInfo[]
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-importLights.html" target="_blank">importLights</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-importNormals.html" target="_blank">importNormals</a> : ModelImporterNormals
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-importTangents.html" target="_blank">importTangents</a> : ModelImporterTangents
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-importVisibility.html" target="_blank">importVisibility</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-indexFormat.html" target="_blank">indexFormat</a> : ModelImporterIndexFormat
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-isBakeIKSupported.html" target="_blank">isBakeIKSupported</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-isReadable.html" target="_blank">isReadable</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-isTangentImportSupported.html" target="_blank">isTangentImportSupported</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-isUseFileUnitsSupported.html" target="_blank">isUseFileUnitsSupported</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-keepQuads.html" target="_blank">keepQuads</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-materialImportMode.html" target="_blank">materialImportMode</a> : ModelImporterMaterialImportMode
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-materialLocation.html" target="_blank">materialLocation</a> : ModelImporterMaterialLocation
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-materialName.html" target="_blank">materialName</a> : ModelImporterMaterialName
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-materialSearch.html" target="_blank">materialSearch</a> : ModelImporterMaterialSearch
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-maxBonesPerVertex.html" target="_blank">maxBonesPerVertex</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-meshCompression.html" target="_blank">meshCompression</a> : ModelImporterMeshCompression
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-meshOptimizationFlags.html" target="_blank">meshOptimizationFlags</a> : MeshOptimizationFlags
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-minBoneWeight.html" target="_blank">minBoneWeight</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-motionNodeName.html" target="_blank">motionNodeName</a> : String
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-normalCalculationMode.html" target="_blank">normalCalculationMode</a> : ModelImporterNormalCalculationMode
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-normalSmoothingAngle.html" target="_blank">normalSmoothingAngle</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-normalSmoothingSource.html" target="_blank">normalSmoothingSource</a> : ModelImporterNormalSmoothingSource
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-optimizeBones.html" target="_blank">optimizeBones</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-optimizeGameObjects.html" target="_blank">optimizeGameObjects</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-optimizeMeshPolygons.html" target="_blank">optimizeMeshPolygons</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-optimizeMeshVertices.html" target="_blank">optimizeMeshVertices</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-preserveHierarchy.html" target="_blank">preserveHierarchy</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-referencedClips.html" target="_blank">referencedClips</a> : String[]
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-removeConstantScaleCurves.html" target="_blank">removeConstantScaleCurves</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-resampleCurves.html" target="_blank">resampleCurves</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-secondaryUVAngleDistortion.html" target="_blank">secondaryUVAngleDistortion</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-secondaryUVAreaDistortion.html" target="_blank">secondaryUVAreaDistortion</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-secondaryUVHardAngle.html" target="_blank">secondaryUVHardAngle</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-secondaryUVMarginMethod.html" target="_blank">secondaryUVMarginMethod</a> : ModelImporterSecondaryUVMarginMethod
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-secondaryUVMinLightmapResolution.html" target="_blank">secondaryUVMinLightmapResolution</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-secondaryUVMinObjectScale.html" target="_blank">secondaryUVMinObjectScale</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-secondaryUVPackMargin.html" target="_blank">secondaryUVPackMargin</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-skinWeights.html" target="_blank">skinWeights</a> : ModelImporterSkinWeights
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-sortHierarchyByName.html" target="_blank">sortHierarchyByName</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-sourceAvatar.html" target="_blank">sourceAvatar</a> : Avatar
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-strictVertexDataChecks.html" target="_blank">strictVertexDataChecks</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-swapUVChannels.html" target="_blank">swapUVChannels</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-transformPaths.html" target="_blank">transformPaths</a> : String[]
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-useFileScale.html" target="_blank">useFileScale</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-useFileUnits.html" target="_blank">useFileUnits</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-useSRGBMaterialColor.html" target="_blank">useSRGBMaterialColor</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-weldVertices.html" target="_blank">weldVertices</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-addCollider.html">addCollider</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-animationCompression.html">animationCompression</a> : ModelImporterAnimationCompression
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-animationPositionError.html">animationPositionError</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-animationRotationError.html">animationRotationError</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-animationScaleError.html">animationScaleError</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-animationType.html">animationType</a> : ModelImporterAnimationType
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-animationWrapMode.html">animationWrapMode</a> : WrapMode
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-autoGenerateAvatarMappingIfUnspecified.html">autoGenerateAvatarMappingIfUnspecified</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-avatarSetup.html">avatarSetup</a> : ModelImporterAvatarSetup
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-bakeAxisConversion.html">bakeAxisConversion</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-bakeIK.html">bakeIK</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-clipAnimations.html">clipAnimations</a> : ModelImporterClipAnimation[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-defaultClipAnimations.html">defaultClipAnimations</a> : ModelImporterClipAnimation[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-extraExposedTransformPaths.html">extraExposedTransformPaths</a> : String[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-extraUserProperties.html">extraUserProperties</a> : String[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-fileScale.html">fileScale</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-generateAnimations.html">generateAnimations</a> : ModelImporterGenerateAnimations
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-generateSecondaryUV.html">generateSecondaryUV</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-globalScale.html">globalScale</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-humanDescription.html">humanDescription</a> : HumanDescription
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-humanoidOversampling.html">humanoidOversampling</a> : ModelImporterHumanoidOversampling
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-importAnimatedCustomProperties.html">importAnimatedCustomProperties</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-importAnimation.html">importAnimation</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-importBlendShapeDeformPercent.html">importBlendShapeDeformPercent</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-importBlendShapeNormals.html">importBlendShapeNormals</a> : ModelImporterNormals
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-importBlendShapes.html">importBlendShapes</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-importCameras.html">importCameras</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-importConstraints.html">importConstraints</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-importedTakeInfos.html">importedTakeInfos</a> : TakeInfo[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-importLights.html">importLights</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-importNormals.html">importNormals</a> : ModelImporterNormals
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-importTangents.html">importTangents</a> : ModelImporterTangents
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-importVisibility.html">importVisibility</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-indexFormat.html">indexFormat</a> : ModelImporterIndexFormat
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-isBakeIKSupported.html">isBakeIKSupported</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-isReadable.html">isReadable</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-isTangentImportSupported.html">isTangentImportSupported</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-isUseFileUnitsSupported.html">isUseFileUnitsSupported</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-keepQuads.html">keepQuads</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-materialImportMode.html">materialImportMode</a> : ModelImporterMaterialImportMode
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-materialLocation.html">materialLocation</a> : ModelImporterMaterialLocation
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-materialName.html">materialName</a> : ModelImporterMaterialName
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-materialSearch.html">materialSearch</a> : ModelImporterMaterialSearch
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-maxBonesPerVertex.html">maxBonesPerVertex</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-meshCompression.html">meshCompression</a> : ModelImporterMeshCompression
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-meshOptimizationFlags.html">meshOptimizationFlags</a> : MeshOptimizationFlags
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-minBoneWeight.html">minBoneWeight</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-motionNodeName.html">motionNodeName</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-normalCalculationMode.html">normalCalculationMode</a> : ModelImporterNormalCalculationMode
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-normalSmoothingAngle.html">normalSmoothingAngle</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-normalSmoothingSource.html">normalSmoothingSource</a> : ModelImporterNormalSmoothingSource
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-optimizeBones.html">optimizeBones</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-optimizeGameObjects.html">optimizeGameObjects</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-optimizeMeshPolygons.html">optimizeMeshPolygons</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-optimizeMeshVertices.html">optimizeMeshVertices</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-preserveHierarchy.html">preserveHierarchy</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-referencedClips.html">referencedClips</a> : String[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-removeConstantScaleCurves.html">removeConstantScaleCurves</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-resampleCurves.html">resampleCurves</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-secondaryUVAngleDistortion.html">secondaryUVAngleDistortion</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-secondaryUVAreaDistortion.html">secondaryUVAreaDistortion</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-secondaryUVHardAngle.html">secondaryUVHardAngle</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-secondaryUVMarginMethod.html">secondaryUVMarginMethod</a> : ModelImporterSecondaryUVMarginMethod
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-secondaryUVMinLightmapResolution.html">secondaryUVMinLightmapResolution</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-secondaryUVMinObjectScale.html">secondaryUVMinObjectScale</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-secondaryUVPackMargin.html">secondaryUVPackMargin</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-skinWeights.html">skinWeights</a> : ModelImporterSkinWeights
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-sortHierarchyByName.html">sortHierarchyByName</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-sourceAvatar.html">sourceAvatar</a> : Avatar
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-strictVertexDataChecks.html">strictVertexDataChecks</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-swapUVChannels.html">swapUVChannels</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-transformPaths.html">transformPaths</a> : String[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-useFileScale.html">useFileScale</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-useFileUnits.html">useFileUnits</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-useSRGBMaterialColor.html">useSRGBMaterialColor</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-weldVertices.html">weldVertices</a> : Boolean
 ## Methods
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter.CreateDefaultMaskForClip.html" target="_blank">CreateDefaultMaskForClip</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter.ExtractTextures.html" target="_blank">ExtractTextures</a> returns Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter.SearchAndRemapMaterials.html" target="_blank">SearchAndRemapMaterials</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter.CreateDefaultMaskForClip.html">CreateDefaultMaskForClip</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter.ExtractTextures.html">ExtractTextures</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter.SearchAndRemapMaterials.html">SearchAndRemapMaterials</a> returns Boolean
 ## Static Methods
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter.GetReferencedClipsForModelPath.html" target="_blank">GetReferencedClipsForModelPath</a> returns String[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter.GetReferencedClipsForModelPath.html">GetReferencedClipsForModelPath</a> returns String[]

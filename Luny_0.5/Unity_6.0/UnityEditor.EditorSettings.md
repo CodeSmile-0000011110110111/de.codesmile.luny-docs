@@ -1,46 +1,46 @@
 # EditorSettings
 class in UnityEditor
- / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html" target="_blank">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html" target="_blank">UnityEditor.CoreModule</a>
+ / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
 ## Static Properties
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-assetNamingUsesSpace.html" target="_blank">assetNamingUsesSpace</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-assetPipelineMode.html" target="_blank">assetPipelineMode</a> : AssetPipelineMode
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-asyncShaderCompilation.html" target="_blank">asyncShaderCompilation</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-cacheServerDownloadBatchSize.html" target="_blank">cacheServerDownloadBatchSize</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-cacheServerEnableAuth.html" target="_blank">cacheServerEnableAuth</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-cacheServerEnableDownload.html" target="_blank">cacheServerEnableDownload</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-cacheServerEnableTls.html" target="_blank">cacheServerEnableTls</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-cacheServerEnableUpload.html" target="_blank">cacheServerEnableUpload</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-cacheServerEndpoint.html" target="_blank">cacheServerEndpoint</a> : String
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-cacheServerMode.html" target="_blank">cacheServerMode</a> : CacheServerMode
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-cacheServerNamespacePrefix.html" target="_blank">cacheServerNamespacePrefix</a> : String
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-cacheServerValidationMode.html" target="_blank">cacheServerValidationMode</a> : CacheServerValidationMode
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-cachingShaderPreprocessor.html" target="_blank">cachingShaderPreprocessor</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-defaultBehaviorMode.html" target="_blank">defaultBehaviorMode</a> : EditorBehaviorMode
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-enableTextureStreamingInEditMode.html" target="_blank">enableTextureStreamingInEditMode</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-enableTextureStreamingInPlayMode.html" target="_blank">enableTextureStreamingInPlayMode</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-enterPlayModeOptions.html" target="_blank">enterPlayModeOptions</a> : EnterPlayModeOptions
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-enterPlayModeOptionsEnabled.html" target="_blank">enterPlayModeOptionsEnabled</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-etcTextureBestCompressor.html" target="_blank">etcTextureBestCompressor</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-etcTextureCompressorBehavior.html" target="_blank">etcTextureCompressorBehavior</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-etcTextureFastCompressor.html" target="_blank">etcTextureFastCompressor</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-etcTextureNormalCompressor.html" target="_blank">etcTextureNormalCompressor</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-gameObjectNamingDigits.html" target="_blank">gameObjectNamingDigits</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-gameObjectNamingScheme.html" target="_blank">gameObjectNamingScheme</a> : NamingScheme
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-lineEndingsForNewScripts.html" target="_blank">lineEndingsForNewScripts</a> : LineEndingsMode
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-prefabModeAllowAutoSave.html" target="_blank">prefabModeAllowAutoSave</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-prefabRegularEnvironment.html" target="_blank">prefabRegularEnvironment</a> : SceneAsset
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-prefabUIEnvironment.html" target="_blank">prefabUIEnvironment</a> : SceneAsset
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-projectGenerationBuiltinExtensions.html" target="_blank">projectGenerationBuiltinExtensions</a> : String[]
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-projectGenerationRootNamespace.html" target="_blank">projectGenerationRootNamespace</a> : String
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-projectGenerationUserExtensions.html" target="_blank">projectGenerationUserExtensions</a> : String[]
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-referencedClipsExactNaming.html" target="_blank">referencedClipsExactNaming</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-refreshImportMode.html" target="_blank">refreshImportMode</a> : RefreshImportMode
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-serializationMode.html" target="_blank">serializationMode</a> : SerializationMode
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-serializeInlineMappingsOnOneLine.html" target="_blank">serializeInlineMappingsOnOneLine</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-spritePackerMode.html" target="_blank">spritePackerMode</a> : SpritePackerMode
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-spritePackerPaddingPower.html" target="_blank">spritePackerPaddingPower</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-unityRemoteCompression.html" target="_blank">unityRemoteCompression</a> : String
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-unityRemoteDevice.html" target="_blank">unityRemoteDevice</a> : String
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-unityRemoteJoystickSource.html" target="_blank">unityRemoteJoystickSource</a> : String
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-unityRemoteResolution.html" target="_blank">unityRemoteResolution</a> : String
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-useLegacyProbeSampleCount.html" target="_blank">useLegacyProbeSampleCount</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-assetNamingUsesSpace.html">assetNamingUsesSpace</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-assetPipelineMode.html">assetPipelineMode</a> : AssetPipelineMode
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-asyncShaderCompilation.html">asyncShaderCompilation</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-cacheServerDownloadBatchSize.html">cacheServerDownloadBatchSize</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-cacheServerEnableAuth.html">cacheServerEnableAuth</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-cacheServerEnableDownload.html">cacheServerEnableDownload</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-cacheServerEnableTls.html">cacheServerEnableTls</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-cacheServerEnableUpload.html">cacheServerEnableUpload</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-cacheServerEndpoint.html">cacheServerEndpoint</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-cacheServerMode.html">cacheServerMode</a> : CacheServerMode
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-cacheServerNamespacePrefix.html">cacheServerNamespacePrefix</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-cacheServerValidationMode.html">cacheServerValidationMode</a> : CacheServerValidationMode
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-cachingShaderPreprocessor.html">cachingShaderPreprocessor</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-defaultBehaviorMode.html">defaultBehaviorMode</a> : EditorBehaviorMode
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-enableTextureStreamingInEditMode.html">enableTextureStreamingInEditMode</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-enableTextureStreamingInPlayMode.html">enableTextureStreamingInPlayMode</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-enterPlayModeOptions.html">enterPlayModeOptions</a> : EnterPlayModeOptions
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-enterPlayModeOptionsEnabled.html">enterPlayModeOptionsEnabled</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-etcTextureBestCompressor.html">etcTextureBestCompressor</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-etcTextureCompressorBehavior.html">etcTextureCompressorBehavior</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-etcTextureFastCompressor.html">etcTextureFastCompressor</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-etcTextureNormalCompressor.html">etcTextureNormalCompressor</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-gameObjectNamingDigits.html">gameObjectNamingDigits</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-gameObjectNamingScheme.html">gameObjectNamingScheme</a> : NamingScheme
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-lineEndingsForNewScripts.html">lineEndingsForNewScripts</a> : LineEndingsMode
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-prefabModeAllowAutoSave.html">prefabModeAllowAutoSave</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-prefabRegularEnvironment.html">prefabRegularEnvironment</a> : SceneAsset
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-prefabUIEnvironment.html">prefabUIEnvironment</a> : SceneAsset
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-projectGenerationBuiltinExtensions.html">projectGenerationBuiltinExtensions</a> : String[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-projectGenerationRootNamespace.html">projectGenerationRootNamespace</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-projectGenerationUserExtensions.html">projectGenerationUserExtensions</a> : String[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-referencedClipsExactNaming.html">referencedClipsExactNaming</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-refreshImportMode.html">refreshImportMode</a> : RefreshImportMode
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-serializationMode.html">serializationMode</a> : SerializationMode
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-serializeInlineMappingsOnOneLine.html">serializeInlineMappingsOnOneLine</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-spritePackerMode.html">spritePackerMode</a> : SpritePackerMode
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-spritePackerPaddingPower.html">spritePackerPaddingPower</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-unityRemoteCompression.html">unityRemoteCompression</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-unityRemoteDevice.html">unityRemoteDevice</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-unityRemoteJoystickSource.html">unityRemoteJoystickSource</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-unityRemoteResolution.html">unityRemoteResolution</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSettings-useLegacyProbeSampleCount.html">useLegacyProbeSampleCount</a> : Boolean

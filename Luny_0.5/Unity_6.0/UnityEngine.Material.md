@@ -1,75 +1,75 @@
 # Material
 class in UnityEngine
- / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html" target="_blank">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html" target="_blank">UnityEngine.CoreModule</a>
+ / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
 ## Properties
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material-color.html" target="_blank">color</a> : Color
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material-doubleSidedGI.html" target="_blank">doubleSidedGI</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material-enabledKeywords.html" target="_blank">enabledKeywords</a> : LocalKeyword[]
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material-enableInstancing.html" target="_blank">enableInstancing</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material-globalIlluminationFlags.html" target="_blank">globalIlluminationFlags</a> : MaterialGlobalIlluminationFlags
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material-mainTexture.html" target="_blank">mainTexture</a> : Texture
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material-mainTextureOffset.html" target="_blank">mainTextureOffset</a> : Vector2
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material-mainTextureScale.html" target="_blank">mainTextureScale</a> : Vector2
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material-passCount.html" target="_blank">passCount</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material-rawRenderQueue.html" target="_blank">rawRenderQueue</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material-renderQueue.html" target="_blank">renderQueue</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material-shader.html" target="_blank">shader</a> : Shader
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material-shaderKeywords.html" target="_blank">shaderKeywords</a> : String[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material-color.html">color</a> : Color
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material-doubleSidedGI.html">doubleSidedGI</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material-enabledKeywords.html">enabledKeywords</a> : LocalKeyword[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material-enableInstancing.html">enableInstancing</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material-globalIlluminationFlags.html">globalIlluminationFlags</a> : MaterialGlobalIlluminationFlags
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material-mainTexture.html">mainTexture</a> : Texture
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material-mainTextureOffset.html">mainTextureOffset</a> : Vector2
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material-mainTextureScale.html">mainTextureScale</a> : Vector2
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material-passCount.html">passCount</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material-rawRenderQueue.html">rawRenderQueue</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material-renderQueue.html">renderQueue</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material-shader.html">shader</a> : Shader
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material-shaderKeywords.html">shaderKeywords</a> : String[]
 ## Methods
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.ComputeCRC.html" target="_blank">ComputeCRC</a> returns Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.CopyMatchingPropertiesFromMaterial.html" target="_blank">CopyMatchingPropertiesFromMaterial</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.CopyPropertiesFromMaterial.html" target="_blank">CopyPropertiesFromMaterial</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.DisableKeyword.html" target="_blank">DisableKeyword</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.EnableKeyword.html" target="_blank">EnableKeyword</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.FindPass.html" target="_blank">FindPass</a> returns Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetBuffer.html" target="_blank">GetBuffer</a> returns GraphicsBufferHandle
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetColor.html" target="_blank">GetColor</a> returns Color (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetColorArray.html" target="_blank">GetColorArray</a> returns Color[] (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetConstantBuffer.html" target="_blank">GetConstantBuffer</a> returns GraphicsBufferHandle
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetFloat.html" target="_blank">GetFloat</a> returns Single (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetFloatArray.html" target="_blank">GetFloatArray</a> returns Single[] (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetInt.html" target="_blank">GetInt</a> returns Int32 (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetInteger.html" target="_blank">GetInteger</a> returns Int32 (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetMatrix.html" target="_blank">GetMatrix</a> returns Matrix4x4 (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetMatrixArray.html" target="_blank">GetMatrixArray</a> returns Matrix4x4[] (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetPassName.html" target="_blank">GetPassName</a> returns String
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetPropertyNames.html" target="_blank">GetPropertyNames</a> returns String[]
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetShaderPassEnabled.html" target="_blank">GetShaderPassEnabled</a> returns Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetTag.html" target="_blank">GetTag</a> returns String (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetTexture.html" target="_blank">GetTexture</a> returns Texture (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetTextureOffset.html" target="_blank">GetTextureOffset</a> returns Vector2 (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetTexturePropertyNameIDs.html" target="_blank">GetTexturePropertyNameIDs</a> returns Int32[]
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetTexturePropertyNames.html" target="_blank">GetTexturePropertyNames</a> returns String[]
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetTextureScale.html" target="_blank">GetTextureScale</a> returns Vector2 (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetVector.html" target="_blank">GetVector</a> returns Vector4 (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetVectorArray.html" target="_blank">GetVectorArray</a> returns Vector4[] (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.HasBuffer.html" target="_blank">HasBuffer</a> returns Boolean (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.HasColor.html" target="_blank">HasColor</a> returns Boolean (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.HasConstantBuffer.html" target="_blank">HasConstantBuffer</a> returns Boolean (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.HasFloat.html" target="_blank">HasFloat</a> returns Boolean (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.HasInt.html" target="_blank">HasInt</a> returns Boolean (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.HasInteger.html" target="_blank">HasInteger</a> returns Boolean (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.HasMatrix.html" target="_blank">HasMatrix</a> returns Boolean (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.HasProperty.html" target="_blank">HasProperty</a> returns Boolean (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.HasTexture.html" target="_blank">HasTexture</a> returns Boolean (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.HasVector.html" target="_blank">HasVector</a> returns Boolean (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.IsKeywordEnabled.html" target="_blank">IsKeywordEnabled</a> returns Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.Lerp.html" target="_blank">Lerp</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.SetBuffer.html" target="_blank">SetBuffer</a> (4 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.SetColor.html" target="_blank">SetColor</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.SetColorArray.html" target="_blank">SetColorArray</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.SetConstantBuffer.html" target="_blank">SetConstantBuffer</a> (4 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.SetFloat.html" target="_blank">SetFloat</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.SetFloatArray.html" target="_blank">SetFloatArray</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.SetInt.html" target="_blank">SetInt</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.SetInteger.html" target="_blank">SetInteger</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.SetMatrix.html" target="_blank">SetMatrix</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.SetMatrixArray.html" target="_blank">SetMatrixArray</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.SetOverrideTag.html" target="_blank">SetOverrideTag</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.SetPass.html" target="_blank">SetPass</a> returns Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.SetShaderPassEnabled.html" target="_blank">SetShaderPassEnabled</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.SetTexture.html" target="_blank">SetTexture</a> (4 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.SetTextureOffset.html" target="_blank">SetTextureOffset</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.SetTextureScale.html" target="_blank">SetTextureScale</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.SetVector.html" target="_blank">SetVector</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.SetVectorArray.html" target="_blank">SetVectorArray</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.ComputeCRC.html">ComputeCRC</a> returns Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.CopyMatchingPropertiesFromMaterial.html">CopyMatchingPropertiesFromMaterial</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.CopyPropertiesFromMaterial.html">CopyPropertiesFromMaterial</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.DisableKeyword.html">DisableKeyword</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.EnableKeyword.html">EnableKeyword</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.FindPass.html">FindPass</a> returns Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetBuffer.html">GetBuffer</a> returns GraphicsBufferHandle
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetColor.html">GetColor</a> returns Color (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetColorArray.html">GetColorArray</a> returns Color[] (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetConstantBuffer.html">GetConstantBuffer</a> returns GraphicsBufferHandle
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetFloat.html">GetFloat</a> returns Single (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetFloatArray.html">GetFloatArray</a> returns Single[] (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetInt.html">GetInt</a> returns Int32 (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetInteger.html">GetInteger</a> returns Int32 (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetMatrix.html">GetMatrix</a> returns Matrix4x4 (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetMatrixArray.html">GetMatrixArray</a> returns Matrix4x4[] (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetPassName.html">GetPassName</a> returns String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetPropertyNames.html">GetPropertyNames</a> returns String[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetShaderPassEnabled.html">GetShaderPassEnabled</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetTag.html">GetTag</a> returns String (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetTexture.html">GetTexture</a> returns Texture (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetTextureOffset.html">GetTextureOffset</a> returns Vector2 (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetTexturePropertyNameIDs.html">GetTexturePropertyNameIDs</a> returns Int32[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetTexturePropertyNames.html">GetTexturePropertyNames</a> returns String[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetTextureScale.html">GetTextureScale</a> returns Vector2 (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetVector.html">GetVector</a> returns Vector4 (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.GetVectorArray.html">GetVectorArray</a> returns Vector4[] (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.HasBuffer.html">HasBuffer</a> returns Boolean (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.HasColor.html">HasColor</a> returns Boolean (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.HasConstantBuffer.html">HasConstantBuffer</a> returns Boolean (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.HasFloat.html">HasFloat</a> returns Boolean (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.HasInt.html">HasInt</a> returns Boolean (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.HasInteger.html">HasInteger</a> returns Boolean (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.HasMatrix.html">HasMatrix</a> returns Boolean (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.HasProperty.html">HasProperty</a> returns Boolean (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.HasTexture.html">HasTexture</a> returns Boolean (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.HasVector.html">HasVector</a> returns Boolean (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.IsKeywordEnabled.html">IsKeywordEnabled</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.Lerp.html">Lerp</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.SetBuffer.html">SetBuffer</a> (4 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.SetColor.html">SetColor</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.SetColorArray.html">SetColorArray</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.SetConstantBuffer.html">SetConstantBuffer</a> (4 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.SetFloat.html">SetFloat</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.SetFloatArray.html">SetFloatArray</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.SetInt.html">SetInt</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.SetInteger.html">SetInteger</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.SetMatrix.html">SetMatrix</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.SetMatrixArray.html">SetMatrixArray</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.SetOverrideTag.html">SetOverrideTag</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.SetPass.html">SetPass</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.SetShaderPassEnabled.html">SetShaderPassEnabled</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.SetTexture.html">SetTexture</a> (4 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.SetTextureOffset.html">SetTextureOffset</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.SetTextureScale.html">SetTextureScale</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.SetVector.html">SetVector</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.SetVectorArray.html">SetVectorArray</a> (2 overloads)

@@ -1,6 +1,6 @@
 # LoadSceneParameters
 struct in UnityEngine.SceneManagement
- / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ValueType.html" target="_blank">ValueType</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html" target="_blank">UnityEngine.CoreModule</a>
+ / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ValueType.html">ValueType</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
 ## Properties
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LoadSceneParameters-loadSceneMode.html" target="_blank">loadSceneMode</a> : LoadSceneMode
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LoadSceneParameters-localPhysicsMode.html" target="_blank">localPhysicsMode</a> : LocalPhysicsMode
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LoadSceneParameters-loadSceneMode.html">loadSceneMode</a> : LoadSceneMode
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LoadSceneParameters-localPhysicsMode.html">localPhysicsMode</a> : LocalPhysicsMode

@@ -1,109 +1,109 @@
 # AssetDatabase
 class in UnityEditor
- / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html" target="_blank">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html" target="_blank">UnityEditor.CoreModule</a>
+ / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
 ## Static Properties
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase-ActiveRefreshImportMode.html" target="_blank">ActiveRefreshImportMode</a> : RefreshImportMode
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase-DesiredWorkerCount.html" target="_blank">DesiredWorkerCount</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase-GlobalArtifactDependencyVersion.html" target="_blank">GlobalArtifactDependencyVersion</a> : UInt32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase-GlobalArtifactProcessedVersion.html" target="_blank">GlobalArtifactProcessedVersion</a> : UInt32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase-ActiveRefreshImportMode.html">ActiveRefreshImportMode</a> : RefreshImportMode
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase-DesiredWorkerCount.html">DesiredWorkerCount</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase-GlobalArtifactDependencyVersion.html">GlobalArtifactDependencyVersion</a> : UInt32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase-GlobalArtifactProcessedVersion.html">GlobalArtifactProcessedVersion</a> : UInt32
 ## Static Methods
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.AddObjectToAsset.html" target="_blank">AddObjectToAsset</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.AllowAutoRefresh.html" target="_blank">AllowAutoRefresh</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.AssetPathExists.html" target="_blank">AssetPathExists</a> returns Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.AssetPathToGUID.html" target="_blank">AssetPathToGUID</a> returns String (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.CanConnectToCacheServer.html" target="_blank">CanConnectToCacheServer</a> returns Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.CanOpenAssetInEditor.html" target="_blank">CanOpenAssetInEditor</a> returns Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.CanOpenForEdit.html" target="_blank">CanOpenForEdit</a> returns Boolean (4 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.ClearImporterOverride.html" target="_blank">ClearImporterOverride</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.ClearLabels.html" target="_blank">ClearLabels</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.CloseCacheServerConnection.html" target="_blank">CloseCacheServerConnection</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.Contains.html" target="_blank">Contains</a> returns Boolean (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.CopyAsset.html" target="_blank">CopyAsset</a> returns Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.CopyAssets.html" target="_blank">CopyAssets</a> returns Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.CreateAsset.html" target="_blank">CreateAsset</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.CreateFolder.html" target="_blank">CreateFolder</a> returns String
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.DeleteAsset.html" target="_blank">DeleteAsset</a> returns Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.DisallowAutoRefresh.html" target="_blank">DisallowAutoRefresh</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.ExportPackage.html" target="_blank">ExportPackage</a> (4 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.ExtractAsset.html" target="_blank">ExtractAsset</a> returns String
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.FindAssets.html" target="_blank">FindAssets</a> returns String[] (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.ForceReserializeAssets.html" target="_blank">ForceReserializeAssets</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.ForceToDesiredWorkerCount.html" target="_blank">ForceToDesiredWorkerCount</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GenerateUniqueAssetPath.html" target="_blank">GenerateUniqueAssetPath</a> returns String
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetAllAssetBundleNames.html" target="_blank">GetAllAssetBundleNames</a> returns String[]
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetAllAssetPaths.html" target="_blank">GetAllAssetPaths</a> returns String[]
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetAssetBundleDependencies.html" target="_blank">GetAssetBundleDependencies</a> returns String[]
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetAssetDependencyHash.html" target="_blank">GetAssetDependencyHash</a> returns Hash128 (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetAssetOrScenePath.html" target="_blank">GetAssetOrScenePath</a> returns String
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetAssetPath.html" target="_blank">GetAssetPath</a> returns String (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetAssetPathFromTextMetaFilePath.html" target="_blank">GetAssetPathFromTextMetaFilePath</a> returns String
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetAssetPathsFromAssetBundle.html" target="_blank">GetAssetPathsFromAssetBundle</a> returns String[]
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetAssetPathsFromAssetBundleAndAssetName.html" target="_blank">GetAssetPathsFromAssetBundleAndAssetName</a> returns String[]
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetAvailableImporters.html" target="_blank">GetAvailableImporters</a> returns Type[]
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetBuiltinExtraResource.html" target="_blank">GetBuiltinExtraResource</a> returns Object
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetCachedIcon.html" target="_blank">GetCachedIcon</a> returns Texture
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetCacheServerAddress.html" target="_blank">GetCacheServerAddress</a> returns String
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetCacheServerEnableDownload.html" target="_blank">GetCacheServerEnableDownload</a> returns Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetCacheServerEnableUpload.html" target="_blank">GetCacheServerEnableUpload</a> returns Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetCacheServerNamespacePrefix.html" target="_blank">GetCacheServerNamespacePrefix</a> returns String
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetCacheServerPort.html" target="_blank">GetCacheServerPort</a> returns UInt16
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetCurrentCacheServerIp.html" target="_blank">GetCurrentCacheServerIp</a> returns String
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetDefaultImporter.html" target="_blank">GetDefaultImporter</a> returns Type
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetDependencies.html" target="_blank">GetDependencies</a> returns String[] (4 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetImplicitAssetBundleName.html" target="_blank">GetImplicitAssetBundleName</a> returns String
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetImplicitAssetBundleVariantName.html" target="_blank">GetImplicitAssetBundleVariantName</a> returns String
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetImporterOverride.html" target="_blank">GetImporterOverride</a> returns Type
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetImporterType.html" target="_blank">GetImporterType</a> returns Type (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetImporterTypes.html" target="_blank">GetImporterTypes</a> returns Type[]
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetLabels.html" target="_blank">GetLabels</a> returns String[] (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetMainAssetTypeAtPath.html" target="_blank">GetMainAssetTypeAtPath</a> returns Type
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetMainAssetTypeFromGUID.html" target="_blank">GetMainAssetTypeFromGUID</a> returns Type
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetScriptableObjectsWithMissingScriptCount.html" target="_blank">GetScriptableObjectsWithMissingScriptCount</a> returns Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetSubFolders.html" target="_blank">GetSubFolders</a> returns String[]
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetTextMetaFilePathFromAssetPath.html" target="_blank">GetTextMetaFilePathFromAssetPath</a> returns String
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetTypeFromPathAndFileID.html" target="_blank">GetTypeFromPathAndFileID</a> returns Type
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetUnusedAssetBundleNames.html" target="_blank">GetUnusedAssetBundleNames</a> returns String[]
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GUIDFromAssetPath.html" target="_blank">GUIDFromAssetPath</a> returns GUID
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GUIDToAssetPath.html" target="_blank">GUIDToAssetPath</a> returns String (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.ImportAsset.html" target="_blank">ImportAsset</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.ImportPackage.html" target="_blank">ImportPackage</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.IsAssetImportWorkerProcess.html" target="_blank">IsAssetImportWorkerProcess</a> returns Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.IsCacheServerEnabled.html" target="_blank">IsCacheServerEnabled</a> returns Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.IsConnectedToCacheServer.html" target="_blank">IsConnectedToCacheServer</a> returns Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.IsDirectoryMonitoringEnabled.html" target="_blank">IsDirectoryMonitoringEnabled</a> returns Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.IsForeignAsset.html" target="_blank">IsForeignAsset</a> returns Boolean (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.IsMainAsset.html" target="_blank">IsMainAsset</a> returns Boolean (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.IsMainAssetAtPathLoaded.html" target="_blank">IsMainAssetAtPathLoaded</a> returns Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.IsMetaFileOpenForEdit.html" target="_blank">IsMetaFileOpenForEdit</a> returns Boolean (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.IsNativeAsset.html" target="_blank">IsNativeAsset</a> returns Boolean (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.IsOpenForEdit.html" target="_blank">IsOpenForEdit</a> returns Boolean (4 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.IsSubAsset.html" target="_blank">IsSubAsset</a> returns Boolean (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.IsValidFolder.html" target="_blank">IsValidFolder</a> returns Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.LoadAllAssetRepresentationsAtPath.html" target="_blank">LoadAllAssetRepresentationsAtPath</a> returns Object[]
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.LoadAllAssetsAtPath.html" target="_blank">LoadAllAssetsAtPath</a> returns Object[]
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.LoadAssetAtPath.html" target="_blank">LoadAssetAtPath</a> returns Object
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.LoadMainAssetAtPath.html" target="_blank">LoadMainAssetAtPath</a> returns Object
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.LoadObjectAsync.html" target="_blank">LoadObjectAsync</a> returns AssetDatabaseLoadOperation
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.MakeEditable.html" target="_blank">MakeEditable</a> returns Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.MoveAsset.html" target="_blank">MoveAsset</a> returns String
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.MoveAssetToTrash.html" target="_blank">MoveAssetToTrash</a> returns Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.OpenAsset.html" target="_blank">OpenAsset</a> returns Boolean (7 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.Refresh.html" target="_blank">Refresh</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.RefreshSettings.html" target="_blank">RefreshSettings</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.RegisterCustomDependency.html" target="_blank">RegisterCustomDependency</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.ReleaseCachedFileHandles.html" target="_blank">ReleaseCachedFileHandles</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.RemoveAssetBundleName.html" target="_blank">RemoveAssetBundleName</a> returns Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.RemoveObjectFromAsset.html" target="_blank">RemoveObjectFromAsset</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.RemoveScriptableObjectsWithMissingScript.html" target="_blank">RemoveScriptableObjectsWithMissingScript</a> returns Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.RemoveUnusedAssetBundleNames.html" target="_blank">RemoveUnusedAssetBundleNames</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.RenameAsset.html" target="_blank">RenameAsset</a> returns String
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.ResetCacheServerReconnectTimer.html" target="_blank">ResetCacheServerReconnectTimer</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.SaveAssetIfDirty.html" target="_blank">SaveAssetIfDirty</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.SaveAssets.html" target="_blank">SaveAssets</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.SetLabels.html" target="_blank">SetLabels</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.SetMainObject.html" target="_blank">SetMainObject</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.StartAssetEditing.html" target="_blank">StartAssetEditing</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.StopAssetEditing.html" target="_blank">StopAssetEditing</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.UnregisterCustomDependencyPrefixFilter.html" target="_blank">UnregisterCustomDependencyPrefixFilter</a> returns UInt32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.ValidateMoveAsset.html" target="_blank">ValidateMoveAsset</a> returns String
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.WriteImportSettingsIfDirty.html" target="_blank">WriteImportSettingsIfDirty</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.AddObjectToAsset.html">AddObjectToAsset</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.AllowAutoRefresh.html">AllowAutoRefresh</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.AssetPathExists.html">AssetPathExists</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.AssetPathToGUID.html">AssetPathToGUID</a> returns String (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.CanConnectToCacheServer.html">CanConnectToCacheServer</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.CanOpenAssetInEditor.html">CanOpenAssetInEditor</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.CanOpenForEdit.html">CanOpenForEdit</a> returns Boolean (4 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.ClearImporterOverride.html">ClearImporterOverride</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.ClearLabels.html">ClearLabels</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.CloseCacheServerConnection.html">CloseCacheServerConnection</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.Contains.html">Contains</a> returns Boolean (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.CopyAsset.html">CopyAsset</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.CopyAssets.html">CopyAssets</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.CreateAsset.html">CreateAsset</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.CreateFolder.html">CreateFolder</a> returns String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.DeleteAsset.html">DeleteAsset</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.DisallowAutoRefresh.html">DisallowAutoRefresh</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.ExportPackage.html">ExportPackage</a> (4 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.ExtractAsset.html">ExtractAsset</a> returns String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.FindAssets.html">FindAssets</a> returns String[] (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.ForceReserializeAssets.html">ForceReserializeAssets</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.ForceToDesiredWorkerCount.html">ForceToDesiredWorkerCount</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GenerateUniqueAssetPath.html">GenerateUniqueAssetPath</a> returns String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetAllAssetBundleNames.html">GetAllAssetBundleNames</a> returns String[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetAllAssetPaths.html">GetAllAssetPaths</a> returns String[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetAssetBundleDependencies.html">GetAssetBundleDependencies</a> returns String[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetAssetDependencyHash.html">GetAssetDependencyHash</a> returns Hash128 (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetAssetOrScenePath.html">GetAssetOrScenePath</a> returns String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetAssetPath.html">GetAssetPath</a> returns String (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetAssetPathFromTextMetaFilePath.html">GetAssetPathFromTextMetaFilePath</a> returns String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetAssetPathsFromAssetBundle.html">GetAssetPathsFromAssetBundle</a> returns String[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetAssetPathsFromAssetBundleAndAssetName.html">GetAssetPathsFromAssetBundleAndAssetName</a> returns String[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetAvailableImporters.html">GetAvailableImporters</a> returns Type[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetBuiltinExtraResource.html">GetBuiltinExtraResource</a> returns Object
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetCachedIcon.html">GetCachedIcon</a> returns Texture
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetCacheServerAddress.html">GetCacheServerAddress</a> returns String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetCacheServerEnableDownload.html">GetCacheServerEnableDownload</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetCacheServerEnableUpload.html">GetCacheServerEnableUpload</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetCacheServerNamespacePrefix.html">GetCacheServerNamespacePrefix</a> returns String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetCacheServerPort.html">GetCacheServerPort</a> returns UInt16
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetCurrentCacheServerIp.html">GetCurrentCacheServerIp</a> returns String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetDefaultImporter.html">GetDefaultImporter</a> returns Type
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetDependencies.html">GetDependencies</a> returns String[] (4 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetImplicitAssetBundleName.html">GetImplicitAssetBundleName</a> returns String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetImplicitAssetBundleVariantName.html">GetImplicitAssetBundleVariantName</a> returns String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetImporterOverride.html">GetImporterOverride</a> returns Type
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetImporterType.html">GetImporterType</a> returns Type (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetImporterTypes.html">GetImporterTypes</a> returns Type[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetLabels.html">GetLabels</a> returns String[] (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetMainAssetTypeAtPath.html">GetMainAssetTypeAtPath</a> returns Type
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetMainAssetTypeFromGUID.html">GetMainAssetTypeFromGUID</a> returns Type
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetScriptableObjectsWithMissingScriptCount.html">GetScriptableObjectsWithMissingScriptCount</a> returns Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetSubFolders.html">GetSubFolders</a> returns String[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetTextMetaFilePathFromAssetPath.html">GetTextMetaFilePathFromAssetPath</a> returns String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetTypeFromPathAndFileID.html">GetTypeFromPathAndFileID</a> returns Type
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GetUnusedAssetBundleNames.html">GetUnusedAssetBundleNames</a> returns String[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GUIDFromAssetPath.html">GUIDFromAssetPath</a> returns GUID
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.GUIDToAssetPath.html">GUIDToAssetPath</a> returns String (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.ImportAsset.html">ImportAsset</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.ImportPackage.html">ImportPackage</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.IsAssetImportWorkerProcess.html">IsAssetImportWorkerProcess</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.IsCacheServerEnabled.html">IsCacheServerEnabled</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.IsConnectedToCacheServer.html">IsConnectedToCacheServer</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.IsDirectoryMonitoringEnabled.html">IsDirectoryMonitoringEnabled</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.IsForeignAsset.html">IsForeignAsset</a> returns Boolean (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.IsMainAsset.html">IsMainAsset</a> returns Boolean (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.IsMainAssetAtPathLoaded.html">IsMainAssetAtPathLoaded</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.IsMetaFileOpenForEdit.html">IsMetaFileOpenForEdit</a> returns Boolean (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.IsNativeAsset.html">IsNativeAsset</a> returns Boolean (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.IsOpenForEdit.html">IsOpenForEdit</a> returns Boolean (4 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.IsSubAsset.html">IsSubAsset</a> returns Boolean (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.IsValidFolder.html">IsValidFolder</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.LoadAllAssetRepresentationsAtPath.html">LoadAllAssetRepresentationsAtPath</a> returns Object[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.LoadAllAssetsAtPath.html">LoadAllAssetsAtPath</a> returns Object[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.LoadAssetAtPath.html">LoadAssetAtPath</a> returns Object
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.LoadMainAssetAtPath.html">LoadMainAssetAtPath</a> returns Object
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.LoadObjectAsync.html">LoadObjectAsync</a> returns AssetDatabaseLoadOperation
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.MakeEditable.html">MakeEditable</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.MoveAsset.html">MoveAsset</a> returns String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.MoveAssetToTrash.html">MoveAssetToTrash</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.OpenAsset.html">OpenAsset</a> returns Boolean (7 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.Refresh.html">Refresh</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.RefreshSettings.html">RefreshSettings</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.RegisterCustomDependency.html">RegisterCustomDependency</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.ReleaseCachedFileHandles.html">ReleaseCachedFileHandles</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.RemoveAssetBundleName.html">RemoveAssetBundleName</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.RemoveObjectFromAsset.html">RemoveObjectFromAsset</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.RemoveScriptableObjectsWithMissingScript.html">RemoveScriptableObjectsWithMissingScript</a> returns Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.RemoveUnusedAssetBundleNames.html">RemoveUnusedAssetBundleNames</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.RenameAsset.html">RenameAsset</a> returns String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.ResetCacheServerReconnectTimer.html">ResetCacheServerReconnectTimer</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.SaveAssetIfDirty.html">SaveAssetIfDirty</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.SaveAssets.html">SaveAssets</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.SetLabels.html">SetLabels</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.SetMainObject.html">SetMainObject</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.StartAssetEditing.html">StartAssetEditing</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.StopAssetEditing.html">StopAssetEditing</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.UnregisterCustomDependencyPrefixFilter.html">UnregisterCustomDependencyPrefixFilter</a> returns UInt32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.ValidateMoveAsset.html">ValidateMoveAsset</a> returns String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.WriteImportSettingsIfDirty.html">WriteImportSettingsIfDirty</a> returns Boolean

@@ -1,48 +1,48 @@
 # Android
 class in UnityEditor
- / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html" target="_blank">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html" target="_blank">UnityEditor.CoreModule</a>
+ / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
 ## Static Properties
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-androidIsGame.html" target="_blank">androidIsGame</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-androidTVCompatibility.html" target="_blank">androidTVCompatibility</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-androidVulkanAllowFilterList.html" target="_blank">androidVulkanAllowFilterList</a> : AndroidDeviceFilterData[]
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-androidVulkanDenyFilterList.html" target="_blank">androidVulkanDenyFilterList</a> : AndroidDeviceFilterData[]
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-applicationEntry.html" target="_blank">applicationEntry</a> : AndroidApplicationEntry
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-ARCoreEnabled.html" target="_blank">ARCoreEnabled</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-autoRotationBehavior.html" target="_blank">autoRotationBehavior</a> : AndroidAutoRotationBehavior
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-blitType.html" target="_blank">blitType</a> : AndroidBlitType
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-buildApkPerCpuArchitecture.html" target="_blank">buildApkPerCpuArchitecture</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-bundleVersionCode.html" target="_blank">bundleVersionCode</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-defaultWindowHeight.html" target="_blank">defaultWindowHeight</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-defaultWindowWidth.html" target="_blank">defaultWindowWidth</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-disableDepthAndStencilBuffers.html" target="_blank">disableDepthAndStencilBuffers</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-enableArmv9SecurityFeatures.html" target="_blank">enableArmv9SecurityFeatures</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-forceInternetPermission.html" target="_blank">forceInternetPermission</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-forceSDCardPermission.html" target="_blank">forceSDCardPermission</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-fullscreenMode.html" target="_blank">fullscreenMode</a> : FullScreenMode
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-keyaliasName.html" target="_blank">keyaliasName</a> : String
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-keyaliasPass.html" target="_blank">keyaliasPass</a> : String
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-keystoreName.html" target="_blank">keystoreName</a> : String
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-keystorePass.html" target="_blank">keystorePass</a> : String
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-licenseVerification.html" target="_blank">licenseVerification</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-maxAspectRatio.html" target="_blank">maxAspectRatio</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-minAspectRatio.html" target="_blank">minAspectRatio</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-minifyDebug.html" target="_blank">minifyDebug</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-minifyRelease.html" target="_blank">minifyRelease</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-minimumWindowHeight.html" target="_blank">minimumWindowHeight</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-minimumWindowWidth.html" target="_blank">minimumWindowWidth</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-minSdkVersion.html" target="_blank">minSdkVersion</a> : AndroidSdkVersions
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-optimizedFramePacing.html" target="_blank">optimizedFramePacing</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-predictiveBackSupport.html" target="_blank">predictiveBackSupport</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-preferredInstallLocation.html" target="_blank">preferredInstallLocation</a> : AndroidPreferredInstallLocation
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-renderOutsideSafeArea.html" target="_blank">renderOutsideSafeArea</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-reportGooglePlayAppDependencies.html" target="_blank">reportGooglePlayAppDependencies</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-resizeableActivity.html" target="_blank">resizeableActivity</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-runWithoutFocus.html" target="_blank">runWithoutFocus</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-showActivityIndicatorOnLoading.html" target="_blank">showActivityIndicatorOnLoading</a> : AndroidShowActivityIndicatorOnLoading
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-splashScreenScale.html" target="_blank">splashScreenScale</a> : AndroidSplashScreenScale
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-splitApplicationBinary.html" target="_blank">splitApplicationBinary</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-startInFullscreen.html" target="_blank">startInFullscreen</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-targetArchitectures.html" target="_blank">targetArchitectures</a> : AndroidArchitecture
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-targetSdkVersion.html" target="_blank">targetSdkVersion</a> : AndroidSdkVersions
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-textureCompressionFormats.html" target="_blank">textureCompressionFormats</a> : TextureCompressionFormat[]
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-useCustomKeystore.html" target="_blank">useCustomKeystore</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-androidIsGame.html">androidIsGame</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-androidTVCompatibility.html">androidTVCompatibility</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-androidVulkanAllowFilterList.html">androidVulkanAllowFilterList</a> : AndroidDeviceFilterData[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-androidVulkanDenyFilterList.html">androidVulkanDenyFilterList</a> : AndroidDeviceFilterData[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-applicationEntry.html">applicationEntry</a> : AndroidApplicationEntry
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-ARCoreEnabled.html">ARCoreEnabled</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-autoRotationBehavior.html">autoRotationBehavior</a> : AndroidAutoRotationBehavior
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-blitType.html">blitType</a> : AndroidBlitType
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-buildApkPerCpuArchitecture.html">buildApkPerCpuArchitecture</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-bundleVersionCode.html">bundleVersionCode</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-defaultWindowHeight.html">defaultWindowHeight</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-defaultWindowWidth.html">defaultWindowWidth</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-disableDepthAndStencilBuffers.html">disableDepthAndStencilBuffers</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-enableArmv9SecurityFeatures.html">enableArmv9SecurityFeatures</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-forceInternetPermission.html">forceInternetPermission</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-forceSDCardPermission.html">forceSDCardPermission</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-fullscreenMode.html">fullscreenMode</a> : FullScreenMode
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-keyaliasName.html">keyaliasName</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-keyaliasPass.html">keyaliasPass</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-keystoreName.html">keystoreName</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-keystorePass.html">keystorePass</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-licenseVerification.html">licenseVerification</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-maxAspectRatio.html">maxAspectRatio</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-minAspectRatio.html">minAspectRatio</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-minifyDebug.html">minifyDebug</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-minifyRelease.html">minifyRelease</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-minimumWindowHeight.html">minimumWindowHeight</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-minimumWindowWidth.html">minimumWindowWidth</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-minSdkVersion.html">minSdkVersion</a> : AndroidSdkVersions
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-optimizedFramePacing.html">optimizedFramePacing</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-predictiveBackSupport.html">predictiveBackSupport</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-preferredInstallLocation.html">preferredInstallLocation</a> : AndroidPreferredInstallLocation
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-renderOutsideSafeArea.html">renderOutsideSafeArea</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-reportGooglePlayAppDependencies.html">reportGooglePlayAppDependencies</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-resizeableActivity.html">resizeableActivity</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-runWithoutFocus.html">runWithoutFocus</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-showActivityIndicatorOnLoading.html">showActivityIndicatorOnLoading</a> : AndroidShowActivityIndicatorOnLoading
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-splashScreenScale.html">splashScreenScale</a> : AndroidSplashScreenScale
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-splitApplicationBinary.html">splitApplicationBinary</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-startInFullscreen.html">startInFullscreen</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-targetArchitectures.html">targetArchitectures</a> : AndroidArchitecture
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-targetSdkVersion.html">targetSdkVersion</a> : AndroidSdkVersions
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-textureCompressionFormats.html">textureCompressionFormats</a> : TextureCompressionFormat[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Android-useCustomKeystore.html">useCustomKeystore</a> : Boolean

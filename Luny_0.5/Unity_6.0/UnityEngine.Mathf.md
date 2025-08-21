@@ -1,57 +1,57 @@
 # Mathf
 struct in UnityEngine
- / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ValueType.html" target="_blank">ValueType</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html" target="_blank">UnityEngine.CoreModule</a>
+ / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ValueType.html">ValueType</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
 ## Static Fields
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf-Deg2Rad.html" target="_blank">Deg2Rad</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf-Epsilon.html" target="_blank">Epsilon</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf-Infinity.html" target="_blank">Infinity</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf-NegativeInfinity.html" target="_blank">NegativeInfinity</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf-PI.html" target="_blank">PI</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf-Rad2Deg.html" target="_blank">Rad2Deg</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf-Deg2Rad.html">Deg2Rad</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf-Epsilon.html">Epsilon</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf-Infinity.html">Infinity</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf-NegativeInfinity.html">NegativeInfinity</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf-PI.html">PI</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf-Rad2Deg.html">Rad2Deg</a> : Single
 ## Static Methods
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Abs.html" target="_blank">Abs</a> returns Single (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Acos.html" target="_blank">Acos</a> returns Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Approximately.html" target="_blank">Approximately</a> returns Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Asin.html" target="_blank">Asin</a> returns Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Atan.html" target="_blank">Atan</a> returns Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Atan2.html" target="_blank">Atan2</a> returns Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Ceil.html" target="_blank">Ceil</a> returns Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.CeilToInt.html" target="_blank">CeilToInt</a> returns Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Clamp.html" target="_blank">Clamp</a> returns Single (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Clamp01.html" target="_blank">Clamp01</a> returns Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.ClosestPowerOfTwo.html" target="_blank">ClosestPowerOfTwo</a> returns Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.CorrelatedColorTemperatureToRGB.html" target="_blank">CorrelatedColorTemperatureToRGB</a> returns Color
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Cos.html" target="_blank">Cos</a> returns Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.DeltaAngle.html" target="_blank">DeltaAngle</a> returns Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Exp.html" target="_blank">Exp</a> returns Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.FloatToHalf.html" target="_blank">FloatToHalf</a> returns UInt16
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Floor.html" target="_blank">Floor</a> returns Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.FloorToInt.html" target="_blank">FloorToInt</a> returns Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Gamma.html" target="_blank">Gamma</a> returns Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.GammaToLinearSpace.html" target="_blank">GammaToLinearSpace</a> returns Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.HalfToFloat.html" target="_blank">HalfToFloat</a> returns Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.InverseLerp.html" target="_blank">InverseLerp</a> returns Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.IsPowerOfTwo.html" target="_blank">IsPowerOfTwo</a> returns Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Lerp.html" target="_blank">Lerp</a> returns Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.LerpAngle.html" target="_blank">LerpAngle</a> returns Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.LerpUnclamped.html" target="_blank">LerpUnclamped</a> returns Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.LinearToGammaSpace.html" target="_blank">LinearToGammaSpace</a> returns Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Log.html" target="_blank">Log</a> returns Single (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Log10.html" target="_blank">Log10</a> returns Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Max.html" target="_blank">Max</a> returns Single (4 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Min.html" target="_blank">Min</a> returns Single (4 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.MoveTowards.html" target="_blank">MoveTowards</a> returns Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.MoveTowardsAngle.html" target="_blank">MoveTowardsAngle</a> returns Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.NextPowerOfTwo.html" target="_blank">NextPowerOfTwo</a> returns Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.PerlinNoise.html" target="_blank">PerlinNoise</a> returns Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.PerlinNoise1D.html" target="_blank">PerlinNoise1D</a> returns Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.PingPong.html" target="_blank">PingPong</a> returns Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Pow.html" target="_blank">Pow</a> returns Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Repeat.html" target="_blank">Repeat</a> returns Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Round.html" target="_blank">Round</a> returns Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.RoundToInt.html" target="_blank">RoundToInt</a> returns Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Sign.html" target="_blank">Sign</a> returns Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Sin.html" target="_blank">Sin</a> returns Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.SmoothStep.html" target="_blank">SmoothStep</a> returns Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Sqrt.html" target="_blank">Sqrt</a> returns Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Tan.html" target="_blank">Tan</a> returns Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Abs.html">Abs</a> returns Single (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Acos.html">Acos</a> returns Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Approximately.html">Approximately</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Asin.html">Asin</a> returns Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Atan.html">Atan</a> returns Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Atan2.html">Atan2</a> returns Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Ceil.html">Ceil</a> returns Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.CeilToInt.html">CeilToInt</a> returns Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Clamp.html">Clamp</a> returns Single (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Clamp01.html">Clamp01</a> returns Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.ClosestPowerOfTwo.html">ClosestPowerOfTwo</a> returns Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.CorrelatedColorTemperatureToRGB.html">CorrelatedColorTemperatureToRGB</a> returns Color
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Cos.html">Cos</a> returns Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.DeltaAngle.html">DeltaAngle</a> returns Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Exp.html">Exp</a> returns Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.FloatToHalf.html">FloatToHalf</a> returns UInt16
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Floor.html">Floor</a> returns Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.FloorToInt.html">FloorToInt</a> returns Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Gamma.html">Gamma</a> returns Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.GammaToLinearSpace.html">GammaToLinearSpace</a> returns Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.HalfToFloat.html">HalfToFloat</a> returns Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.InverseLerp.html">InverseLerp</a> returns Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.IsPowerOfTwo.html">IsPowerOfTwo</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Lerp.html">Lerp</a> returns Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.LerpAngle.html">LerpAngle</a> returns Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.LerpUnclamped.html">LerpUnclamped</a> returns Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.LinearToGammaSpace.html">LinearToGammaSpace</a> returns Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Log.html">Log</a> returns Single (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Log10.html">Log10</a> returns Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Max.html">Max</a> returns Single (4 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Min.html">Min</a> returns Single (4 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.MoveTowards.html">MoveTowards</a> returns Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.MoveTowardsAngle.html">MoveTowardsAngle</a> returns Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.NextPowerOfTwo.html">NextPowerOfTwo</a> returns Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.PerlinNoise.html">PerlinNoise</a> returns Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.PerlinNoise1D.html">PerlinNoise1D</a> returns Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.PingPong.html">PingPong</a> returns Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Pow.html">Pow</a> returns Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Repeat.html">Repeat</a> returns Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Round.html">Round</a> returns Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.RoundToInt.html">RoundToInt</a> returns Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Sign.html">Sign</a> returns Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Sin.html">Sin</a> returns Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.SmoothStep.html">SmoothStep</a> returns Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Sqrt.html">Sqrt</a> returns Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Tan.html">Tan</a> returns Single

@@ -1,132 +1,132 @@
 # Camera
 class in UnityEngine
- / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Behaviour.html" target="_blank">Behaviour</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html" target="_blank">UnityEngine.CoreModule</a>
+ / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Behaviour.html">Behaviour</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
 ## Properties
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-activeTexture.html" target="_blank">activeTexture</a> : RenderTexture
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-actualRenderingPath.html" target="_blank">actualRenderingPath</a> : RenderingPath
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-allowDynamicResolution.html" target="_blank">allowDynamicResolution</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-allowHDR.html" target="_blank">allowHDR</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-allowMSAA.html" target="_blank">allowMSAA</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-anamorphism.html" target="_blank">anamorphism</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-aperture.html" target="_blank">aperture</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-areVRStereoViewMatricesWithinSingleCullTolerance.html" target="_blank">areVRStereoViewMatricesWithinSingleCullTolerance</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-aspect.html" target="_blank">aspect</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-backgroundColor.html" target="_blank">backgroundColor</a> : Color
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-barrelClipping.html" target="_blank">barrelClipping</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-bladeCount.html" target="_blank">bladeCount</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-cameraToWorldMatrix.html" target="_blank">cameraToWorldMatrix</a> : Matrix4x4
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-cameraType.html" target="_blank">cameraType</a> : CameraType
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-clearFlags.html" target="_blank">clearFlags</a> : CameraClearFlags
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-clearStencilAfterLightingPass.html" target="_blank">clearStencilAfterLightingPass</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-commandBufferCount.html" target="_blank">commandBufferCount</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-cullingMask.html" target="_blank">cullingMask</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-cullingMatrix.html" target="_blank">cullingMatrix</a> : Matrix4x4
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-curvature.html" target="_blank">curvature</a> : Vector2
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-depth.html" target="_blank">depth</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-depthTextureMode.html" target="_blank">depthTextureMode</a> : DepthTextureMode
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-eventMask.html" target="_blank">eventMask</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-farClipPlane.html" target="_blank">farClipPlane</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-fieldOfView.html" target="_blank">fieldOfView</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-focalLength.html" target="_blank">focalLength</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-focusDistance.html" target="_blank">focusDistance</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-forceIntoRenderTexture.html" target="_blank">forceIntoRenderTexture</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-gateFit.html" target="_blank">gateFit</a> : GateFitMode
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-iso.html" target="_blank">iso</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-layerCullDistances.html" target="_blank">layerCullDistances</a> : Single[]
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-layerCullSpherical.html" target="_blank">layerCullSpherical</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-lensShift.html" target="_blank">lensShift</a> : Vector2
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-nearClipPlane.html" target="_blank">nearClipPlane</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-nonJitteredProjectionMatrix.html" target="_blank">nonJitteredProjectionMatrix</a> : Matrix4x4
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-opaqueSortMode.html" target="_blank">opaqueSortMode</a> : OpaqueSortMode
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-orthographic.html" target="_blank">orthographic</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-orthographicSize.html" target="_blank">orthographicSize</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-overrideSceneCullingMask.html" target="_blank">overrideSceneCullingMask</a> : UInt64
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-pixelHeight.html" target="_blank">pixelHeight</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-pixelRect.html" target="_blank">pixelRect</a> : Rect
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-pixelWidth.html" target="_blank">pixelWidth</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-previousViewProjectionMatrix.html" target="_blank">previousViewProjectionMatrix</a> : Matrix4x4
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-projectionMatrix.html" target="_blank">projectionMatrix</a> : Matrix4x4
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-rect.html" target="_blank">rect</a> : Rect
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-renderCloudsInSceneView.html" target="_blank">renderCloudsInSceneView</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-renderingPath.html" target="_blank">renderingPath</a> : RenderingPath
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-scaledPixelHeight.html" target="_blank">scaledPixelHeight</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-scaledPixelWidth.html" target="_blank">scaledPixelWidth</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-scene.html" target="_blank">scene</a> : Scene
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-sceneViewFilterMode.html" target="_blank">sceneViewFilterMode</a> : SceneViewFilterMode
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-sensorSize.html" target="_blank">sensorSize</a> : Vector2
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-shutterSpeed.html" target="_blank">shutterSpeed</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-stereoActiveEye.html" target="_blank">stereoActiveEye</a> : MonoOrStereoscopicEye
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-stereoConvergence.html" target="_blank">stereoConvergence</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-stereoEnabled.html" target="_blank">stereoEnabled</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-stereoSeparation.html" target="_blank">stereoSeparation</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-stereoTargetEye.html" target="_blank">stereoTargetEye</a> : StereoTargetEyeMask
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-targetDisplay.html" target="_blank">targetDisplay</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-targetTexture.html" target="_blank">targetTexture</a> : RenderTexture
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-transparencySortAxis.html" target="_blank">transparencySortAxis</a> : Vector3
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-transparencySortMode.html" target="_blank">transparencySortMode</a> : TransparencySortMode
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-useJitteredProjectionMatrixForTransparentRendering.html" target="_blank">useJitteredProjectionMatrixForTransparentRendering</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-useOcclusionCulling.html" target="_blank">useOcclusionCulling</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-usePhysicalProperties.html" target="_blank">usePhysicalProperties</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-velocity.html" target="_blank">velocity</a> : Vector3
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-worldToCameraMatrix.html" target="_blank">worldToCameraMatrix</a> : Matrix4x4
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-activeTexture.html">activeTexture</a> : RenderTexture
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-actualRenderingPath.html">actualRenderingPath</a> : RenderingPath
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-allowDynamicResolution.html">allowDynamicResolution</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-allowHDR.html">allowHDR</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-allowMSAA.html">allowMSAA</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-anamorphism.html">anamorphism</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-aperture.html">aperture</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-areVRStereoViewMatricesWithinSingleCullTolerance.html">areVRStereoViewMatricesWithinSingleCullTolerance</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-aspect.html">aspect</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-backgroundColor.html">backgroundColor</a> : Color
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-barrelClipping.html">barrelClipping</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-bladeCount.html">bladeCount</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-cameraToWorldMatrix.html">cameraToWorldMatrix</a> : Matrix4x4
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-cameraType.html">cameraType</a> : CameraType
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-clearFlags.html">clearFlags</a> : CameraClearFlags
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-clearStencilAfterLightingPass.html">clearStencilAfterLightingPass</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-commandBufferCount.html">commandBufferCount</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-cullingMask.html">cullingMask</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-cullingMatrix.html">cullingMatrix</a> : Matrix4x4
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-curvature.html">curvature</a> : Vector2
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-depth.html">depth</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-depthTextureMode.html">depthTextureMode</a> : DepthTextureMode
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-eventMask.html">eventMask</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-farClipPlane.html">farClipPlane</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-fieldOfView.html">fieldOfView</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-focalLength.html">focalLength</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-focusDistance.html">focusDistance</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-forceIntoRenderTexture.html">forceIntoRenderTexture</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-gateFit.html">gateFit</a> : GateFitMode
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-iso.html">iso</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-layerCullDistances.html">layerCullDistances</a> : Single[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-layerCullSpherical.html">layerCullSpherical</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-lensShift.html">lensShift</a> : Vector2
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-nearClipPlane.html">nearClipPlane</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-nonJitteredProjectionMatrix.html">nonJitteredProjectionMatrix</a> : Matrix4x4
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-opaqueSortMode.html">opaqueSortMode</a> : OpaqueSortMode
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-orthographic.html">orthographic</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-orthographicSize.html">orthographicSize</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-overrideSceneCullingMask.html">overrideSceneCullingMask</a> : UInt64
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-pixelHeight.html">pixelHeight</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-pixelRect.html">pixelRect</a> : Rect
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-pixelWidth.html">pixelWidth</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-previousViewProjectionMatrix.html">previousViewProjectionMatrix</a> : Matrix4x4
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-projectionMatrix.html">projectionMatrix</a> : Matrix4x4
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-rect.html">rect</a> : Rect
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-renderCloudsInSceneView.html">renderCloudsInSceneView</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-renderingPath.html">renderingPath</a> : RenderingPath
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-scaledPixelHeight.html">scaledPixelHeight</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-scaledPixelWidth.html">scaledPixelWidth</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-scene.html">scene</a> : Scene
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-sceneViewFilterMode.html">sceneViewFilterMode</a> : SceneViewFilterMode
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-sensorSize.html">sensorSize</a> : Vector2
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-shutterSpeed.html">shutterSpeed</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-stereoActiveEye.html">stereoActiveEye</a> : MonoOrStereoscopicEye
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-stereoConvergence.html">stereoConvergence</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-stereoEnabled.html">stereoEnabled</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-stereoSeparation.html">stereoSeparation</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-stereoTargetEye.html">stereoTargetEye</a> : StereoTargetEyeMask
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-targetDisplay.html">targetDisplay</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-targetTexture.html">targetTexture</a> : RenderTexture
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-transparencySortAxis.html">transparencySortAxis</a> : Vector3
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-transparencySortMode.html">transparencySortMode</a> : TransparencySortMode
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-useJitteredProjectionMatrixForTransparentRendering.html">useJitteredProjectionMatrixForTransparentRendering</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-useOcclusionCulling.html">useOcclusionCulling</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-usePhysicalProperties.html">usePhysicalProperties</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-velocity.html">velocity</a> : Vector3
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-worldToCameraMatrix.html">worldToCameraMatrix</a> : Matrix4x4
 ## Methods
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.AddCommandBuffer.html" target="_blank">AddCommandBuffer</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.AddCommandBufferAsync.html" target="_blank">AddCommandBufferAsync</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.CalculateFrustumCorners.html" target="_blank">CalculateFrustumCorners</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.CalculateObliqueMatrix.html" target="_blank">CalculateObliqueMatrix</a> returns Matrix4x4
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.CopyFrom.html" target="_blank">CopyFrom</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.CopyStereoDeviceProjectionMatrixToNonJittered.html" target="_blank">CopyStereoDeviceProjectionMatrixToNonJittered</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.GetCommandBuffers.html" target="_blank">GetCommandBuffers</a> returns CommandBuffer[]
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.GetGateFittedFieldOfView.html" target="_blank">GetGateFittedFieldOfView</a> returns Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.GetGateFittedLensShift.html" target="_blank">GetGateFittedLensShift</a> returns Vector2
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.GetStereoNonJitteredProjectionMatrix.html" target="_blank">GetStereoNonJitteredProjectionMatrix</a> returns Matrix4x4
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.GetStereoProjectionMatrix.html" target="_blank">GetStereoProjectionMatrix</a> returns Matrix4x4
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.GetStereoViewMatrix.html" target="_blank">GetStereoViewMatrix</a> returns Matrix4x4
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.RemoveAllCommandBuffers.html" target="_blank">RemoveAllCommandBuffers</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.RemoveCommandBuffer.html" target="_blank">RemoveCommandBuffer</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.RemoveCommandBuffers.html" target="_blank">RemoveCommandBuffers</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.Render.html" target="_blank">Render</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.RenderDontRestore.html" target="_blank">RenderDontRestore</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.RenderToCubemap.html" target="_blank">RenderToCubemap</a> returns Boolean (5 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.RenderWithShader.html" target="_blank">RenderWithShader</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.Reset.html" target="_blank">Reset</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.ResetAspect.html" target="_blank">ResetAspect</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.ResetCullingMatrix.html" target="_blank">ResetCullingMatrix</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.ResetProjectionMatrix.html" target="_blank">ResetProjectionMatrix</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.ResetReplacementShader.html" target="_blank">ResetReplacementShader</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.ResetStereoProjectionMatrices.html" target="_blank">ResetStereoProjectionMatrices</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.ResetStereoViewMatrices.html" target="_blank">ResetStereoViewMatrices</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.ResetTransparencySortSettings.html" target="_blank">ResetTransparencySortSettings</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.ResetWorldToCameraMatrix.html" target="_blank">ResetWorldToCameraMatrix</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.ScreenPointToRay.html" target="_blank">ScreenPointToRay</a> returns Ray (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.ScreenToViewportPoint.html" target="_blank">ScreenToViewportPoint</a> returns Vector3
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.ScreenToWorldPoint.html" target="_blank">ScreenToWorldPoint</a> returns Vector3 (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.SetReplacementShader.html" target="_blank">SetReplacementShader</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.SetStereoProjectionMatrix.html" target="_blank">SetStereoProjectionMatrix</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.SetStereoViewMatrix.html" target="_blank">SetStereoViewMatrix</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.SetTargetBuffers.html" target="_blank">SetTargetBuffers</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.ViewportPointToRay.html" target="_blank">ViewportPointToRay</a> returns Ray (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.ViewportToScreenPoint.html" target="_blank">ViewportToScreenPoint</a> returns Vector3
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.ViewportToWorldPoint.html" target="_blank">ViewportToWorldPoint</a> returns Vector3 (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.WorldToScreenPoint.html" target="_blank">WorldToScreenPoint</a> returns Vector3 (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.WorldToViewportPoint.html" target="_blank">WorldToViewportPoint</a> returns Vector3 (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.AddCommandBuffer.html">AddCommandBuffer</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.AddCommandBufferAsync.html">AddCommandBufferAsync</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.CalculateFrustumCorners.html">CalculateFrustumCorners</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.CalculateObliqueMatrix.html">CalculateObliqueMatrix</a> returns Matrix4x4
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.CopyFrom.html">CopyFrom</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.CopyStereoDeviceProjectionMatrixToNonJittered.html">CopyStereoDeviceProjectionMatrixToNonJittered</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.GetCommandBuffers.html">GetCommandBuffers</a> returns CommandBuffer[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.GetGateFittedFieldOfView.html">GetGateFittedFieldOfView</a> returns Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.GetGateFittedLensShift.html">GetGateFittedLensShift</a> returns Vector2
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.GetStereoNonJitteredProjectionMatrix.html">GetStereoNonJitteredProjectionMatrix</a> returns Matrix4x4
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.GetStereoProjectionMatrix.html">GetStereoProjectionMatrix</a> returns Matrix4x4
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.GetStereoViewMatrix.html">GetStereoViewMatrix</a> returns Matrix4x4
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.RemoveAllCommandBuffers.html">RemoveAllCommandBuffers</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.RemoveCommandBuffer.html">RemoveCommandBuffer</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.RemoveCommandBuffers.html">RemoveCommandBuffers</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.Render.html">Render</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.RenderDontRestore.html">RenderDontRestore</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.RenderToCubemap.html">RenderToCubemap</a> returns Boolean (5 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.RenderWithShader.html">RenderWithShader</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.Reset.html">Reset</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.ResetAspect.html">ResetAspect</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.ResetCullingMatrix.html">ResetCullingMatrix</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.ResetProjectionMatrix.html">ResetProjectionMatrix</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.ResetReplacementShader.html">ResetReplacementShader</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.ResetStereoProjectionMatrices.html">ResetStereoProjectionMatrices</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.ResetStereoViewMatrices.html">ResetStereoViewMatrices</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.ResetTransparencySortSettings.html">ResetTransparencySortSettings</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.ResetWorldToCameraMatrix.html">ResetWorldToCameraMatrix</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.ScreenPointToRay.html">ScreenPointToRay</a> returns Ray (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.ScreenToViewportPoint.html">ScreenToViewportPoint</a> returns Vector3
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.ScreenToWorldPoint.html">ScreenToWorldPoint</a> returns Vector3 (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.SetReplacementShader.html">SetReplacementShader</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.SetStereoProjectionMatrix.html">SetStereoProjectionMatrix</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.SetStereoViewMatrix.html">SetStereoViewMatrix</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.SetTargetBuffers.html">SetTargetBuffers</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.ViewportPointToRay.html">ViewportPointToRay</a> returns Ray (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.ViewportToScreenPoint.html">ViewportToScreenPoint</a> returns Vector3
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.ViewportToWorldPoint.html">ViewportToWorldPoint</a> returns Vector3 (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.WorldToScreenPoint.html">WorldToScreenPoint</a> returns Vector3 (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.WorldToViewportPoint.html">WorldToViewportPoint</a> returns Vector3 (2 overloads)
 ## Static Properties
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-allCameras.html" target="_blank">allCameras</a> : Camera[]
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-allCamerasCount.html" target="_blank">allCamerasCount</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-current.html" target="_blank">current</a> : Camera
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-main.html" target="_blank">main</a> : Camera
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-allCameras.html">allCameras</a> : Camera[]
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-allCamerasCount.html">allCamerasCount</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-current.html">current</a> : Camera
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-main.html">main</a> : Camera
 ## Static Fields
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-kMaxAperture.html" target="_blank">kMaxAperture</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-kMaxBladeCount.html" target="_blank">kMaxBladeCount</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-kMinAperture.html" target="_blank">kMinAperture</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-kMinBladeCount.html" target="_blank">kMinBladeCount</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-onPostRender.html" target="_blank">onPostRender</a> : CameraCallback
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-onPreCull.html" target="_blank">onPreCull</a> : CameraCallback
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-onPreRender.html" target="_blank">onPreRender</a> : CameraCallback
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-kMaxAperture.html">kMaxAperture</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-kMaxBladeCount.html">kMaxBladeCount</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-kMinAperture.html">kMinAperture</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-kMinBladeCount.html">kMinBladeCount</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-onPostRender.html">onPostRender</a> : CameraCallback
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-onPreCull.html">onPreCull</a> : CameraCallback
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-onPreRender.html">onPreRender</a> : CameraCallback
 ## Static Methods
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.FieldOfViewToFocalLength.html" target="_blank">FieldOfViewToFocalLength</a> returns Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.FocalLengthToFieldOfView.html" target="_blank">FocalLengthToFieldOfView</a> returns Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.GetAllCameras.html" target="_blank">GetAllCameras</a> returns Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.HorizontalToVerticalFieldOfView.html" target="_blank">HorizontalToVerticalFieldOfView</a> returns Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.SetupCurrent.html" target="_blank">SetupCurrent</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.VerticalToHorizontalFieldOfView.html" target="_blank">VerticalToHorizontalFieldOfView</a> returns Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.FieldOfViewToFocalLength.html">FieldOfViewToFocalLength</a> returns Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.FocalLengthToFieldOfView.html">FocalLengthToFieldOfView</a> returns Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.GetAllCameras.html">GetAllCameras</a> returns Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.HorizontalToVerticalFieldOfView.html">HorizontalToVerticalFieldOfView</a> returns Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.SetupCurrent.html">SetupCurrent</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.VerticalToHorizontalFieldOfView.html">VerticalToHorizontalFieldOfView</a> returns Single

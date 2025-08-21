@@ -1,108 +1,108 @@
 # CommandBuffer
 class in UnityEngine.Rendering
- / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html" target="_blank">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html" target="_blank">UnityEngine.CoreModule</a>
+ / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
 ## Properties
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer-name.html" target="_blank">name</a> : String
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer-sizeInBytes.html" target="_blank">sizeInBytes</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer-name.html">name</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer-sizeInBytes.html">sizeInBytes</a> : Int32
 ## Methods
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.BeginSample.html" target="_blank">BeginSample</a> (3 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.Blit.html" target="_blank">Blit</a> (11 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.BuildRayTracingAccelerationStructure.html" target="_blank">BuildRayTracingAccelerationStructure</a> (3 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.Clear.html" target="_blank">Clear</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.ClearRandomWriteTargets.html" target="_blank">ClearRandomWriteTargets</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.ClearRenderTarget.html" target="_blank">ClearRenderTarget</a> (9 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.ConvertTexture.html" target="_blank">ConvertTexture</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.CopyBuffer.html" target="_blank">CopyBuffer</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.CopyCounterValue.html" target="_blank">CopyCounterValue</a> (4 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.CopyTexture.html" target="_blank">CopyTexture</a> (4 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.CreateAsyncGraphicsFence.html" target="_blank">CreateAsyncGraphicsFence</a> returns GraphicsFence (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.CreateGraphicsFence.html" target="_blank">CreateGraphicsFence</a> returns GraphicsFence
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.DisableScissorRect.html" target="_blank">DisableScissorRect</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.DisableShaderKeyword.html" target="_blank">DisableShaderKeyword</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.DispatchCompute.html" target="_blank">DispatchCompute</a> (3 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.DispatchRays.html" target="_blank">DispatchRays</a> (4 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.Dispose.html" target="_blank">Dispose</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.DrawMesh.html" target="_blank">DrawMesh</a> (4 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.DrawMeshInstanced.html" target="_blank">DrawMeshInstanced</a> (3 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.DrawMeshInstancedIndirect.html" target="_blank">DrawMeshInstancedIndirect</a> (6 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.DrawMeshInstancedProcedural.html" target="_blank">DrawMeshInstancedProcedural</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.DrawMultipleMeshes.html" target="_blank">DrawMultipleMeshes</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.DrawOcclusionMesh.html" target="_blank">DrawOcclusionMesh</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.DrawProcedural.html" target="_blank">DrawProcedural</a> (6 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.DrawProceduralIndirect.html" target="_blank">DrawProceduralIndirect</a> (12 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.DrawRenderer.html" target="_blank">DrawRenderer</a> (3 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.DrawRendererList.html" target="_blank">DrawRendererList</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.EnableScissorRect.html" target="_blank">EnableScissorRect</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.EnableShaderKeyword.html" target="_blank">EnableShaderKeyword</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.EndRenderPass.html" target="_blank">EndRenderPass</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.EndSample.html" target="_blank">EndSample</a> (3 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.GenerateMips.html" target="_blank">GenerateMips</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.GetTemporaryRT.html" target="_blank">GetTemporaryRT</a> (16 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.GetTemporaryRTArray.html" target="_blank">GetTemporaryRTArray</a> (11 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.IncrementUpdateCount.html" target="_blank">IncrementUpdateCount</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.InvokeOnRenderObjectCallbacks.html" target="_blank">InvokeOnRenderObjectCallbacks</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.MarkLateLatchMatrixShaderPropertyID.html" target="_blank">MarkLateLatchMatrixShaderPropertyID</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.NextSubPass.html" target="_blank">NextSubPass</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.Release.html" target="_blank">Release</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.ReleaseTemporaryRT.html" target="_blank">ReleaseTemporaryRT</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.ResolveAntiAliasedSurface.html" target="_blank">ResolveAntiAliasedSurface</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetBufferCounterValue.html" target="_blank">SetBufferCounterValue</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetComputeBufferParam.html" target="_blank">SetComputeBufferParam</a> (6 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetComputeConstantBufferParam.html" target="_blank">SetComputeConstantBufferParam</a> (4 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetComputeFloatParam.html" target="_blank">SetComputeFloatParam</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetComputeFloatParams.html" target="_blank">SetComputeFloatParams</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetComputeIntParam.html" target="_blank">SetComputeIntParam</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetComputeIntParams.html" target="_blank">SetComputeIntParams</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetComputeMatrixArrayParam.html" target="_blank">SetComputeMatrixArrayParam</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetComputeMatrixParam.html" target="_blank">SetComputeMatrixParam</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetComputeParamsFromMaterial.html" target="_blank">SetComputeParamsFromMaterial</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetComputeTextureParam.html" target="_blank">SetComputeTextureParam</a> (6 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetComputeVectorArrayParam.html" target="_blank">SetComputeVectorArrayParam</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetComputeVectorParam.html" target="_blank">SetComputeVectorParam</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetExecutionFlags.html" target="_blank">SetExecutionFlags</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetFoveatedRenderingMode.html" target="_blank">SetFoveatedRenderingMode</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetGlobalBuffer.html" target="_blank">SetGlobalBuffer</a> (4 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetGlobalColor.html" target="_blank">SetGlobalColor</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetGlobalConstantBuffer.html" target="_blank">SetGlobalConstantBuffer</a> (4 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetGlobalDepthBias.html" target="_blank">SetGlobalDepthBias</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetGlobalFloat.html" target="_blank">SetGlobalFloat</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetGlobalFloatArray.html" target="_blank">SetGlobalFloatArray</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetGlobalInt.html" target="_blank">SetGlobalInt</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetGlobalInteger.html" target="_blank">SetGlobalInteger</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetGlobalMatrix.html" target="_blank">SetGlobalMatrix</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetGlobalMatrixArray.html" target="_blank">SetGlobalMatrixArray</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetGlobalRayTracingAccelerationStructure.html" target="_blank">SetGlobalRayTracingAccelerationStructure</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetGlobalTexture.html" target="_blank">SetGlobalTexture</a> (4 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetGlobalVector.html" target="_blank">SetGlobalVector</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetGlobalVectorArray.html" target="_blank">SetGlobalVectorArray</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetInstanceMultiplier.html" target="_blank">SetInstanceMultiplier</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetInvertCulling.html" target="_blank">SetInvertCulling</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetLateLatchProjectionMatrices.html" target="_blank">SetLateLatchProjectionMatrices</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetProjectionMatrix.html" target="_blank">SetProjectionMatrix</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetRandomWriteTarget.html" target="_blank">SetRandomWriteTarget</a> (5 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetRayTracingAccelerationStructure.html" target="_blank">SetRayTracingAccelerationStructure</a> (4 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetRayTracingBufferParam.html" target="_blank">SetRayTracingBufferParam</a> (6 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetRayTracingConstantBufferParam.html" target="_blank">SetRayTracingConstantBufferParam</a> (4 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetRayTracingFloatParam.html" target="_blank">SetRayTracingFloatParam</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetRayTracingFloatParams.html" target="_blank">SetRayTracingFloatParams</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetRayTracingIntParam.html" target="_blank">SetRayTracingIntParam</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetRayTracingIntParams.html" target="_blank">SetRayTracingIntParams</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetRayTracingMatrixArrayParam.html" target="_blank">SetRayTracingMatrixArrayParam</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetRayTracingMatrixParam.html" target="_blank">SetRayTracingMatrixParam</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetRayTracingShaderPass.html" target="_blank">SetRayTracingShaderPass</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetRayTracingTextureParam.html" target="_blank">SetRayTracingTextureParam</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetRayTracingVectorArrayParam.html" target="_blank">SetRayTracingVectorArrayParam</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetRayTracingVectorParam.html" target="_blank">SetRayTracingVectorParam</a> (2 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetRenderTarget.html" target="_blank">SetRenderTarget</a> (15 overloads)
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetShadowSamplingMode.html" target="_blank">SetShadowSamplingMode</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetSinglePassStereo.html" target="_blank">SetSinglePassStereo</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetupCameraProperties.html" target="_blank">SetupCameraProperties</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetViewMatrix.html" target="_blank">SetViewMatrix</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetViewport.html" target="_blank">SetViewport</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetViewProjectionMatrices.html" target="_blank">SetViewProjectionMatrices</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetWireframe.html" target="_blank">SetWireframe</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.UnmarkLateLatchMatrix.html" target="_blank">UnmarkLateLatchMatrix</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.WaitAllAsyncReadbackRequests.html" target="_blank">WaitAllAsyncReadbackRequests</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.WaitOnAsyncGraphicsFence.html" target="_blank">WaitOnAsyncGraphicsFence</a> (3 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.BeginSample.html">BeginSample</a> (3 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.Blit.html">Blit</a> (11 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.BuildRayTracingAccelerationStructure.html">BuildRayTracingAccelerationStructure</a> (3 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.Clear.html">Clear</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.ClearRandomWriteTargets.html">ClearRandomWriteTargets</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.ClearRenderTarget.html">ClearRenderTarget</a> (9 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.ConvertTexture.html">ConvertTexture</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.CopyBuffer.html">CopyBuffer</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.CopyCounterValue.html">CopyCounterValue</a> (4 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.CopyTexture.html">CopyTexture</a> (4 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.CreateAsyncGraphicsFence.html">CreateAsyncGraphicsFence</a> returns GraphicsFence (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.CreateGraphicsFence.html">CreateGraphicsFence</a> returns GraphicsFence
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.DisableScissorRect.html">DisableScissorRect</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.DisableShaderKeyword.html">DisableShaderKeyword</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.DispatchCompute.html">DispatchCompute</a> (3 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.DispatchRays.html">DispatchRays</a> (4 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.Dispose.html">Dispose</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.DrawMesh.html">DrawMesh</a> (4 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.DrawMeshInstanced.html">DrawMeshInstanced</a> (3 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.DrawMeshInstancedIndirect.html">DrawMeshInstancedIndirect</a> (6 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.DrawMeshInstancedProcedural.html">DrawMeshInstancedProcedural</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.DrawMultipleMeshes.html">DrawMultipleMeshes</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.DrawOcclusionMesh.html">DrawOcclusionMesh</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.DrawProcedural.html">DrawProcedural</a> (6 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.DrawProceduralIndirect.html">DrawProceduralIndirect</a> (12 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.DrawRenderer.html">DrawRenderer</a> (3 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.DrawRendererList.html">DrawRendererList</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.EnableScissorRect.html">EnableScissorRect</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.EnableShaderKeyword.html">EnableShaderKeyword</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.EndRenderPass.html">EndRenderPass</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.EndSample.html">EndSample</a> (3 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.GenerateMips.html">GenerateMips</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.GetTemporaryRT.html">GetTemporaryRT</a> (16 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.GetTemporaryRTArray.html">GetTemporaryRTArray</a> (11 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.IncrementUpdateCount.html">IncrementUpdateCount</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.InvokeOnRenderObjectCallbacks.html">InvokeOnRenderObjectCallbacks</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.MarkLateLatchMatrixShaderPropertyID.html">MarkLateLatchMatrixShaderPropertyID</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.NextSubPass.html">NextSubPass</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.Release.html">Release</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.ReleaseTemporaryRT.html">ReleaseTemporaryRT</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.ResolveAntiAliasedSurface.html">ResolveAntiAliasedSurface</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetBufferCounterValue.html">SetBufferCounterValue</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetComputeBufferParam.html">SetComputeBufferParam</a> (6 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetComputeConstantBufferParam.html">SetComputeConstantBufferParam</a> (4 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetComputeFloatParam.html">SetComputeFloatParam</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetComputeFloatParams.html">SetComputeFloatParams</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetComputeIntParam.html">SetComputeIntParam</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetComputeIntParams.html">SetComputeIntParams</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetComputeMatrixArrayParam.html">SetComputeMatrixArrayParam</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetComputeMatrixParam.html">SetComputeMatrixParam</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetComputeParamsFromMaterial.html">SetComputeParamsFromMaterial</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetComputeTextureParam.html">SetComputeTextureParam</a> (6 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetComputeVectorArrayParam.html">SetComputeVectorArrayParam</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetComputeVectorParam.html">SetComputeVectorParam</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetExecutionFlags.html">SetExecutionFlags</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetFoveatedRenderingMode.html">SetFoveatedRenderingMode</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetGlobalBuffer.html">SetGlobalBuffer</a> (4 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetGlobalColor.html">SetGlobalColor</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetGlobalConstantBuffer.html">SetGlobalConstantBuffer</a> (4 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetGlobalDepthBias.html">SetGlobalDepthBias</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetGlobalFloat.html">SetGlobalFloat</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetGlobalFloatArray.html">SetGlobalFloatArray</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetGlobalInt.html">SetGlobalInt</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetGlobalInteger.html">SetGlobalInteger</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetGlobalMatrix.html">SetGlobalMatrix</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetGlobalMatrixArray.html">SetGlobalMatrixArray</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetGlobalRayTracingAccelerationStructure.html">SetGlobalRayTracingAccelerationStructure</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetGlobalTexture.html">SetGlobalTexture</a> (4 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetGlobalVector.html">SetGlobalVector</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetGlobalVectorArray.html">SetGlobalVectorArray</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetInstanceMultiplier.html">SetInstanceMultiplier</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetInvertCulling.html">SetInvertCulling</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetLateLatchProjectionMatrices.html">SetLateLatchProjectionMatrices</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetProjectionMatrix.html">SetProjectionMatrix</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetRandomWriteTarget.html">SetRandomWriteTarget</a> (5 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetRayTracingAccelerationStructure.html">SetRayTracingAccelerationStructure</a> (4 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetRayTracingBufferParam.html">SetRayTracingBufferParam</a> (6 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetRayTracingConstantBufferParam.html">SetRayTracingConstantBufferParam</a> (4 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetRayTracingFloatParam.html">SetRayTracingFloatParam</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetRayTracingFloatParams.html">SetRayTracingFloatParams</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetRayTracingIntParam.html">SetRayTracingIntParam</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetRayTracingIntParams.html">SetRayTracingIntParams</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetRayTracingMatrixArrayParam.html">SetRayTracingMatrixArrayParam</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetRayTracingMatrixParam.html">SetRayTracingMatrixParam</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetRayTracingShaderPass.html">SetRayTracingShaderPass</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetRayTracingTextureParam.html">SetRayTracingTextureParam</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetRayTracingVectorArrayParam.html">SetRayTracingVectorArrayParam</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetRayTracingVectorParam.html">SetRayTracingVectorParam</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetRenderTarget.html">SetRenderTarget</a> (15 overloads)
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetShadowSamplingMode.html">SetShadowSamplingMode</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetSinglePassStereo.html">SetSinglePassStereo</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetupCameraProperties.html">SetupCameraProperties</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetViewMatrix.html">SetViewMatrix</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetViewport.html">SetViewport</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetViewProjectionMatrices.html">SetViewProjectionMatrices</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.SetWireframe.html">SetWireframe</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.UnmarkLateLatchMatrix.html">UnmarkLateLatchMatrix</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.WaitAllAsyncReadbackRequests.html">WaitAllAsyncReadbackRequests</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.WaitOnAsyncGraphicsFence.html">WaitOnAsyncGraphicsFence</a> (3 overloads)
 ## Static Fields
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer-ThrowOnSetRenderTarget.html" target="_blank">ThrowOnSetRenderTarget</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer-ThrowOnSetRenderTarget.html">ThrowOnSetRenderTarget</a> : Boolean

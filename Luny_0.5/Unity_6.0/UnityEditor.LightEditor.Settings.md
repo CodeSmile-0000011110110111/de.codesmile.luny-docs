@@ -1,66 +1,66 @@
 # Settings
 class in UnityEditor
- / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html" target="_blank">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html" target="_blank">UnityEditor.CoreModule</a>
+ / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
 ## Properties
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-areaSizeX.html" target="_blank">areaSizeX</a> : SerializedProperty
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-areaSizeY.html" target="_blank">areaSizeY</a> : SerializedProperty
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-bakedShadowAngleProp.html" target="_blank">bakedShadowAngleProp</a> : SerializedProperty
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-bakedShadowRadiusProp.html" target="_blank">bakedShadowRadiusProp</a> : SerializedProperty
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-bounceIntensity.html" target="_blank">bounceIntensity</a> : SerializedProperty
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-color.html" target="_blank">color</a> : SerializedProperty
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-colorTemperature.html" target="_blank">colorTemperature</a> : SerializedProperty
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-cookie.html" target="_blank">cookie</a> : Texture
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-cookieProp.html" target="_blank">cookieProp</a> : SerializedProperty
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-cookieSize.html" target="_blank">cookieSize</a> : SerializedProperty
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-cullingMask.html" target="_blank">cullingMask</a> : SerializedProperty
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-enableSpotReflector.html" target="_blank">enableSpotReflector</a> : SerializedProperty
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-flare.html" target="_blank">flare</a> : SerializedProperty
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-halo.html" target="_blank">halo</a> : SerializedProperty
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-innerSpotAngle.html" target="_blank">innerSpotAngle</a> : SerializedProperty
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-intensity.html" target="_blank">intensity</a> : SerializedProperty
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-isAreaLightType.html" target="_blank">isAreaLightType</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-isBakedOrMixed.html" target="_blank">isBakedOrMixed</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-isCompletelyBaked.html" target="_blank">isCompletelyBaked</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-isMixed.html" target="_blank">isMixed</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-isRealtime.html" target="_blank">isRealtime</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-light.html" target="_blank">light</a> : Light
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-lightmapping.html" target="_blank">lightmapping</a> : SerializedProperty
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-lightType.html" target="_blank">lightType</a> : SerializedProperty
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-lightUnit.html" target="_blank">lightUnit</a> : SerializedProperty
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-luxAtDistance.html" target="_blank">luxAtDistance</a> : SerializedProperty
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-range.html" target="_blank">range</a> : SerializedProperty
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-renderingLayerMask.html" target="_blank">renderingLayerMask</a> : SerializedProperty
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-renderMode.html" target="_blank">renderMode</a> : SerializedProperty
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-shadowsBias.html" target="_blank">shadowsBias</a> : SerializedProperty
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-shadowsNearPlane.html" target="_blank">shadowsNearPlane</a> : SerializedProperty
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-shadowsNormalBias.html" target="_blank">shadowsNormalBias</a> : SerializedProperty
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-shadowsResolution.html" target="_blank">shadowsResolution</a> : SerializedProperty
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-shadowsStrength.html" target="_blank">shadowsStrength</a> : SerializedProperty
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-shadowsType.html" target="_blank">shadowsType</a> : SerializedProperty
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-spotAngle.html" target="_blank">spotAngle</a> : SerializedProperty
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-useColorTemperature.html" target="_blank">useColorTemperature</a> : SerializedProperty
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-areaSizeX.html">areaSizeX</a> : SerializedProperty
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-areaSizeY.html">areaSizeY</a> : SerializedProperty
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-bakedShadowAngleProp.html">bakedShadowAngleProp</a> : SerializedProperty
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-bakedShadowRadiusProp.html">bakedShadowRadiusProp</a> : SerializedProperty
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-bounceIntensity.html">bounceIntensity</a> : SerializedProperty
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-color.html">color</a> : SerializedProperty
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-colorTemperature.html">colorTemperature</a> : SerializedProperty
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-cookie.html">cookie</a> : Texture
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-cookieProp.html">cookieProp</a> : SerializedProperty
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-cookieSize.html">cookieSize</a> : SerializedProperty
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-cullingMask.html">cullingMask</a> : SerializedProperty
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-enableSpotReflector.html">enableSpotReflector</a> : SerializedProperty
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-flare.html">flare</a> : SerializedProperty
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-halo.html">halo</a> : SerializedProperty
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-innerSpotAngle.html">innerSpotAngle</a> : SerializedProperty
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-intensity.html">intensity</a> : SerializedProperty
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-isAreaLightType.html">isAreaLightType</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-isBakedOrMixed.html">isBakedOrMixed</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-isCompletelyBaked.html">isCompletelyBaked</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-isMixed.html">isMixed</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-isRealtime.html">isRealtime</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-light.html">light</a> : Light
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-lightmapping.html">lightmapping</a> : SerializedProperty
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-lightType.html">lightType</a> : SerializedProperty
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-lightUnit.html">lightUnit</a> : SerializedProperty
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-luxAtDistance.html">luxAtDistance</a> : SerializedProperty
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-range.html">range</a> : SerializedProperty
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-renderingLayerMask.html">renderingLayerMask</a> : SerializedProperty
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-renderMode.html">renderMode</a> : SerializedProperty
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-shadowsBias.html">shadowsBias</a> : SerializedProperty
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-shadowsNearPlane.html">shadowsNearPlane</a> : SerializedProperty
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-shadowsNormalBias.html">shadowsNormalBias</a> : SerializedProperty
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-shadowsResolution.html">shadowsResolution</a> : SerializedProperty
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-shadowsStrength.html">shadowsStrength</a> : SerializedProperty
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-shadowsType.html">shadowsType</a> : SerializedProperty
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-spotAngle.html">spotAngle</a> : SerializedProperty
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-useColorTemperature.html">useColorTemperature</a> : SerializedProperty
 ## Methods
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.ApplyModifiedProperties.html" target="_blank">ApplyModifiedProperties</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawArea.html" target="_blank">DrawArea</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawBakedShadowAngle.html" target="_blank">DrawBakedShadowAngle</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawBakedShadowRadius.html" target="_blank">DrawBakedShadowRadius</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawBounceIntensity.html" target="_blank">DrawBounceIntensity</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawColor.html" target="_blank">DrawColor</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawCookie.html" target="_blank">DrawCookie</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawCookieSize.html" target="_blank">DrawCookieSize</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawCullingMask.html" target="_blank">DrawCullingMask</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawFlare.html" target="_blank">DrawFlare</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawHalo.html" target="_blank">DrawHalo</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawInnerAndOuterSpotAngle.html" target="_blank">DrawInnerAndOuterSpotAngle</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawIntensity.html" target="_blank">DrawIntensity</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawLightmapping.html" target="_blank">DrawLightmapping</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawLightType.html" target="_blank">DrawLightType</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawRange.html" target="_blank">DrawRange</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawRenderingLayerMask.html" target="_blank">DrawRenderingLayerMask</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawRenderMode.html" target="_blank">DrawRenderMode</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawRuntimeShadow.html" target="_blank">DrawRuntimeShadow</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawShadowsType.html" target="_blank">DrawShadowsType</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawSpotAngle.html" target="_blank">DrawSpotAngle</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.OnDestroy.html" target="_blank">OnDestroy</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.OnEnable.html" target="_blank">OnEnable</a>
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.Update.html" target="_blank">Update</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.ApplyModifiedProperties.html">ApplyModifiedProperties</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawArea.html">DrawArea</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawBakedShadowAngle.html">DrawBakedShadowAngle</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawBakedShadowRadius.html">DrawBakedShadowRadius</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawBounceIntensity.html">DrawBounceIntensity</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawColor.html">DrawColor</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawCookie.html">DrawCookie</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawCookieSize.html">DrawCookieSize</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawCullingMask.html">DrawCullingMask</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawFlare.html">DrawFlare</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawHalo.html">DrawHalo</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawInnerAndOuterSpotAngle.html">DrawInnerAndOuterSpotAngle</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawIntensity.html">DrawIntensity</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawLightmapping.html">DrawLightmapping</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawLightType.html">DrawLightType</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawRange.html">DrawRange</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawRenderingLayerMask.html">DrawRenderingLayerMask</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawRenderMode.html">DrawRenderMode</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawRuntimeShadow.html">DrawRuntimeShadow</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawShadowsType.html">DrawShadowsType</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawSpotAngle.html">DrawSpotAngle</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.OnDestroy.html">OnDestroy</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.OnEnable.html">OnEnable</a>
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.Update.html">Update</a>

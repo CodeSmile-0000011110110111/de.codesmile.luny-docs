@@ -1,116 +1,116 @@
 # SystemInfo
 class in UnityEngine
- / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html" target="_blank">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html" target="_blank">UnityEngine.CoreModule</a>
+ / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
 ## Static Properties
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-batteryLevel.html" target="_blank">batteryLevel</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-batteryStatus.html" target="_blank">batteryStatus</a> : BatteryStatus
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-computeSubGroupSize.html" target="_blank">computeSubGroupSize</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-constantBufferOffsetAlignment.html" target="_blank">constantBufferOffsetAlignment</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-copyTextureSupport.html" target="_blank">copyTextureSupport</a> : CopyTextureSupport
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-deviceModel.html" target="_blank">deviceModel</a> : String
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-deviceName.html" target="_blank">deviceName</a> : String
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-deviceType.html" target="_blank">deviceType</a> : DeviceType
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-deviceUniqueIdentifier.html" target="_blank">deviceUniqueIdentifier</a> : String
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-foveatedRenderingCaps.html" target="_blank">foveatedRenderingCaps</a> : FoveatedRenderingCaps
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-graphicsDeviceID.html" target="_blank">graphicsDeviceID</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-graphicsDeviceName.html" target="_blank">graphicsDeviceName</a> : String
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-graphicsDeviceType.html" target="_blank">graphicsDeviceType</a> : GraphicsDeviceType
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-graphicsDeviceVendor.html" target="_blank">graphicsDeviceVendor</a> : String
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-graphicsDeviceVendorID.html" target="_blank">graphicsDeviceVendorID</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-graphicsDeviceVersion.html" target="_blank">graphicsDeviceVersion</a> : String
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-graphicsMemorySize.html" target="_blank">graphicsMemorySize</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-graphicsMultiThreaded.html" target="_blank">graphicsMultiThreaded</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-graphicsShaderLevel.html" target="_blank">graphicsShaderLevel</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-graphicsUVStartsAtTop.html" target="_blank">graphicsUVStartsAtTop</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-hasDynamicUniformArrayIndexingInFragmentShaders.html" target="_blank">hasDynamicUniformArrayIndexingInFragmentShaders</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-hasHiddenSurfaceRemovalOnGPU.html" target="_blank">hasHiddenSurfaceRemovalOnGPU</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-hasMipMaxLevel.html" target="_blank">hasMipMaxLevel</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-hdrDisplaySupportFlags.html" target="_blank">hdrDisplaySupportFlags</a> : HDRDisplaySupportFlags
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-maxAnisotropyLevel.html" target="_blank">maxAnisotropyLevel</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-maxComputeBufferInputsCompute.html" target="_blank">maxComputeBufferInputsCompute</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-maxComputeBufferInputsDomain.html" target="_blank">maxComputeBufferInputsDomain</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-maxComputeBufferInputsFragment.html" target="_blank">maxComputeBufferInputsFragment</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-maxComputeBufferInputsGeometry.html" target="_blank">maxComputeBufferInputsGeometry</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-maxComputeBufferInputsHull.html" target="_blank">maxComputeBufferInputsHull</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-maxComputeBufferInputsVertex.html" target="_blank">maxComputeBufferInputsVertex</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-maxComputeWorkGroupSize.html" target="_blank">maxComputeWorkGroupSize</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-maxComputeWorkGroupSizeX.html" target="_blank">maxComputeWorkGroupSizeX</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-maxComputeWorkGroupSizeY.html" target="_blank">maxComputeWorkGroupSizeY</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-maxComputeWorkGroupSizeZ.html" target="_blank">maxComputeWorkGroupSizeZ</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-maxConstantBufferSize.html" target="_blank">maxConstantBufferSize</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-maxCubemapSize.html" target="_blank">maxCubemapSize</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-maxGraphicsBufferSize.html" target="_blank">maxGraphicsBufferSize</a> : Int64
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-maxTexture3DSize.html" target="_blank">maxTexture3DSize</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-maxTextureArraySlices.html" target="_blank">maxTextureArraySlices</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-maxTextureSize.html" target="_blank">maxTextureSize</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-npotSupport.html" target="_blank">npotSupport</a> : NPOTSupport
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-operatingSystem.html" target="_blank">operatingSystem</a> : String
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-operatingSystemFamily.html" target="_blank">operatingSystemFamily</a> : OperatingSystemFamily
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-processorCount.html" target="_blank">processorCount</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-processorFrequency.html" target="_blank">processorFrequency</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-processorManufacturer.html" target="_blank">processorManufacturer</a> : String
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-processorModel.html" target="_blank">processorModel</a> : String
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-processorType.html" target="_blank">processorType</a> : String
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-renderingThreadingMode.html" target="_blank">renderingThreadingMode</a> : RenderingThreadingMode
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportedRandomWriteTargetCount.html" target="_blank">supportedRandomWriteTargetCount</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportedRenderTargetCount.html" target="_blank">supportedRenderTargetCount</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supports2DArrayTextures.html" target="_blank">supports2DArrayTextures</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supports32bitsIndexBuffer.html" target="_blank">supports32bitsIndexBuffer</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supports3DRenderTextures.html" target="_blank">supports3DRenderTextures</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supports3DTextures.html" target="_blank">supports3DTextures</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsAccelerometer.html" target="_blank">supportsAccelerometer</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsAnisotropicFilter.html" target="_blank">supportsAnisotropicFilter</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsAsyncCompute.html" target="_blank">supportsAsyncCompute</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsAsyncGPUReadback.html" target="_blank">supportsAsyncGPUReadback</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsAudio.html" target="_blank">supportsAudio</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsCompressed3DTextures.html" target="_blank">supportsCompressed3DTextures</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsComputeShaders.html" target="_blank">supportsComputeShaders</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsConservativeRaster.html" target="_blank">supportsConservativeRaster</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsCubemapArrayTextures.html" target="_blank">supportsCubemapArrayTextures</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsDepthFetchInRenderPass.html" target="_blank">supportsDepthFetchInRenderPass</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsGeometryShaders.html" target="_blank">supportsGeometryShaders</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsGpuRecorder.html" target="_blank">supportsGpuRecorder</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsGraphicsFence.html" target="_blank">supportsGraphicsFence</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsGyroscope.html" target="_blank">supportsGyroscope</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsHardwareQuadTopology.html" target="_blank">supportsHardwareQuadTopology</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsIndirectArgumentsBuffer.html" target="_blank">supportsIndirectArgumentsBuffer</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsIndirectDispatchRays.html" target="_blank">supportsIndirectDispatchRays</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsInlineRayTracing.html" target="_blank">supportsInlineRayTracing</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsInstancing.html" target="_blank">supportsInstancing</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsLocationService.html" target="_blank">supportsLocationService</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsMipStreaming.html" target="_blank">supportsMipStreaming</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsMotionVectors.html" target="_blank">supportsMotionVectors</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsMultisampleAutoResolve.html" target="_blank">supportsMultisampleAutoResolve</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsMultisampled2DArrayTextures.html" target="_blank">supportsMultisampled2DArrayTextures</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsMultisampledTextures.html" target="_blank">supportsMultisampledTextures</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsMultisampleResolveDepth.html" target="_blank">supportsMultisampleResolveDepth</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsMultisampleResolveStencil.html" target="_blank">supportsMultisampleResolveStencil</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsMultiview.html" target="_blank">supportsMultiview</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsParallelPSOCreation.html" target="_blank">supportsParallelPSOCreation</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsRawShadowDepthSampling.html" target="_blank">supportsRawShadowDepthSampling</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsRayTracing.html" target="_blank">supportsRayTracing</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsRayTracingShaders.html" target="_blank">supportsRayTracingShaders</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsRenderTargetArrayIndexFromVertexShader.html" target="_blank">supportsRenderTargetArrayIndexFromVertexShader</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsSeparatedRenderTargetsBlend.html" target="_blank">supportsSeparatedRenderTargetsBlend</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsSetConstantBuffer.html" target="_blank">supportsSetConstantBuffer</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsShadows.html" target="_blank">supportsShadows</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsSparseTextures.html" target="_blank">supportsSparseTextures</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsStoreAndResolveAction.html" target="_blank">supportsStoreAndResolveAction</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsTessellationShaders.html" target="_blank">supportsTessellationShaders</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsTextureWrapMirrorOnce.html" target="_blank">supportsTextureWrapMirrorOnce</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsVibration.html" target="_blank">supportsVibration</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-systemMemorySize.html" target="_blank">systemMemorySize</a> : Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-usesLoadStoreActions.html" target="_blank">usesLoadStoreActions</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-usesReversedZBuffer.html" target="_blank">usesReversedZBuffer</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-batteryLevel.html">batteryLevel</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-batteryStatus.html">batteryStatus</a> : BatteryStatus
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-computeSubGroupSize.html">computeSubGroupSize</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-constantBufferOffsetAlignment.html">constantBufferOffsetAlignment</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-copyTextureSupport.html">copyTextureSupport</a> : CopyTextureSupport
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-deviceModel.html">deviceModel</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-deviceName.html">deviceName</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-deviceType.html">deviceType</a> : DeviceType
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-deviceUniqueIdentifier.html">deviceUniqueIdentifier</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-foveatedRenderingCaps.html">foveatedRenderingCaps</a> : FoveatedRenderingCaps
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-graphicsDeviceID.html">graphicsDeviceID</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-graphicsDeviceName.html">graphicsDeviceName</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-graphicsDeviceType.html">graphicsDeviceType</a> : GraphicsDeviceType
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-graphicsDeviceVendor.html">graphicsDeviceVendor</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-graphicsDeviceVendorID.html">graphicsDeviceVendorID</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-graphicsDeviceVersion.html">graphicsDeviceVersion</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-graphicsMemorySize.html">graphicsMemorySize</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-graphicsMultiThreaded.html">graphicsMultiThreaded</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-graphicsShaderLevel.html">graphicsShaderLevel</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-graphicsUVStartsAtTop.html">graphicsUVStartsAtTop</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-hasDynamicUniformArrayIndexingInFragmentShaders.html">hasDynamicUniformArrayIndexingInFragmentShaders</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-hasHiddenSurfaceRemovalOnGPU.html">hasHiddenSurfaceRemovalOnGPU</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-hasMipMaxLevel.html">hasMipMaxLevel</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-hdrDisplaySupportFlags.html">hdrDisplaySupportFlags</a> : HDRDisplaySupportFlags
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-maxAnisotropyLevel.html">maxAnisotropyLevel</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-maxComputeBufferInputsCompute.html">maxComputeBufferInputsCompute</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-maxComputeBufferInputsDomain.html">maxComputeBufferInputsDomain</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-maxComputeBufferInputsFragment.html">maxComputeBufferInputsFragment</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-maxComputeBufferInputsGeometry.html">maxComputeBufferInputsGeometry</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-maxComputeBufferInputsHull.html">maxComputeBufferInputsHull</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-maxComputeBufferInputsVertex.html">maxComputeBufferInputsVertex</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-maxComputeWorkGroupSize.html">maxComputeWorkGroupSize</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-maxComputeWorkGroupSizeX.html">maxComputeWorkGroupSizeX</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-maxComputeWorkGroupSizeY.html">maxComputeWorkGroupSizeY</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-maxComputeWorkGroupSizeZ.html">maxComputeWorkGroupSizeZ</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-maxConstantBufferSize.html">maxConstantBufferSize</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-maxCubemapSize.html">maxCubemapSize</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-maxGraphicsBufferSize.html">maxGraphicsBufferSize</a> : Int64
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-maxTexture3DSize.html">maxTexture3DSize</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-maxTextureArraySlices.html">maxTextureArraySlices</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-maxTextureSize.html">maxTextureSize</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-npotSupport.html">npotSupport</a> : NPOTSupport
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-operatingSystem.html">operatingSystem</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-operatingSystemFamily.html">operatingSystemFamily</a> : OperatingSystemFamily
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-processorCount.html">processorCount</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-processorFrequency.html">processorFrequency</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-processorManufacturer.html">processorManufacturer</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-processorModel.html">processorModel</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-processorType.html">processorType</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-renderingThreadingMode.html">renderingThreadingMode</a> : RenderingThreadingMode
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportedRandomWriteTargetCount.html">supportedRandomWriteTargetCount</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportedRenderTargetCount.html">supportedRenderTargetCount</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supports2DArrayTextures.html">supports2DArrayTextures</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supports32bitsIndexBuffer.html">supports32bitsIndexBuffer</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supports3DRenderTextures.html">supports3DRenderTextures</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supports3DTextures.html">supports3DTextures</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsAccelerometer.html">supportsAccelerometer</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsAnisotropicFilter.html">supportsAnisotropicFilter</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsAsyncCompute.html">supportsAsyncCompute</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsAsyncGPUReadback.html">supportsAsyncGPUReadback</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsAudio.html">supportsAudio</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsCompressed3DTextures.html">supportsCompressed3DTextures</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsComputeShaders.html">supportsComputeShaders</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsConservativeRaster.html">supportsConservativeRaster</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsCubemapArrayTextures.html">supportsCubemapArrayTextures</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsDepthFetchInRenderPass.html">supportsDepthFetchInRenderPass</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsGeometryShaders.html">supportsGeometryShaders</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsGpuRecorder.html">supportsGpuRecorder</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsGraphicsFence.html">supportsGraphicsFence</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsGyroscope.html">supportsGyroscope</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsHardwareQuadTopology.html">supportsHardwareQuadTopology</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsIndirectArgumentsBuffer.html">supportsIndirectArgumentsBuffer</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsIndirectDispatchRays.html">supportsIndirectDispatchRays</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsInlineRayTracing.html">supportsInlineRayTracing</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsInstancing.html">supportsInstancing</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsLocationService.html">supportsLocationService</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsMipStreaming.html">supportsMipStreaming</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsMotionVectors.html">supportsMotionVectors</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsMultisampleAutoResolve.html">supportsMultisampleAutoResolve</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsMultisampled2DArrayTextures.html">supportsMultisampled2DArrayTextures</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsMultisampledTextures.html">supportsMultisampledTextures</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsMultisampleResolveDepth.html">supportsMultisampleResolveDepth</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsMultisampleResolveStencil.html">supportsMultisampleResolveStencil</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsMultiview.html">supportsMultiview</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsParallelPSOCreation.html">supportsParallelPSOCreation</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsRawShadowDepthSampling.html">supportsRawShadowDepthSampling</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsRayTracing.html">supportsRayTracing</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsRayTracingShaders.html">supportsRayTracingShaders</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsRenderTargetArrayIndexFromVertexShader.html">supportsRenderTargetArrayIndexFromVertexShader</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsSeparatedRenderTargetsBlend.html">supportsSeparatedRenderTargetsBlend</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsSetConstantBuffer.html">supportsSetConstantBuffer</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsShadows.html">supportsShadows</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsSparseTextures.html">supportsSparseTextures</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsStoreAndResolveAction.html">supportsStoreAndResolveAction</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsTessellationShaders.html">supportsTessellationShaders</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsTextureWrapMirrorOnce.html">supportsTextureWrapMirrorOnce</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-supportsVibration.html">supportsVibration</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-systemMemorySize.html">systemMemorySize</a> : Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-usesLoadStoreActions.html">usesLoadStoreActions</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-usesReversedZBuffer.html">usesReversedZBuffer</a> : Boolean
 ## Static Fields
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-unsupportedIdentifier.html" target="_blank">unsupportedIdentifier</a> : String
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-unsupportedIdentifier.html">unsupportedIdentifier</a> : String
 ## Static Methods
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo.GetCompatibleFormat.html" target="_blank">GetCompatibleFormat</a> returns GraphicsFormat
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo.GetGraphicsFormat.html" target="_blank">GetGraphicsFormat</a> returns GraphicsFormat
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo.GetRenderTextureSupportedMSAASampleCount.html" target="_blank">GetRenderTextureSupportedMSAASampleCount</a> returns Int32
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo.IsFormatSupported.html" target="_blank">IsFormatSupported</a> returns Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo.SupportsBlendingOnRenderTextureFormat.html" target="_blank">SupportsBlendingOnRenderTextureFormat</a> returns Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo.SupportsRandomWriteOnRenderTextureFormat.html" target="_blank">SupportsRandomWriteOnRenderTextureFormat</a> returns Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo.SupportsRenderTextureFormat.html" target="_blank">SupportsRenderTextureFormat</a> returns Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo.SupportsTextureFormat.html" target="_blank">SupportsTextureFormat</a> returns Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo.SupportsVertexAttributeFormat.html" target="_blank">SupportsVertexAttributeFormat</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo.GetCompatibleFormat.html">GetCompatibleFormat</a> returns GraphicsFormat
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo.GetGraphicsFormat.html">GetGraphicsFormat</a> returns GraphicsFormat
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo.GetRenderTextureSupportedMSAASampleCount.html">GetRenderTextureSupportedMSAASampleCount</a> returns Int32
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo.IsFormatSupported.html">IsFormatSupported</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo.SupportsBlendingOnRenderTextureFormat.html">SupportsBlendingOnRenderTextureFormat</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo.SupportsRandomWriteOnRenderTextureFormat.html">SupportsRandomWriteOnRenderTextureFormat</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo.SupportsRenderTextureFormat.html">SupportsRenderTextureFormat</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo.SupportsTextureFormat.html">SupportsTextureFormat</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo.SupportsVertexAttributeFormat.html">SupportsVertexAttributeFormat</a> returns Boolean

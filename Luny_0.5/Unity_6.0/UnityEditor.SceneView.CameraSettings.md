@@ -1,16 +1,16 @@
 # CameraSettings
 class in UnityEditor
- / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html" target="_blank">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html" target="_blank">UnityEditor.CoreModule</a>
+ / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
 ## Properties
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CameraSettings-accelerationEnabled.html" target="_blank">accelerationEnabled</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CameraSettings-dynamicClip.html" target="_blank">dynamicClip</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CameraSettings-easingDuration.html" target="_blank">easingDuration</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CameraSettings-easingEnabled.html" target="_blank">easingEnabled</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CameraSettings-farClip.html" target="_blank">farClip</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CameraSettings-fieldOfView.html" target="_blank">fieldOfView</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CameraSettings-nearClip.html" target="_blank">nearClip</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CameraSettings-occlusionCulling.html" target="_blank">occlusionCulling</a> : Boolean
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CameraSettings-speed.html" target="_blank">speed</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CameraSettings-speedMax.html" target="_blank">speedMax</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CameraSettings-speedMin.html" target="_blank">speedMin</a> : Single
-- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CameraSettings-speedNormalized.html" target="_blank">speedNormalized</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CameraSettings-accelerationEnabled.html">accelerationEnabled</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CameraSettings-dynamicClip.html">dynamicClip</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CameraSettings-easingDuration.html">easingDuration</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CameraSettings-easingEnabled.html">easingEnabled</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CameraSettings-farClip.html">farClip</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CameraSettings-fieldOfView.html">fieldOfView</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CameraSettings-nearClip.html">nearClip</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CameraSettings-occlusionCulling.html">occlusionCulling</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CameraSettings-speed.html">speed</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CameraSettings-speedMax.html">speedMax</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CameraSettings-speedMin.html">speedMin</a> : Single
+- <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CameraSettings-speedNormalized.html">speedNormalized</a> : Single
