@@ -1,6 +1,7 @@
 # EditorGUIUtility
 class in UnityEditor
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/GUIUtility.html">GUIUtility</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUIUtility-currentViewWidth.html">currentViewWidth</a> : Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUIUtility-editingTextField.html">editingTextField</a> : Boolean
@@ -15,6 +16,7 @@ class in UnityEditor
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUIUtility-textFieldHasSelection.html">textFieldHasSelection</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUIUtility-whiteTexture.html">whiteTexture</a> : Texture2D
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUIUtility-wideMode.html">wideMode</a> : Boolean
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUIUtility.AddCursorRect.html">AddCursorRect</a> (2 overloads)
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUIUtility.CommandEvent.html">CommandEvent</a> returns Event

@@ -1,6 +1,7 @@
 # WSA
 class in UnityEditor
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/WSA-applicationDescription.html">applicationDescription</a> : String
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/WSA-certificateIssuer.html">certificateIssuer</a> : String
@@ -22,6 +23,7 @@ class in UnityEditor
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/WSA-transparentSwapchain.html">transparentSwapchain</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/WSA-vcxProjDefaultLanguage.html">vcxProjDefaultLanguage</a> : String
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/WSA-wideTileShowName.html">wideTileShowName</a> : Boolean
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/WSA.GetCapability.html">GetCapability</a> returns Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/WSA.GetTargetDeviceFamily.html">GetTargetDeviceFamily</a> returns Boolean

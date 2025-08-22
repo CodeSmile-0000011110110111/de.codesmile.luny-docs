@@ -1,6 +1,7 @@
 # LightmapParameters
 class in UnityEditor
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LightmapParameters-antiAliasingSamples.html">antiAliasingSamples</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LightmapParameters-AOAntiAliasingSamples.html">AOAntiAliasingSamples</a> : Int32
@@ -20,8 +21,10 @@ class in UnityEditor
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LightmapParameters-resolution.html">resolution</a> : Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LightmapParameters-stitchEdges.html">stitchEdges</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LightmapParameters-systemTag.html">systemTag</a> : Int32
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LightmapParameters.AssignToLightingSettings.html">AssignToLightingSettings</a>
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LightmapParameters.GetLightmapParametersForLightingSettings.html">GetLightmapParametersForLightingSettings</a> returns LightmapParameters
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LightmapParameters.SetLightmapParametersForLightingSettings.html">SetLightmapParametersForLightingSettings</a>

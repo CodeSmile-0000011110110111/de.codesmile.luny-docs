@@ -1,14 +1,17 @@
 # Vector2
 struct in UnityEngine
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ValueType.html">ValueType</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector2-Item.html">Item</a> : Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector2-magnitude.html">magnitude</a> : Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector2-normalized.html">normalized</a> : Vector2
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector2-sqrMagnitude.html">sqrMagnitude</a> : Single
+
 ## Fields
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector2-x.html">x</a> : Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector2-y.html">y</a> : Single
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector2.Equals.html">Equals</a> returns Boolean (2 overloads)
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector2.GetHashCode.html">GetHashCode</a> returns Int32
@@ -17,6 +20,7 @@ struct in UnityEngine
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector2.Set.html">Set</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector2.SqrMagnitude.html">SqrMagnitude</a> returns Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector2.ToString.html">ToString</a> returns String (2 overloads)
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector2-down.html">down</a> : Vector2
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector2-left.html">left</a> : Vector2
@@ -26,9 +30,11 @@ struct in UnityEngine
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector2-right.html">right</a> : Vector2
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector2-up.html">up</a> : Vector2
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector2-zero.html">zero</a> : Vector2
+
 ## Static Fields
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector2-kEpsilon.html">kEpsilon</a> : Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector2-kEpsilonNormalSqrt.html">kEpsilonNormalSqrt</a> : Single
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector2.Angle.html">Angle</a> returns Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector2.ClampMagnitude.html">ClampMagnitude</a> returns Vector2
@@ -44,6 +50,7 @@ struct in UnityEngine
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector2.Scale.html">Scale</a> returns Vector2
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector2.SignedAngle.html">SignedAngle</a> returns Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector2.SqrMagnitude.html">SqrMagnitude</a> returns Single
+
 ## Operators
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector2.op_Addition.html">op_Addition</a> returns Vector2
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector2.op_Division.html">op_Division</a> returns Vector2 (2 overloads)

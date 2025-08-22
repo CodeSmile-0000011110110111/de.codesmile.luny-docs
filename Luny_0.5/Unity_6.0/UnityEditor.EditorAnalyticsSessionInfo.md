@@ -1,6 +1,7 @@
 # EditorAnalyticsSessionInfo
 class in UnityEditor
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorAnalyticsSessionInfo-activeElapsedTime.html">activeElapsedTime</a> : Int64
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorAnalyticsSessionInfo-elapsedTime.html">elapsedTime</a> : Int64

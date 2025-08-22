@@ -1,6 +1,7 @@
 # ScriptableRenderContext
 struct in UnityEngine.Rendering
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ValueType.html">ValueType</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ScriptableRenderContext.CreateGizmoRendererList.html">CreateGizmoRendererList</a> returns RendererList
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ScriptableRenderContext.CreateRendererList.html">CreateRendererList</a> returns RendererList
@@ -26,10 +27,12 @@ struct in UnityEngine.Rendering
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ScriptableRenderContext.StopMultiEye.html">StopMultiEye</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ScriptableRenderContext.Submit.html">Submit</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ScriptableRenderContext.SubmitForRenderPassValidation.html">SubmitForRenderPassValidation</a> returns Boolean
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ScriptableRenderContext.EmitGeometryForCamera.html">EmitGeometryForCamera</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ScriptableRenderContext.PopDisableApiRenderers.html">PopDisableApiRenderers</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ScriptableRenderContext.PushDisableApiRenderers.html">PushDisableApiRenderers</a>
+
 ## Operators
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ScriptableRenderContext.op_Equality.html">op_Equality</a> returns Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ScriptableRenderContext.op_Inequality.html">op_Inequality</a> returns Boolean

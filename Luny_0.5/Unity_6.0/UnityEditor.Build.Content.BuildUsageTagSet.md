@@ -1,6 +1,7 @@
 # BuildUsageTagSet
 class in UnityEditor.Build.Content
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/BuildUsageTagSet.Dispose.html">Dispose</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/BuildUsageTagSet.Equals.html">Equals</a> returns Boolean

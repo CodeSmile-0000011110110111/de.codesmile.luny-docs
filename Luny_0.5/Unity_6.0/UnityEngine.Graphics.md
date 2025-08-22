@@ -1,6 +1,7 @@
 # Graphics
 class in UnityEngine
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Graphics-activeColorBuffer.html">activeColorBuffer</a> : RenderBuffer
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Graphics-activeColorGamut.html">activeColorGamut</a> : ColorGamut
@@ -8,6 +9,7 @@ class in UnityEngine
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Graphics-activeTier.html">activeTier</a> : GraphicsTier
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Graphics-minOpenGLESVersion.html">minOpenGLESVersion</a> : OpenGLESVersion
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Graphics-preserveFramebufferAlpha.html">preserveFramebufferAlpha</a> : Boolean
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Graphics.Blit.html">Blit</a> (17 overloads)
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Graphics.BlitMultiTap.html">BlitMultiTap</a> (4 overloads)

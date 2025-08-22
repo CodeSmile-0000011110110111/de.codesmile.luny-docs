@@ -1,6 +1,7 @@
 # EndNameEditAction
 class in UnityEditor.ProjectWindowCallback
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ScriptableObject.html">ScriptableObject</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EndNameEditAction.Action.html">Action</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EndNameEditAction.Cancelled.html">Cancelled</a>

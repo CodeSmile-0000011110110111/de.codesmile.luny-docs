@@ -1,8 +1,10 @@
 # PrefabUtility
 class in UnityEditor
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Static Fields
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PrefabUtility-prefabInstanceUpdated.html">prefabInstanceUpdated</a> : PrefabInstanceUpdated
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PrefabUtility.ApplyAddedComponent.html">ApplyAddedComponent</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PrefabUtility.ApplyAddedGameObject.html">ApplyAddedGameObject</a>

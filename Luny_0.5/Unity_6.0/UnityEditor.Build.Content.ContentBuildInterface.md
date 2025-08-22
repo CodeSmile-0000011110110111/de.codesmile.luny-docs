@@ -1,6 +1,7 @@
 # ContentBuildInterface
 class in UnityEditor.Build.Content
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ContentBuildInterface.ArchiveAndCompress.html">ArchiveAndCompress</a> returns UInt32 (2 overloads)
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ContentBuildInterface.CalculateBuildUsageTags.html">CalculateBuildUsageTags</a> (2 overloads)

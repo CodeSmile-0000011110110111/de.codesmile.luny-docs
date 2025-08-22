@@ -1,11 +1,13 @@
 # AssetDatabase
 class in UnityEditor
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase-ActiveRefreshImportMode.html">ActiveRefreshImportMode</a> : RefreshImportMode
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase-DesiredWorkerCount.html">DesiredWorkerCount</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase-GlobalArtifactDependencyVersion.html">GlobalArtifactDependencyVersion</a> : UInt32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase-GlobalArtifactProcessedVersion.html">GlobalArtifactProcessedVersion</a> : UInt32
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.AddObjectToAsset.html">AddObjectToAsset</a> (2 overloads)
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetDatabase.AllowAutoRefresh.html">AllowAutoRefresh</a>

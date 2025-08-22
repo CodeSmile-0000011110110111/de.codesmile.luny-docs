@@ -1,6 +1,7 @@
 # SpeedTreeImporter
 class in UnityEditor
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetImporter.html">AssetImporter</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SpeedTreeImporter-alphaTestRef.html">alphaTestRef</a> : Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SpeedTreeImporter-animateCrossFading.html">animateCrossFading</a> : Boolean
@@ -38,8 +39,10 @@ class in UnityEditor
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SpeedTreeImporter-useLightProbes.html">useLightProbes</a> : Boolean[]
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SpeedTreeImporter-useLightProbesByDefault.html">useLightProbesByDefault</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SpeedTreeImporter-windQualities.html">windQualities</a> : Int32[]
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SpeedTreeImporter.GenerateMaterials.html">GenerateMaterials</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SpeedTreeImporter.SearchAndRemapMaterials.html">SearchAndRemapMaterials</a> returns Boolean
+
 ## Static Fields
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SpeedTreeImporter-windQualityNames.html">windQualityNames</a> : String[]

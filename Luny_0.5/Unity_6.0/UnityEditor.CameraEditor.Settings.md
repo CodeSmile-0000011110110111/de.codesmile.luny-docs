@@ -1,6 +1,7 @@
 # Settings
 class in UnityEditor
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-allowDynamicResolution.html">allowDynamicResolution</a> : SerializedProperty
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-allowMSAA.html">allowMSAA</a> : SerializedProperty
@@ -35,6 +36,7 @@ class in UnityEditor
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-targetEye.html">targetEye</a> : SerializedProperty
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-targetTexture.html">targetTexture</a> : SerializedProperty
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-verticalFOV.html">verticalFOV</a> : SerializedProperty
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.ApplyModifiedProperties.html">ApplyModifiedProperties</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawBackgroundColor.html">DrawBackgroundColor</a>
@@ -54,5 +56,6 @@ class in UnityEditor
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawTargetTexture.html">DrawTargetTexture</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.OnEnable.html">OnEnable</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.Update.html">Update</a>
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawCameraWarnings.html">DrawCameraWarnings</a>

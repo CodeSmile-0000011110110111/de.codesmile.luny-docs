@@ -1,6 +1,7 @@
 # EditorStyles
 class in UnityEditor
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorStyles-boldFont.html">boldFont</a> : Font
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorStyles-boldLabel.html">boldLabel</a> : GUIStyle
@@ -52,6 +53,7 @@ class in UnityEditor
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorStyles-whiteMiniLabel.html">whiteMiniLabel</a> : GUIStyle
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorStyles-wordWrappedLabel.html">wordWrappedLabel</a> : GUIStyle
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorStyles-wordWrappedMiniLabel.html">wordWrappedMiniLabel</a> : GUIStyle
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorStyles.ApplyUSS.html">ApplyUSS</a> returns GUIStyle (2 overloads)
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorStyles.FromUSS.html">FromUSS</a> returns GUIStyle (4 overloads)

@@ -1,6 +1,7 @@
 # LineRenderer
 class in UnityEngine
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Renderer.html">Renderer</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LineRenderer-alignment.html">alignment</a> : LineAlignment
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LineRenderer-colorGradient.html">colorGradient</a> : Gradient
@@ -20,6 +21,7 @@ class in UnityEngine
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LineRenderer-useWorldSpace.html">useWorldSpace</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LineRenderer-widthCurve.html">widthCurve</a> : AnimationCurve
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LineRenderer-widthMultiplier.html">widthMultiplier</a> : Single
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LineRenderer.BakeMesh.html">BakeMesh</a> (4 overloads)
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LineRenderer.GetPosition.html">GetPosition</a> returns Vector3

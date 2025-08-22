@@ -1,9 +1,11 @@
 # RayTracingMeshInstanceConfig
 struct in UnityEngine.Rendering
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ValueType.html">ValueType</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/RayTracingMeshInstanceConfig-accelerationStructureBuildFlags.html">accelerationStructureBuildFlags</a> : RayTracingAccelerationStructureBuildFlags
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/RayTracingMeshInstanceConfig-accelerationStructureBuildFlagsOverride.html">accelerationStructureBuildFlagsOverride</a> : Boolean
+
 ## Fields
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/RayTracingMeshInstanceConfig-dynamicGeometry.html">dynamicGeometry</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/RayTracingMeshInstanceConfig-enableTriangleCulling.html">enableTriangleCulling</a> : Boolean

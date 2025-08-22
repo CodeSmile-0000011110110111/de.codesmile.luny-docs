@@ -1,10 +1,12 @@
 # HierarchyFrameDataView
 class in UnityEditor.Profiling
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/FrameDataView.html">FrameDataView</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/HierarchyFrameDataView-sortColumn.html">sortColumn</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/HierarchyFrameDataView-sortColumnAscending.html">sortColumnAscending</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/HierarchyFrameDataView-viewMode.html">viewMode</a> : ViewModes
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/HierarchyFrameDataView.Equals.html">Equals</a> returns Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/HierarchyFrameDataView.GetHashCode.html">GetHashCode</a> returns Int32
@@ -34,6 +36,7 @@ class in UnityEditor.Profiling
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/HierarchyFrameDataView.ResolveItemCallstack.html">ResolveItemCallstack</a> returns String
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/HierarchyFrameDataView.ResolveItemMergedSampleCallstack.html">ResolveItemMergedSampleCallstack</a> returns String
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/HierarchyFrameDataView.Sort.html">Sort</a>
+
 ## Static Fields
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/HierarchyFrameDataView-columnCalls.html">columnCalls</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/HierarchyFrameDataView-columnDontSort.html">columnDontSort</a> : Int32

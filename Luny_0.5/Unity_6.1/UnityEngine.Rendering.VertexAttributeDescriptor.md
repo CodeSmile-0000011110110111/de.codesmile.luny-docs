@@ -1,0 +1,18 @@
+# VertexAttributeDescriptor
+struct in UnityEngine.Rendering
+ / Inherits from: <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/ValueType.html">ValueType</a> / Implemented in: <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
+## Properties
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/VertexAttributeDescriptor-attribute.html">attribute</a> : VertexAttribute
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/VertexAttributeDescriptor-dimension.html">dimension</a> : Int32
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/VertexAttributeDescriptor-format.html">format</a> : VertexAttributeFormat
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/VertexAttributeDescriptor-stream.html">stream</a> : Int32
+
+## Methods
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/VertexAttributeDescriptor.Equals.html">Equals</a> returns Boolean (2 overloads)
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/VertexAttributeDescriptor.GetHashCode.html">GetHashCode</a> returns Int32
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/VertexAttributeDescriptor.ToString.html">ToString</a> returns String
+
+## Operators
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/VertexAttributeDescriptor.op_Equality.html">op_Equality</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/VertexAttributeDescriptor.op_Inequality.html">op_Inequality</a> returns Boolean

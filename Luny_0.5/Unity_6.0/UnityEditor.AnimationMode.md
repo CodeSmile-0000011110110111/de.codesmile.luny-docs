@@ -1,10 +1,12 @@
 # AnimationMode
 class in UnityEditor
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AnimationMode-animatedPropertyColor.html">animatedPropertyColor</a> : Color
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AnimationMode-candidatePropertyColor.html">candidatePropertyColor</a> : Color
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AnimationMode-recordedPropertyColor.html">recordedPropertyColor</a> : Color
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AnimationMode.AddEditorCurveBinding.html">AddEditorCurveBinding</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AnimationMode.AddPropertyModification.html">AddPropertyModification</a>

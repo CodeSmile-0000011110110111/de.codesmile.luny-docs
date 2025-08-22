@@ -1,6 +1,7 @@
 # Material
 class in UnityEngine
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material-color.html">color</a> : Color
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material-doubleSidedGI.html">doubleSidedGI</a> : Boolean
@@ -15,6 +16,7 @@ class in UnityEngine
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material-renderQueue.html">renderQueue</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material-shader.html">shader</a> : Shader
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material-shaderKeywords.html">shaderKeywords</a> : String[]
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.ComputeCRC.html">ComputeCRC</a> returns Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Material.CopyMatchingPropertiesFromMaterial.html">CopyMatchingPropertiesFromMaterial</a>

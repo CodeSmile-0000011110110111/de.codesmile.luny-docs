@@ -1,6 +1,7 @@
 # BoundsInt
 struct in UnityEngine
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ValueType.html">ValueType</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/BoundsInt-allPositionsWithin.html">allPositionsWithin</a> : PositionEnumerator
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/BoundsInt-center.html">center</a> : Vector3
@@ -17,6 +18,7 @@ struct in UnityEngine
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/BoundsInt-z.html">z</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/BoundsInt-zMax.html">zMax</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/BoundsInt-zMin.html">zMin</a> : Int32
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/BoundsInt.ClampToBounds.html">ClampToBounds</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/BoundsInt.Contains.html">Contains</a> returns Boolean
@@ -24,6 +26,7 @@ struct in UnityEngine
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/BoundsInt.GetHashCode.html">GetHashCode</a> returns Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/BoundsInt.SetMinMax.html">SetMinMax</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/BoundsInt.ToString.html">ToString</a> returns String (2 overloads)
+
 ## Operators
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/BoundsInt.op_Equality.html">op_Equality</a> returns Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/BoundsInt.op_Inequality.html">op_Inequality</a> returns Boolean

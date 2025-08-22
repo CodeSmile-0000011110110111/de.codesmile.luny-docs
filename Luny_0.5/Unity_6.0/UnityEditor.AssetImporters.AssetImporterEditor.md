@@ -1,8 +1,10 @@
 # AssetImporterEditor
 class in UnityEditor.AssetImporters
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Editor.html">Editor</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetImporterEditor-showImportedObject.html">showImportedObject</a> : Boolean
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetImporterEditor.DiscardChanges.html">DiscardChanges</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetImporterEditor.DrawPreview.html">DrawPreview</a>

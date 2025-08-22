@@ -1,0 +1,3 @@
+# BuildType
+enumeration in UnityEditor.Build.Reporting
+ / Inherits from: <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/Enum.html">Enum</a> / Implemented in: <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>

@@ -1,6 +1,7 @@
 # BatchRendererGroup
 class in UnityEngine.Rendering
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/BatchRendererGroup.Dispose.html">Dispose</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/BatchRendererGroup.GetRegisteredMaterial.html">GetRegisteredMaterial</a> returns Material
@@ -17,8 +18,10 @@ class in UnityEngine.Rendering
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/BatchRendererGroup.SetPickingMaterial.html">SetPickingMaterial</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/BatchRendererGroup.UnregisterMaterial.html">UnregisterMaterial</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/BatchRendererGroup.UnregisterMesh.html">UnregisterMesh</a>
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/BatchRendererGroup-BufferTarget.html">BufferTarget</a> : BatchBufferTarget
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/BatchRendererGroup.GetConstantBufferMaxWindowSize.html">GetConstantBufferMaxWindowSize</a> returns Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/BatchRendererGroup.GetConstantBufferOffsetAlignment.html">GetConstantBufferOffsetAlignment</a> returns Int32

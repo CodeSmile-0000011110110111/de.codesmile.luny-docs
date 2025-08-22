@@ -1,6 +1,7 @@
 # StageUtility
 class in UnityEditor.SceneManagement
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/StageUtility.GetCurrentStage.html">GetCurrentStage</a> returns Stage
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/StageUtility.GetCurrentStageHandle.html">GetCurrentStageHandle</a> returns StageHandle

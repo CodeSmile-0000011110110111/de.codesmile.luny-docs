@@ -1,6 +1,7 @@
 # Mesh
 class in UnityEngine
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mesh-bindposeCount.html">bindposeCount</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mesh-bindposes.html">bindposes</a> : Matrix4x4[]
@@ -30,6 +31,7 @@ class in UnityEngine
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mesh-vertexBufferTarget.html">vertexBufferTarget</a> : Target
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mesh-vertexCount.html">vertexCount</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mesh-vertices.html">vertices</a> : Vector3[]
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mesh.AddBlendShapeFrame.html">AddBlendShapeFrame</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mesh.Clear.html">Clear</a> (2 overloads)
@@ -83,6 +85,7 @@ class in UnityEngine
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mesh.SetVertexBufferParams.html">SetVertexBufferParams</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mesh.SetVertices.html">SetVertices</a> (3 overloads)
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mesh.UploadMeshData.html">UploadMeshData</a>
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mesh.AcquireReadOnlyMeshData.html">AcquireReadOnlyMeshData</a> returns MeshDataArray (2 overloads)
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mesh.AllocateWritableMeshData.html">AllocateWritableMeshData</a> returns MeshDataArray (3 overloads)

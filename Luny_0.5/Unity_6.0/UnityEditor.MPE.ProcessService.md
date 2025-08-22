@@ -1,9 +1,11 @@
 # ProcessService
 class in UnityEditor.MPE
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ProcessService-level.html">level</a> : ProcessLevel
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ProcessService-roleName.html">roleName</a> : String
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ProcessService.ApplyPropertyModifications.html">ApplyPropertyModifications</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ProcessService.DeserializeObject.html">DeserializeObject</a> returns Object

@@ -1,6 +1,7 @@
 # Camera
 class in UnityEngine
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Behaviour.html">Behaviour</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-activeTexture.html">activeTexture</a> : RenderTexture
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-actualRenderingPath.html">actualRenderingPath</a> : RenderingPath
@@ -69,6 +70,7 @@ class in UnityEngine
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-usePhysicalProperties.html">usePhysicalProperties</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-velocity.html">velocity</a> : Vector3
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-worldToCameraMatrix.html">worldToCameraMatrix</a> : Matrix4x4
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.AddCommandBuffer.html">AddCommandBuffer</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.AddCommandBufferAsync.html">AddCommandBufferAsync</a>
@@ -110,11 +112,13 @@ class in UnityEngine
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.ViewportToWorldPoint.html">ViewportToWorldPoint</a> returns Vector3 (2 overloads)
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.WorldToScreenPoint.html">WorldToScreenPoint</a> returns Vector3 (2 overloads)
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.WorldToViewportPoint.html">WorldToViewportPoint</a> returns Vector3 (2 overloads)
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-allCameras.html">allCameras</a> : Camera[]
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-allCamerasCount.html">allCamerasCount</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-current.html">current</a> : Camera
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-main.html">main</a> : Camera
+
 ## Static Fields
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-kMaxAperture.html">kMaxAperture</a> : Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-kMaxBladeCount.html">kMaxBladeCount</a> : Int32
@@ -123,6 +127,7 @@ class in UnityEngine
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-onPostRender.html">onPostRender</a> : CameraCallback
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-onPreCull.html">onPreCull</a> : CameraCallback
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera-onPreRender.html">onPreRender</a> : CameraCallback
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.FieldOfViewToFocalLength.html">FieldOfViewToFocalLength</a> returns Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.FocalLengthToFieldOfView.html">FocalLengthToFieldOfView</a> returns Single

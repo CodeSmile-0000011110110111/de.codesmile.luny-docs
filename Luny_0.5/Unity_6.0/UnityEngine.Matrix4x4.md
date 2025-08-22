@@ -1,6 +1,7 @@
 # Matrix4x4
 struct in UnityEngine
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ValueType.html">ValueType</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Matrix4x4-decomposeProjection.html">decomposeProjection</a> : FrustumPlanes
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Matrix4x4-determinant.html">determinant</a> : Single
@@ -11,6 +12,7 @@ struct in UnityEngine
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Matrix4x4-lossyScale.html">lossyScale</a> : Vector3
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Matrix4x4-rotation.html">rotation</a> : Quaternion
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Matrix4x4-transpose.html">transpose</a> : Matrix4x4
+
 ## Fields
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Matrix4x4-m00.html">m00</a> : Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Matrix4x4-m01.html">m01</a> : Single
@@ -28,6 +30,7 @@ struct in UnityEngine
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Matrix4x4-m31.html">m31</a> : Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Matrix4x4-m32.html">m32</a> : Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Matrix4x4-m33.html">m33</a> : Single
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Matrix4x4.Equals.html">Equals</a> returns Boolean (2 overloads)
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Matrix4x4.GetColumn.html">GetColumn</a> returns Vector4
@@ -43,9 +46,11 @@ struct in UnityEngine
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Matrix4x4.ToString.html">ToString</a> returns String (2 overloads)
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Matrix4x4.TransformPlane.html">TransformPlane</a> returns Plane
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Matrix4x4.ValidTRS.html">ValidTRS</a> returns Boolean
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Matrix4x4-identity.html">identity</a> : Matrix4x4
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Matrix4x4-zero.html">zero</a> : Matrix4x4
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Matrix4x4.Determinant.html">Determinant</a> returns Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Matrix4x4.Frustum.html">Frustum</a> returns Matrix4x4 (2 overloads)
@@ -58,6 +63,7 @@ struct in UnityEngine
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Matrix4x4.Translate.html">Translate</a> returns Matrix4x4
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Matrix4x4.Transpose.html">Transpose</a> returns Matrix4x4
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Matrix4x4.TRS.html">TRS</a> returns Matrix4x4
+
 ## Operators
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Matrix4x4.op_Equality.html">op_Equality</a> returns Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Matrix4x4.op_Inequality.html">op_Inequality</a> returns Boolean

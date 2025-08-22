@@ -1,6 +1,7 @@
 # SystemInfo
 class in UnityEngine
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-batteryLevel.html">batteryLevel</a> : Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-batteryStatus.html">batteryStatus</a> : BatteryStatus
@@ -102,8 +103,10 @@ class in UnityEngine
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-systemMemorySize.html">systemMemorySize</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-usesLoadStoreActions.html">usesLoadStoreActions</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-usesReversedZBuffer.html">usesReversedZBuffer</a> : Boolean
+
 ## Static Fields
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo-unsupportedIdentifier.html">unsupportedIdentifier</a> : String
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo.GetCompatibleFormat.html">GetCompatibleFormat</a> returns GraphicsFormat
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SystemInfo.GetGraphicsFormat.html">GetGraphicsFormat</a> returns GraphicsFormat

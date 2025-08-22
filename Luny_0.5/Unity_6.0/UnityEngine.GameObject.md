@@ -1,6 +1,7 @@
 # GameObject
 class in UnityEngine
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/GameObject-activeInHierarchy.html">activeInHierarchy</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/GameObject-activeSelf.html">activeSelf</a> : Boolean
@@ -11,6 +12,7 @@ class in UnityEngine
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/GameObject-sceneCullingMask.html">sceneCullingMask</a> : UInt64
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/GameObject-tag.html">tag</a> : String
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/GameObject-transform.html">transform</a> : Transform
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/GameObject.AddComponent.html">AddComponent</a> returns Component
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/GameObject.BroadcastMessage.html">BroadcastMessage</a> (4 overloads)
@@ -27,6 +29,7 @@ class in UnityEngine
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/GameObject.SendMessage.html">SendMessage</a> (4 overloads)
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/GameObject.SendMessageUpwards.html">SendMessageUpwards</a> (4 overloads)
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/GameObject.SetActive.html">SetActive</a>
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/GameObject.CreatePrimitive.html">CreatePrimitive</a> returns GameObject
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/GameObject.Find.html">Find</a> returns GameObject

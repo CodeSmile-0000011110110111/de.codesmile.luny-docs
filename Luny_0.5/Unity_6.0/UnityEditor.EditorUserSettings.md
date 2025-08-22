@@ -1,6 +1,7 @@
 # EditorUserSettings
 class in UnityEditor
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUserSettings-allowAsyncStatusUpdate.html">allowAsyncStatusUpdate</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUserSettings-artifactGarbageCollection.html">artifactGarbageCollection</a> : Boolean
@@ -17,6 +18,7 @@ class in UnityEditor
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUserSettings-showFailedCheckout.html">showFailedCheckout</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUserSettings-standbyImportWorkerCount.html">standbyImportWorkerCount</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUserSettings-WorkOffline.html">WorkOffline</a> : Boolean
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUserSettings.GetConfigValue.html">GetConfigValue</a> returns String
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUserSettings.SetConfigValue.html">SetConfigValue</a>

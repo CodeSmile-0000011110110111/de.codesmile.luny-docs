@@ -1,6 +1,7 @@
 # CustomRenderTexture
 class in UnityEngine
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/RenderTexture.html">RenderTexture</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CustomRenderTexture-cubemapFaceMask.html">cubemapFaceMask</a> : UInt32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CustomRenderTexture-doubleBuffered.html">doubleBuffered</a> : Boolean
@@ -15,6 +16,7 @@ class in UnityEngine
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CustomRenderTexture-updatePeriod.html">updatePeriod</a> : Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CustomRenderTexture-updateZoneSpace.html">updateZoneSpace</a> : CustomRenderTextureUpdateZoneSpace
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CustomRenderTexture-wrapUpdateZones.html">wrapUpdateZones</a> : Boolean
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CustomRenderTexture.ClearUpdateZones.html">ClearUpdateZones</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CustomRenderTexture.EnsureDoubleBufferConsistency.html">EnsureDoubleBufferConsistency</a>

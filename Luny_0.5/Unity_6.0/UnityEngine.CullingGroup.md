@@ -1,10 +1,12 @@
 # CullingGroup
 class in UnityEngine
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CullingGroup-enabled.html">enabled</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CullingGroup-onStateChanged.html">onStateChanged</a> : StateChanged
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CullingGroup-targetCamera.html">targetCamera</a> : Camera
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CullingGroup.Dispose.html">Dispose</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CullingGroup.EraseSwapBack.html">EraseSwapBack</a>
@@ -15,4 +17,5 @@ class in UnityEngine
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CullingGroup.SetBoundingSphereCount.html">SetBoundingSphereCount</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CullingGroup.SetBoundingSpheres.html">SetBoundingSpheres</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CullingGroup.SetDistanceReferencePoint.html">SetDistanceReferencePoint</a> (2 overloads)
+
 ## Static Methods

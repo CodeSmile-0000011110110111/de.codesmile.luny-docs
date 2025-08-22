@@ -1,6 +1,7 @@
 # Profiler
 class in UnityEngine.Profiling
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Profiler-areaCount.html">areaCount</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Profiler-enableAllocationCallstacks.html">enableAllocationCallstacks</a> : Boolean
@@ -10,6 +11,7 @@ class in UnityEngine.Profiling
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Profiler-maxUsedMemory.html">maxUsedMemory</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Profiler-supported.html">supported</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Profiler-usedHeapSizeLong.html">usedHeapSizeLong</a> : Int64
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Profiler.AddFramesFromFile.html">AddFramesFromFile</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Profiler.BeginSample.html">BeginSample</a> (2 overloads)

@@ -1,11 +1,13 @@
 # PreviewRenderUtility
 class in UnityEditor
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PreviewRenderUtility-ambientColor.html">ambientColor</a> : Color
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PreviewRenderUtility-camera.html">camera</a> : Camera
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PreviewRenderUtility-cameraFieldOfView.html">cameraFieldOfView</a> : Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PreviewRenderUtility-lights.html">lights</a> : Light[]
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PreviewRenderUtility.AddSingleGO.html">AddSingleGO</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PreviewRenderUtility.BeginPreview.html">BeginPreview</a>

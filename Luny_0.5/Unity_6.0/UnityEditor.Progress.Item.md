@@ -1,6 +1,7 @@
 # Item
 class in UnityEditor
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Item-cancellable.html">cancellable</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Item-currentStep.html">currentStep</a> : Int32
@@ -27,6 +28,7 @@ class in UnityEditor
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Item-timeDisplayMode.html">timeDisplayMode</a> : TimeDisplayMode
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Item-totalSteps.html">totalSteps</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Item-updateTime.html">updateTime</a> : DateTime
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Item.Cancel.html">Cancel</a> returns Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Item.ClearRemainingTime.html">ClearRemainingTime</a>

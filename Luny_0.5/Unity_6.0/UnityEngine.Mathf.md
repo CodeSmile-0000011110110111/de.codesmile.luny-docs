@@ -1,6 +1,7 @@
 # Mathf
 struct in UnityEngine
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ValueType.html">ValueType</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Static Fields
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf-Deg2Rad.html">Deg2Rad</a> : Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf-Epsilon.html">Epsilon</a> : Single
@@ -8,6 +9,7 @@ struct in UnityEngine
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf-NegativeInfinity.html">NegativeInfinity</a> : Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf-PI.html">PI</a> : Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf-Rad2Deg.html">Rad2Deg</a> : Single
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Abs.html">Abs</a> returns Single (2 overloads)
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Acos.html">Acos</a> returns Single

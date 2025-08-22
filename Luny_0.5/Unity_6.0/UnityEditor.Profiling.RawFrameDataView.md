@@ -1,6 +1,7 @@
 # RawFrameDataView
 class in UnityEditor.Profiling
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/FrameDataView.html">FrameDataView</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/RawFrameDataView.Equals.html">Equals</a> returns Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/RawFrameDataView.GetHashCode.html">GetHashCode</a> returns Int32
@@ -20,5 +21,6 @@ class in UnityEditor.Profiling
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/RawFrameDataView.GetSampleStartTimeNs.html">GetSampleStartTimeNs</a> returns UInt64
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/RawFrameDataView.GetSampleTimeMs.html">GetSampleTimeMs</a> returns Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/RawFrameDataView.GetSampleTimeNs.html">GetSampleTimeNs</a> returns UInt64
+
 ## Static Fields
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/RawFrameDataView-invalidSampleIndex.html">invalidSampleIndex</a> : Int32

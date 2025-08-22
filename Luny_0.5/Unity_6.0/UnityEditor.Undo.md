@@ -1,13 +1,16 @@
 # Undo
 class in UnityEditor
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Undo-isProcessing.html">isProcessing</a> : Boolean
+
 ## Static Fields
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Undo-postprocessModifications.html">postprocessModifications</a> : PostprocessModifications
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Undo-undoRedoEvent.html">undoRedoEvent</a> : UndoRedoEventCallback
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Undo-undoRedoPerformed.html">undoRedoPerformed</a> : UndoRedoCallback
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Undo-willFlushUndoRecord.html">willFlushUndoRecord</a> : WillFlushUndoRecord
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Undo.AddComponent.html">AddComponent</a> returns Component
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Undo.ClearAll.html">ClearAll</a>

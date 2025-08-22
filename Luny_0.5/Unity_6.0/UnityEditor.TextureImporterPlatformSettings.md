@@ -1,6 +1,7 @@
 # TextureImporterPlatformSettings
 class in UnityEditor
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/TextureImporterPlatformSettings-allowsAlphaSplitting.html">allowsAlphaSplitting</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/TextureImporterPlatformSettings-androidETC2FallbackOverride.html">androidETC2FallbackOverride</a> : AndroidETC2FallbackOverride
@@ -13,5 +14,6 @@ class in UnityEditor
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/TextureImporterPlatformSettings-overridden.html">overridden</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/TextureImporterPlatformSettings-resizeAlgorithm.html">resizeAlgorithm</a> : TextureResizeAlgorithm
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/TextureImporterPlatformSettings-textureCompression.html">textureCompression</a> : TextureImporterCompression
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/TextureImporterPlatformSettings.CopyTo.html">CopyTo</a>

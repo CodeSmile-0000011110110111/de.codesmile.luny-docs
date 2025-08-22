@@ -1,6 +1,7 @@
 # SpriteRenderer
 class in UnityEngine
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Renderer.html">Renderer</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SpriteRenderer-adaptiveModeThreshold.html">adaptiveModeThreshold</a> : Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SpriteRenderer-color.html">color</a> : Color
@@ -12,4 +13,5 @@ class in UnityEngine
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SpriteRenderer-sprite.html">sprite</a> : Sprite
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SpriteRenderer-spriteSortPoint.html">spriteSortPoint</a> : SpriteSortPoint
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SpriteRenderer-tileMode.html">tileMode</a> : SpriteTileMode
+
 ## Methods

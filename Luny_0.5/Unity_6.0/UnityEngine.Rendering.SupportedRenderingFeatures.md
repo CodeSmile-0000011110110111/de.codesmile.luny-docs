@@ -1,6 +1,7 @@
 # SupportedRenderingFeatures
 class in UnityEngine.Rendering
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SupportedRenderingFeatures-ambientProbeBaking.html">ambientProbeBaking</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SupportedRenderingFeatures-defaultMixedLightingModes.html">defaultMixedLightingModes</a> : LightmapMixedBakeModes
@@ -33,5 +34,6 @@ class in UnityEngine.Rendering
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SupportedRenderingFeatures-skyOcclusion.html">skyOcclusion</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SupportedRenderingFeatures-supportsClouds.html">supportsClouds</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SupportedRenderingFeatures-supportsHDR.html">supportsHDR</a> : Boolean
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SupportedRenderingFeatures-active.html">active</a> : SupportedRenderingFeatures

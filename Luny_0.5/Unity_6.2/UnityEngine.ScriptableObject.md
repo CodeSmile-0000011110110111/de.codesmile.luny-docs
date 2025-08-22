@@ -1,0 +1,6 @@
+# ScriptableObject
+class in UnityEngine
+ / Inherits from: <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
+## Static Methods
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/ScriptableObject.CreateInstance.html">CreateInstance</a> returns ScriptableObject (2 overloads)

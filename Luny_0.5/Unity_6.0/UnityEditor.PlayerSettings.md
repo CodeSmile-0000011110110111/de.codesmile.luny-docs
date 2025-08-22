@@ -1,6 +1,7 @@
 # PlayerSettings
 class in UnityEditor
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-accelerometerFrequency.html">accelerometerFrequency</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-actionOnDotNetUnhandledException.html">actionOnDotNetUnhandledException</a> : ActionOnDotNetUnhandledException
@@ -81,6 +82,7 @@ class in UnityEditor
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-xboxEnableAvatar.html">xboxEnableAvatar</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-xboxOneResolution.html">xboxOneResolution</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings-xboxPIXTextureCapture.html">xboxPIXTextureCapture</a> : Boolean
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.GetAdditionalCompilerArguments.html">GetAdditionalCompilerArguments</a> returns String[]
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayerSettings.GetAdditionalIl2CppArgs.html">GetAdditionalIl2CppArgs</a> returns String

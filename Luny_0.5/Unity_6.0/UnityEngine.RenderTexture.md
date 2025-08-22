@@ -1,6 +1,7 @@
 # RenderTexture
 class in UnityEngine
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Texture.html">Texture</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/RenderTexture-antiAliasing.html">antiAliasing</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/RenderTexture-autoGenerateMips.html">autoGenerateMips</a> : Boolean
@@ -25,6 +26,7 @@ class in UnityEngine
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/RenderTexture-volumeDepth.html">volumeDepth</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/RenderTexture-vrUsage.html">vrUsage</a> : VRTextureUsage
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/RenderTexture-width.html">width</a> : Int32
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/RenderTexture.ApplyDynamicScale.html">ApplyDynamicScale</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/RenderTexture.ConvertToEquirect.html">ConvertToEquirect</a> (2 overloads)
@@ -35,8 +37,10 @@ class in UnityEngine
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/RenderTexture.Release.html">Release</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/RenderTexture.ResolveAntiAliasedSurface.html">ResolveAntiAliasedSurface</a> (2 overloads)
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/RenderTexture.SetGlobalShaderProperty.html">SetGlobalShaderProperty</a>
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/RenderTexture-active.html">active</a> : RenderTexture
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/RenderTexture.GetTemporary.html">GetTemporary</a> returns RenderTexture (14 overloads)
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/RenderTexture.ReleaseTemporary.html">ReleaseTemporary</a>

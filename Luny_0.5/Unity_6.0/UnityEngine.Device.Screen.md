@@ -1,6 +1,7 @@
 # Screen
 class in UnityEngine.Device
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Screen-autorotateToLandscapeLeft.html">autorotateToLandscapeLeft</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Screen-autorotateToLandscapeRight.html">autorotateToLandscapeRight</a> : Boolean
@@ -21,6 +22,7 @@ class in UnityEngine.Device
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Screen-safeArea.html">safeArea</a> : Rect
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Screen-sleepTimeout.html">sleepTimeout</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Screen-width.html">width</a> : Int32
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Screen.SetMSAASamples.html">SetMSAASamples</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Screen.SetResolution.html">SetResolution</a> (3 overloads)

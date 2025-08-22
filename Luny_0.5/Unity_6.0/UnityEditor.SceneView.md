@@ -1,6 +1,7 @@
 # SceneView
 class in UnityEditor
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SearchableEditorWindow.html">SearchableEditorWindow</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SceneView-audioPlay.html">audioPlay</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SceneView-camera.html">camera</a> : Camera
@@ -21,6 +22,7 @@ class in UnityEditor
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SceneView-showGrid.html">showGrid</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SceneView-size.html">size</a> : Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SceneView-validateTrueMetals.html">validateTrueMetals</a> : Boolean
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SceneView.AddItemsToMenu.html">AddItemsToMenu</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SceneView.AlignViewToObject.html">AlignViewToObject</a>
@@ -38,11 +40,13 @@ class in UnityEditor
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SceneView.OnEnable.html">OnEnable</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SceneView.ResetCameraSettings.html">ResetCameraSettings</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SceneView.SetSceneViewShaderReplace.html">SetSceneViewShaderReplace</a>
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SceneView-currentDrawingSceneView.html">currentDrawingSceneView</a> : SceneView
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SceneView-lastActiveSceneView.html">lastActiveSceneView</a> : SceneView
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SceneView-sceneViews.html">sceneViews</a> : ArrayList
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SceneView-selectedOutlineColor.html">selectedOutlineColor</a> : Color
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SceneView.AddCameraMode.html">AddCameraMode</a> returns CameraMode
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SceneView.ClearUserDefinedCameraModes.html">ClearUserDefinedCameraModes</a>

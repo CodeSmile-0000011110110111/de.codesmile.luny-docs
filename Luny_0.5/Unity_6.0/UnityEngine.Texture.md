@@ -1,6 +1,7 @@
 # Texture
 class in UnityEngine
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Texture-anisoLevel.html">anisoLevel</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Texture-dimension.html">dimension</a> : TextureDimension
@@ -19,8 +20,10 @@ class in UnityEngine
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Texture-wrapModeU.html">wrapModeU</a> : TextureWrapMode
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Texture-wrapModeV.html">wrapModeV</a> : TextureWrapMode
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Texture-wrapModeW.html">wrapModeW</a> : TextureWrapMode
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Texture.IncrementUpdateCount.html">IncrementUpdateCount</a>
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Texture-allowThreadedTextureCreation.html">allowThreadedTextureCreation</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Texture-anisotropicFiltering.html">anisotropicFiltering</a> : AnisotropicFiltering
@@ -37,8 +40,10 @@ class in UnityEngine
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Texture-streamingTexturePendingLoadCount.html">streamingTexturePendingLoadCount</a> : UInt64
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Texture-targetTextureMemory.html">targetTextureMemory</a> : UInt64
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Texture-totalTextureMemory.html">totalTextureMemory</a> : UInt64
+
 ## Static Fields
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Texture-GenerateAllMips.html">GenerateAllMips</a> : Int32
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Texture.SetGlobalAnisotropicFilteringLimits.html">SetGlobalAnisotropicFilteringLimits</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Texture.SetStreamingTextureMaterialDebugProperties.html">SetStreamingTextureMaterialDebugProperties</a> (2 overloads)

@@ -1,0 +1,73 @@
+# EditorGUI
+class in UnityEditor
+ / Inherits from: <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
+## Static Properties
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI-actionKey.html">actionKey</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI-indentLevel.html">indentLevel</a> : Int32
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI-showMixedValue.html">showMixedValue</a> : Boolean
+
+## Static Methods
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.BeginChangeCheck.html">BeginChangeCheck</a>
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.BeginDisabledGroup.html">BeginDisabledGroup</a>
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.BoundsField.html">BoundsField</a> returns Bounds (3 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.BoundsIntField.html">BoundsIntField</a> returns BoundsInt (3 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.ColorField.html">ColorField</a> returns Color (4 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.CurveField.html">CurveField</a> returns AnimationCurve (6 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.DelayedDoubleField.html">DelayedDoubleField</a> returns Double (6 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.DelayedFloatField.html">DelayedFloatField</a> returns Single (6 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.DelayedIntField.html">DelayedIntField</a> returns Int32 (6 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.DelayedTextField.html">DelayedTextField</a> returns String (8 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.DoubleField.html">DoubleField</a> returns Double (6 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.DrawPreviewTexture.html">DrawPreviewTexture</a> (7 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.DrawRect.html">DrawRect</a>
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.DrawTextureAlpha.html">DrawTextureAlpha</a> (4 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.DrawTextureTransparent.html">DrawTextureTransparent</a> (6 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.DropdownButton.html">DropdownButton</a> returns Boolean (2 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.DropShadowLabel.html">DropShadowLabel</a> (4 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.EndChangeCheck.html">EndChangeCheck</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.EndDisabledGroup.html">EndDisabledGroup</a>
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.EndFoldoutHeaderGroup.html">EndFoldoutHeaderGroup</a>
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.EndProperty.html">EndProperty</a>
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.EnumFlagsField.html">EnumFlagsField</a> returns Enum (8 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.EnumPopup.html">EnumPopup</a> returns Enum (6 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.FloatField.html">FloatField</a> returns Single (6 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.FocusTextInControl.html">FocusTextInControl</a>
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.Foldout.html">Foldout</a> returns Boolean (8 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.GetPropertyHeight.html">GetPropertyHeight</a> returns Single
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.GradientField.html">GradientField</a> returns Gradient (5 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.HandlePrefixLabel.html">HandlePrefixLabel</a> (3 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.HelpBox.html">HelpBox</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.IndentedRect.html">IndentedRect</a> returns Rect
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.InspectorTitlebar.html">InspectorTitlebar</a> (4 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.IntField.html">IntField</a> returns Int32 (6 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.IntPopup.html">IntPopup</a> returns Int32 (8 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.IntSlider.html">IntSlider</a> returns Int32 (3 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.LabelField.html">LabelField</a> (8 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.LayerField.html">LayerField</a> returns Int32 (6 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.LinkButton.html">LinkButton</a> returns Boolean (2 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.LogarithmicIntSlider.html">LogarithmicIntSlider</a> returns Int32 (2 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.LongField.html">LongField</a> returns Int64 (6 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.MaskField.html">MaskField</a> returns Int32 (6 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.MultiFloatField.html">MultiFloatField</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.MultiIntField.html">MultiIntField</a>
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.ObjectField.html">ObjectField</a> returns Object (6 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.PasswordField.html">PasswordField</a> returns String (6 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.Popup.html">Popup</a> returns Int32 (8 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.PrefixLabel.html">PrefixLabel</a> returns Rect (4 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.ProgressBar.html">ProgressBar</a>
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.RectField.html">RectField</a> returns Rect (3 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.RectIntField.html">RectIntField</a> returns RectInt (3 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.RenderingLayerMaskField.html">RenderingLayerMaskField</a> returns RenderingLayerMask (4 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.SelectableLabel.html">SelectableLabel</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.Slider.html">Slider</a> returns Single (3 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.TagField.html">TagField</a> returns String (6 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.TextArea.html">TextArea</a> returns String (2 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.TextField.html">TextField</a> returns String (6 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.Toggle.html">Toggle</a> returns Boolean (6 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.ToggleLeft.html">ToggleLeft</a> returns Boolean (4 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.Vector2Field.html">Vector2Field</a> returns Vector2 (2 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.Vector2IntField.html">Vector2IntField</a> returns Vector2Int (2 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.Vector3Field.html">Vector3Field</a> returns Vector3 (2 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.Vector3IntField.html">Vector3IntField</a> returns Vector3Int (2 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorGUI.Vector4Field.html">Vector4Field</a> returns Vector4 (2 overloads)

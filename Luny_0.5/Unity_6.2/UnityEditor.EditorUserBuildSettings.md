@@ -1,0 +1,83 @@
+# EditorUserBuildSettings
+class in UnityEditor
+ / Inherits from: <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
+## Static Properties
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-activeBuildTarget.html">activeBuildTarget</a> : BuildTarget
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-activeScriptCompilationDefines.html">activeScriptCompilationDefines</a> : String[]
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-allowDebugging.html">allowDebugging</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-androidBuildSubtarget.html">androidBuildSubtarget</a> : MobileTextureSubtarget
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-androidBuildSystem.html">androidBuildSystem</a> : AndroidBuildSystem
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-androidBuildType.html">androidBuildType</a> : AndroidBuildType
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-buildAppBundle.html">buildAppBundle</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-buildScriptsOnly.html">buildScriptsOnly</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-buildWithDeepProfilingSupport.html">buildWithDeepProfilingSupport</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-compressFilesInPackage.html">compressFilesInPackage</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-connectProfiler.html">connectProfiler</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-development.html">development</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-explicitArrayBoundsChecks.html">explicitArrayBoundsChecks</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-explicitDivideByZeroChecks.html">explicitDivideByZeroChecks</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-explicitNullChecks.html">explicitNullChecks</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-exportAsGoogleAndroidProject.html">exportAsGoogleAndroidProject</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-forceInstallation.html">forceInstallation</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-generateNintendoSwitchShaderInfo.html">generateNintendoSwitchShaderInfo</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-installInBuildFolder.html">installInBuildFolder</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-iOSXcodeBuildConfig.html">iOSXcodeBuildConfig</a> : XcodeBuildConfig
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-macOSXcodeBuildConfig.html">macOSXcodeBuildConfig</a> : XcodeBuildConfig
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-managedDebuggerFixedPort.html">managedDebuggerFixedPort</a> : Int32
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-movePackageToDiscOuterEdge.html">movePackageToDiscOuterEdge</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-needSubmissionMaterials.html">needSubmissionMaterials</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-overrideMaxTextureSize.html">overrideMaxTextureSize</a> : Int32
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-overrideTextureCompression.html">overrideTextureCompression</a> : OverrideTextureCompression
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-pathOnRemoteDevice.html">pathOnRemoteDevice</a> : String
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-ps4BuildSubtarget.html">ps4BuildSubtarget</a> : PS4BuildSubtarget
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-ps4HardwareTarget.html">ps4HardwareTarget</a> : PS4HardwareTarget
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-remoteDeviceAddress.html">remoteDeviceAddress</a> : String
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-remoteDeviceExports.html">remoteDeviceExports</a> : String
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-remoteDeviceInfo.html">remoteDeviceInfo</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-remoteDeviceUsername.html">remoteDeviceUsername</a> : String
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-selectedBuildTargetGroup.html">selectedBuildTargetGroup</a> : BuildTargetGroup
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-selectedStandaloneTarget.html">selectedStandaloneTarget</a> : BuildTarget
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-standaloneBuildSubtarget.html">standaloneBuildSubtarget</a> : StandaloneBuildSubtarget
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-switchCreateRomFile.html">switchCreateRomFile</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-switchEnableDebugPad.html">switchEnableDebugPad</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-switchEnableHostIO.html">switchEnableHostIO</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-switchEnableMemoryTracker.html">switchEnableMemoryTracker</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-switchEnableRomCompression.html">switchEnableRomCompression</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-switchEnableUnpublishableErrors.html">switchEnableUnpublishableErrors</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-switchHTCSScriptDebugging.html">switchHTCSScriptDebugging</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-switchNVNAftermath.html">switchNVNAftermath</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-switchNVNDrawValidation_Heavy.html">switchNVNDrawValidation_Heavy</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-switchNVNDrawValidation_Light.html">switchNVNDrawValidation_Light</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-switchNVNGraphicsDebugger.html">switchNVNGraphicsDebugger</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-switchNVNShaderDebugging.html">switchNVNShaderDebugging</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-switchRomCompressionConfig.html">switchRomCompressionConfig</a> : String
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-switchRomCompressionLevel.html">switchRomCompressionLevel</a> : Int32
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-switchRomCompressionType.html">switchRomCompressionType</a> : SwitchRomCompressionType
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-switchSaveADF.html">switchSaveADF</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-switchUseLegacyNvnPoolAllocator.html">switchUseLegacyNvnPoolAllocator</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-switchWaitForMemoryTrackerOnStartup.html">switchWaitForMemoryTrackerOnStartup</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-symlinkSources.html">symlinkSources</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-waitForManagedDebugger.html">waitForManagedDebugger</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-waitForPlayerConnection.html">waitForPlayerConnection</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-webGLBuildSubtarget.html">webGLBuildSubtarget</a> : WebGLTextureSubtarget
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-webGLClientBrowserPath.html">webGLClientBrowserPath</a> : String
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-webGLClientBrowserType.html">webGLClientBrowserType</a> : WebGLClientBrowserType
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-windowsBuildAndRunDeployTarget.html">windowsBuildAndRunDeployTarget</a> : WindowsBuildAndRunDeployTarget
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-windowsDevicePortalAddress.html">windowsDevicePortalAddress</a> : String
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-windowsDevicePortalPassword.html">windowsDevicePortalPassword</a> : String
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-windowsDevicePortalUsername.html">windowsDevicePortalUsername</a> : String
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-wsaArchitecture.html">wsaArchitecture</a> : String
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-wsaBuildAndRunDeployTarget.html">wsaBuildAndRunDeployTarget</a> : WSABuildAndRunDeployTarget
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-wsaMinUWPSDK.html">wsaMinUWPSDK</a> : String
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-wsaUWPBuildType.html">wsaUWPBuildType</a> : WSAUWPBuildType
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-wsaUWPSDK.html">wsaUWPSDK</a> : String
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings-wsaUWPVisualStudioVersion.html">wsaUWPVisualStudioVersion</a> : String
+
+## Static Methods
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings.GetBuildLocation.html">GetBuildLocation</a> returns String
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings.GetPlatformSettings.html">GetPlatformSettings</a> returns String (2 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings.SetBuildLocation.html">SetBuildLocation</a>
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings.SetPlatformSettings.html">SetPlatformSettings</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings.SwitchActiveBuildTarget.html">SwitchActiveBuildTarget</a> returns Boolean (2 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/EditorUserBuildSettings.SwitchActiveBuildTargetAsync.html">SwitchActiveBuildTargetAsync</a> returns Boolean

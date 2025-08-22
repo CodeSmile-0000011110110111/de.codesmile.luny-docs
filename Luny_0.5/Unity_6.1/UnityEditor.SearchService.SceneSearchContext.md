@@ -1,0 +1,8 @@
+# SceneSearchContext
+class in UnityEditor.SearchService
+ / Inherits from: <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
+## Properties
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/SceneSearchContext-engineScope.html">engineScope</a> : SearchEngineScope
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/SceneSearchContext-guid.html">guid</a> : Guid
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/SceneSearchContext-rootProperty.html">rootProperty</a> : HierarchyProperty

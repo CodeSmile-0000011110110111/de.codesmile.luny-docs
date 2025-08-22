@@ -1,10 +1,12 @@
 # Plane
 struct in UnityEngine
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ValueType.html">ValueType</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Plane-distance.html">distance</a> : Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Plane-flipped.html">flipped</a> : Plane
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Plane-normal.html">normal</a> : Vector3
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Plane.ClosestPointOnPlane.html">ClosestPointOnPlane</a> returns Vector3
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Plane.Flip.html">Flip</a>
@@ -15,5 +17,6 @@ struct in UnityEngine
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Plane.SetNormalAndPosition.html">SetNormalAndPosition</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Plane.ToString.html">ToString</a> returns String (2 overloads)
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Plane.Translate.html">Translate</a>
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Plane.Translate.html">Translate</a> returns Plane

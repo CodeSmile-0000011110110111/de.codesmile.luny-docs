@@ -1,6 +1,7 @@
 # BuildSummary
 struct in UnityEditor.Build.Reporting
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ValueType.html">ValueType</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/BuildSummary-buildEndedAt.html">buildEndedAt</a> : DateTime
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/BuildSummary-buildStartedAt.html">buildStartedAt</a> : DateTime
@@ -16,4 +17,5 @@ struct in UnityEditor.Build.Reporting
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/BuildSummary-totalSize.html">totalSize</a> : UInt64
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/BuildSummary-totalTime.html">totalTime</a> : TimeSpan
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/BuildSummary-totalWarnings.html">totalWarnings</a> : Int32
+
 ## Methods

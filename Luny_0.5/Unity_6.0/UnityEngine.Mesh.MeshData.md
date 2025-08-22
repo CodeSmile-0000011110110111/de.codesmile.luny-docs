@@ -1,11 +1,13 @@
 # MeshData
 struct in UnityEngine
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ValueType.html">ValueType</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MeshData-indexFormat.html">indexFormat</a> : IndexFormat
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MeshData-subMeshCount.html">subMeshCount</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MeshData-vertexBufferCount.html">vertexBufferCount</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MeshData-vertexCount.html">vertexCount</a> : Int32
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MeshData.GetSubMesh.html">GetSubMesh</a> returns SubMeshDescriptor
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MeshData.GetVertexAttributeDimension.html">GetVertexAttributeDimension</a> returns Int32

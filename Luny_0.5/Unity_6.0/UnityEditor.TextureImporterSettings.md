@@ -1,6 +1,7 @@
 # TextureImporterSettings
 class in UnityEditor
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/TextureImporterSettings-alphaIsTransparency.html">alphaIsTransparency</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/TextureImporterSettings-alphaSource.html">alphaSource</a> : TextureImporterAlphaSource
@@ -52,8 +53,10 @@ class in UnityEditor
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/TextureImporterSettings-wrapModeU.html">wrapModeU</a> : TextureWrapMode
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/TextureImporterSettings-wrapModeV.html">wrapModeV</a> : TextureWrapMode
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/TextureImporterSettings-wrapModeW.html">wrapModeW</a> : TextureWrapMode
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/TextureImporterSettings.ApplyTextureType.html">ApplyTextureType</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/TextureImporterSettings.CopyTo.html">CopyTo</a>
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/TextureImporterSettings.Equal.html">Equal</a> returns Boolean

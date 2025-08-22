@@ -1,6 +1,7 @@
 # VideoClipImporter
 class in UnityEditor
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetImporter.html">AssetImporter</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/VideoClipImporter-defaultTargetSettings.html">defaultTargetSettings</a> : VideoImporterTargetSettings
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/VideoClipImporter-deinterlaceMode.html">deinterlaceMode</a> : VideoDeinterlaceMode
@@ -19,6 +20,7 @@ class in UnityEditor
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/VideoClipImporter-sourceHasAlpha.html">sourceHasAlpha</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/VideoClipImporter-sRGBClip.html">sRGBClip</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/VideoClipImporter-transcodeSkipped.html">transcodeSkipped</a> : Boolean
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/VideoClipImporter.ClearTargetSettings.html">ClearTargetSettings</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/VideoClipImporter.Equals.html">Equals</a> returns Boolean

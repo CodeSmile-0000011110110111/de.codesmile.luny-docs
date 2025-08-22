@@ -1,9 +1,11 @@
 # CommandBuffer
 class in UnityEngine.Rendering
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer-name.html">name</a> : String
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer-sizeInBytes.html">sizeInBytes</a> : Int32
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.BeginSample.html">BeginSample</a> (3 overloads)
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.Blit.html">Blit</a> (11 overloads)
@@ -104,5 +106,6 @@ class in UnityEngine.Rendering
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.UnmarkLateLatchMatrix.html">UnmarkLateLatchMatrix</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.WaitAllAsyncReadbackRequests.html">WaitAllAsyncReadbackRequests</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer.WaitOnAsyncGraphicsFence.html">WaitOnAsyncGraphicsFence</a> (3 overloads)
+
 ## Static Fields
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CommandBuffer-ThrowOnSetRenderTarget.html">ThrowOnSetRenderTarget</a> : Boolean

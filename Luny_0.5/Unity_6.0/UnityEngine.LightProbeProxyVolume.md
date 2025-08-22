@@ -1,6 +1,7 @@
 # LightProbeProxyVolume
 class in UnityEngine
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Behaviour.html">Behaviour</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LightProbeProxyVolume-boundingBoxMode.html">boundingBoxMode</a> : BoundingBoxMode
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LightProbeProxyVolume-boundsGlobal.html">boundsGlobal</a> : Bounds
@@ -15,7 +16,9 @@ class in UnityEngine
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LightProbeProxyVolume-refreshMode.html">refreshMode</a> : RefreshMode
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LightProbeProxyVolume-resolutionMode.html">resolutionMode</a> : ResolutionMode
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LightProbeProxyVolume-sizeCustom.html">sizeCustom</a> : Vector3
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LightProbeProxyVolume.Update.html">Update</a>
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/LightProbeProxyVolume-isFeatureSupported.html">isFeatureSupported</a> : Boolean

@@ -1,6 +1,7 @@
 # SerializedProperty
 class in UnityEditor
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-animationCurveValue.html">animationCurveValue</a> : AnimationCurve
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-arrayElementType.html">arrayElementType</a> : String
@@ -61,6 +62,7 @@ class in UnityEditor
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-vector3IntValue.html">vector3IntValue</a> : Vector3Int
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-vector3Value.html">vector3Value</a> : Vector3
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty-vector4Value.html">vector4Value</a> : Vector4
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty.ClearArray.html">ClearArray</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty.CountInProperty.html">CountInProperty</a> returns Int32
@@ -74,4 +76,5 @@ class in UnityEditor
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty.Next.html">Next</a> returns Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty.NextVisible.html">NextVisible</a> returns Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedProperty.Reset.html">Reset</a>
+
 ## Static Methods

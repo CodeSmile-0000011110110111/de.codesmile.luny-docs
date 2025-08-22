@@ -1,0 +1,92 @@
+# Mesh
+class in UnityEngine
+ / Inherits from: <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
+## Properties
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh-bindposeCount.html">bindposeCount</a> : Int32
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh-bindposes.html">bindposes</a> : Matrix4x4[]
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh-blendShapeCount.html">blendShapeCount</a> : Int32
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh-boneWeights.html">boneWeights</a> : BoneWeight[]
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh-bounds.html">bounds</a> : Bounds
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh-colors.html">colors</a> : Color[]
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh-colors32.html">colors32</a> : Color32[]
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh-indexBufferTarget.html">indexBufferTarget</a> : Target
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh-indexFormat.html">indexFormat</a> : IndexFormat
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh-isReadable.html">isReadable</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh-normals.html">normals</a> : Vector3[]
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh-skinWeightBufferLayout.html">skinWeightBufferLayout</a> : SkinWeights
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh-subMeshCount.html">subMeshCount</a> : Int32
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh-tangents.html">tangents</a> : Vector4[]
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh-triangles.html">triangles</a> : Int32[]
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh-uv.html">uv</a> : Vector2[]
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh-uv2.html">uv2</a> : Vector2[]
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh-uv3.html">uv3</a> : Vector2[]
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh-uv4.html">uv4</a> : Vector2[]
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh-uv5.html">uv5</a> : Vector2[]
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh-uv6.html">uv6</a> : Vector2[]
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh-uv7.html">uv7</a> : Vector2[]
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh-uv8.html">uv8</a> : Vector2[]
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh-vertexAttributeCount.html">vertexAttributeCount</a> : Int32
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh-vertexBufferCount.html">vertexBufferCount</a> : Int32
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh-vertexBufferTarget.html">vertexBufferTarget</a> : Target
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh-vertexCount.html">vertexCount</a> : Int32
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh-vertices.html">vertices</a> : Vector3[]
+
+## Methods
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.AddBlendShapeFrame.html">AddBlendShapeFrame</a>
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.Clear.html">Clear</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.ClearBlendShapes.html">ClearBlendShapes</a>
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.CombineMeshes.html">CombineMeshes</a> (4 overloads)
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.GetBaseVertex.html">GetBaseVertex</a> returns UInt32
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.GetBlendShapeBuffer.html">GetBlendShapeBuffer</a> returns GraphicsBuffer (2 overloads)
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.GetBlendShapeBufferRange.html">GetBlendShapeBufferRange</a> returns BlendShapeBufferRange
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.GetBlendShapeFrameCount.html">GetBlendShapeFrameCount</a> returns Int32
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.GetBlendShapeFrameVertices.html">GetBlendShapeFrameVertices</a>
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.GetBlendShapeFrameWeight.html">GetBlendShapeFrameWeight</a> returns Single
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.GetBlendShapeIndex.html">GetBlendShapeIndex</a> returns Int32
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.GetBlendShapeName.html">GetBlendShapeName</a> returns String
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.GetBoneWeightBuffer.html">GetBoneWeightBuffer</a> returns GraphicsBuffer
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.GetIndexBuffer.html">GetIndexBuffer</a> returns GraphicsBuffer
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.GetIndexCount.html">GetIndexCount</a> returns UInt32
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.GetIndexStart.html">GetIndexStart</a> returns UInt32
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.GetIndices.html">GetIndices</a> returns Int32[] (2 overloads)
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.GetSubMesh.html">GetSubMesh</a> returns SubMeshDescriptor
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.GetTopology.html">GetTopology</a> returns MeshTopology
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.GetTriangles.html">GetTriangles</a> returns Int32[] (2 overloads)
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.GetUVDistributionMetric.html">GetUVDistributionMetric</a> returns Single
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.GetVertexAttribute.html">GetVertexAttribute</a> returns VertexAttributeDescriptor
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.GetVertexAttributeDimension.html">GetVertexAttributeDimension</a> returns Int32
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.GetVertexAttributeFormat.html">GetVertexAttributeFormat</a> returns VertexAttributeFormat
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.GetVertexAttributeOffset.html">GetVertexAttributeOffset</a> returns Int32
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.GetVertexAttributes.html">GetVertexAttributes</a> returns VertexAttributeDescriptor[] (2 overloads)
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.GetVertexAttributeStream.html">GetVertexAttributeStream</a> returns Int32
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.GetVertexBuffer.html">GetVertexBuffer</a> returns GraphicsBuffer
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.GetVertexBufferStride.html">GetVertexBufferStride</a> returns Int32
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.HasVertexAttribute.html">HasVertexAttribute</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.MarkDynamic.html">MarkDynamic</a>
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.MarkModified.html">MarkModified</a>
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.Optimize.html">Optimize</a>
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.OptimizeIndexBuffers.html">OptimizeIndexBuffers</a>
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.OptimizeReorderVertexBuffer.html">OptimizeReorderVertexBuffer</a>
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.RecalculateBounds.html">RecalculateBounds</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.RecalculateNormals.html">RecalculateNormals</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.RecalculateTangents.html">RecalculateTangents</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.RecalculateUVDistributionMetric.html">RecalculateUVDistributionMetric</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.RecalculateUVDistributionMetrics.html">RecalculateUVDistributionMetrics</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.SetColors.html">SetColors</a> (6 overloads)
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.SetIndexBufferParams.html">SetIndexBufferParams</a>
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.SetIndices.html">SetIndices</a> (12 overloads)
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.SetNormals.html">SetNormals</a> (3 overloads)
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.SetSubMesh.html">SetSubMesh</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.SetSubMeshes.html">SetSubMeshes</a> (4 overloads)
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.SetTangents.html">SetTangents</a> (3 overloads)
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.SetTriangles.html">SetTriangles</a> (12 overloads)
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.SetUVs.html">SetUVs</a> (9 overloads)
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.SetVertexBufferParams.html">SetVertexBufferParams</a>
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.SetVertices.html">SetVertices</a> (3 overloads)
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.UploadMeshData.html">UploadMeshData</a>
+
+## Static Methods
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.AcquireReadOnlyMeshData.html">AcquireReadOnlyMeshData</a> returns MeshDataArray (2 overloads)
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.AllocateWritableMeshData.html">AllocateWritableMeshData</a> returns MeshDataArray (3 overloads)
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Mesh.ApplyAndDisposeWritableMeshData.html">ApplyAndDisposeWritableMeshData</a> (4 overloads)

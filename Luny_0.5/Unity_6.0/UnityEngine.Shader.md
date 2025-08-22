@@ -1,6 +1,7 @@
 # Shader
 class in UnityEngine
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Shader-isSupported.html">isSupported</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Shader-keywordSpace.html">keywordSpace</a> : LocalKeywordSpace
@@ -8,6 +9,7 @@ class in UnityEngine
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Shader-passCount.html">passCount</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Shader-renderQueue.html">renderQueue</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Shader-subshaderCount.html">subshaderCount</a> : Int32
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Shader.FindPassTagValue.html">FindPassTagValue</a> returns ShaderTagId (2 overloads)
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Shader.FindPropertyIndex.html">FindPropertyIndex</a> returns Int32
@@ -27,12 +29,14 @@ class in UnityEngine
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Shader.GetPropertyTextureDefaultName.html">GetPropertyTextureDefaultName</a> returns String
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Shader.GetPropertyTextureDimension.html">GetPropertyTextureDimension</a> returns TextureDimension
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Shader.GetPropertyType.html">GetPropertyType</a> returns ShaderPropertyType
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Shader-enabledGlobalKeywords.html">enabledGlobalKeywords</a> : GlobalKeyword[]
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Shader-globalKeywords.html">globalKeywords</a> : GlobalKeyword[]
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Shader-globalMaximumLOD.html">globalMaximumLOD</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Shader-globalRenderPipeline.html">globalRenderPipeline</a> : String
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Shader-maximumChunksOverride.html">maximumChunksOverride</a> : Int32
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Shader.DisableKeyword.html">DisableKeyword</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Shader.EnableKeyword.html">EnableKeyword</a>

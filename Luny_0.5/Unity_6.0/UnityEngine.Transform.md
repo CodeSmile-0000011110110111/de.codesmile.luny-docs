@@ -1,6 +1,7 @@
 # Transform
 class in UnityEngine
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Component.html">Component</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Transform-childCount.html">childCount</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Transform-eulerAngles.html">eulerAngles</a> : Vector3
@@ -21,6 +22,7 @@ class in UnityEngine
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Transform-rotation.html">rotation</a> : Quaternion
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Transform-up.html">up</a> : Vector3
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Transform-worldToLocalMatrix.html">worldToLocalMatrix</a> : Matrix4x4
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Transform.DetachChildren.html">DetachChildren</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Transform.Find.html">Find</a> returns Transform

@@ -1,6 +1,7 @@
 # QualitySettings
 class in UnityEngine
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-activeColorSpace.html">activeColorSpace</a> : ColorSpace
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-anisotropicFiltering.html">anisotropicFiltering</a> : AnisotropicFiltering
@@ -52,6 +53,7 @@ class in UnityEngine
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-terrainTreeDistance.html">terrainTreeDistance</a> : Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-useLegacyDetailDistribution.html">useLegacyDetailDistribution</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings-vSyncCount.html">vSyncCount</a> : Int32
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings.DecreaseLevel.html">DecreaseLevel</a> (2 overloads)
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/QualitySettings.GetQualityLevel.html">GetQualityLevel</a> returns Int32

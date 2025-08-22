@@ -1,11 +1,14 @@
 # Awaitable
 class in UnityEngine
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Awaitable-IsCompleted.html">IsCompleted</a> : Boolean
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Awaitable.Cancel.html">Cancel</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Awaitable.GetAwaiter.html">GetAwaiter</a> returns Awaiter
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Awaitable.BackgroundThreadAsync.html">BackgroundThreadAsync</a> returns BackgroundThreadAwaitable
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Awaitable.EndOfFrameAsync.html">EndOfFrameAsync</a> returns Awaitable (2 overloads)

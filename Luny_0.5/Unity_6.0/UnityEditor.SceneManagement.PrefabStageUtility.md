@@ -1,6 +1,7 @@
 # PrefabStageUtility
 class in UnityEditor.SceneManagement
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PrefabStageUtility.GetCurrentPrefabStage.html">GetCurrentPrefabStage</a> returns PrefabStage
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PrefabStageUtility.GetPrefabStage.html">GetPrefabStage</a> returns PrefabStage

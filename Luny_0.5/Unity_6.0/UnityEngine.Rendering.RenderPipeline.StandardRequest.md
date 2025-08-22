@@ -1,6 +1,7 @@
 # StandardRequest
 class in UnityEngine.Rendering
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Fields
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/StandardRequest-destination.html">destination</a> : RenderTexture
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/StandardRequest-face.html">face</a> : CubemapFace

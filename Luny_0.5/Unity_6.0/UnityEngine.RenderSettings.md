@@ -1,6 +1,7 @@
 # RenderSettings
 class in UnityEngine
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/RenderSettings-ambientEquatorColor.html">ambientEquatorColor</a> : Color
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/RenderSettings-ambientGroundColor.html">ambientGroundColor</a> : Color

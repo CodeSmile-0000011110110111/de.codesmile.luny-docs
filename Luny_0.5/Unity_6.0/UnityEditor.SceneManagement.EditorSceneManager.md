@@ -1,13 +1,16 @@
 # EditorSceneManager
 class in UnityEditor.SceneManagement
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SceneManager.html">SceneManager</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSceneManager-loadedRootSceneCount.html">loadedRootSceneCount</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSceneManager-playModeStartScene.html">playModeStartScene</a> : SceneAsset
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSceneManager-preventCrossSceneReferences.html">preventCrossSceneReferences</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSceneManager-previewSceneCount.html">previewSceneCount</a> : Int32
+
 ## Static Fields
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSceneManager-DefaultSceneCullingMask.html">DefaultSceneCullingMask</a> : UInt64
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSceneManager.CalculateAvailableSceneCullingMask.html">CalculateAvailableSceneCullingMask</a> returns UInt64
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorSceneManager.ClosePreviewScene.html">ClosePreviewScene</a> returns Boolean

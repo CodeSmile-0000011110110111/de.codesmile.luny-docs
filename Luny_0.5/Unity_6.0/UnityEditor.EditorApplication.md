@@ -1,6 +1,7 @@
 # EditorApplication
 class in UnityEditor
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorApplication-applicationContentsPath.html">applicationContentsPath</a> : String
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorApplication-applicationPath.html">applicationPath</a> : String
@@ -14,6 +15,7 @@ class in UnityEditor
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorApplication-isTemporaryProject.html">isTemporaryProject</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorApplication-isUpdating.html">isUpdating</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorApplication-timeSinceStartup.html">timeSinceStartup</a> : Double
+
 ## Static Fields
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorApplication-contextualPropertyMenu.html">contextualPropertyMenu</a> : SerializedPropertyCallbackFunction
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorApplication-delayCall.html">delayCall</a> : CallbackFunction
@@ -23,6 +25,7 @@ class in UnityEditor
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorApplication-projectWindowItemOnGUI.html">projectWindowItemOnGUI</a> : ProjectWindowItemCallback
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorApplication-searchChanged.html">searchChanged</a> : CallbackFunction
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorApplication-update.html">update</a> : CallbackFunction
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorApplication.Beep.html">Beep</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorApplication.DirtyHierarchyWindowSorting.html">DirtyHierarchyWindowSorting</a>

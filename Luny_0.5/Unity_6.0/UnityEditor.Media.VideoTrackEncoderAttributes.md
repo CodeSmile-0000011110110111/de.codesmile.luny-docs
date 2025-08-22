@@ -1,6 +1,7 @@
 # VideoTrackEncoderAttributes
 struct in UnityEditor.Media
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ValueType.html">ValueType</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Fields
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/VideoTrackEncoderAttributes-bitRateMode.html">bitRateMode</a> : VideoBitrateMode
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/VideoTrackEncoderAttributes-frameRate.html">frameRate</a> : MediaRational

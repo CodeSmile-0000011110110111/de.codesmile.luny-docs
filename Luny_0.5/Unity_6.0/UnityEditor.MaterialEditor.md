@@ -1,9 +1,11 @@
 # MaterialEditor
 class in UnityEditor
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Editor.html">Editor</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialEditor-customShaderGUI.html">customShaderGUI</a> : ShaderGUI
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialEditor-isVisible.html">isVisible</a> : Boolean
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialEditor.Awake.html">Awake</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialEditor.BeginAnimatedCheck.html">BeginAnimatedCheck</a> (2 overloads)
@@ -50,8 +52,10 @@ class in UnityEditor
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialEditor.TexturePropertyWithHDRColor.html">TexturePropertyWithHDRColor</a> returns Rect
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialEditor.TextureScaleOffsetProperty.html">TextureScaleOffsetProperty</a> (3 overloads)
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialEditor.VectorProperty.html">VectorProperty</a> returns Vector4 (4 overloads)
+
 ## Static Fields
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialEditor-kMiniTextureFieldLabelIndentLevel.html">kMiniTextureFieldLabelIndentLevel</a> : Int32
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialEditor.ApplyMaterialPropertyDrawers.html">ApplyMaterialPropertyDrawers</a> (2 overloads)
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialEditor.BeginProperty.html">BeginProperty</a> (2 overloads)

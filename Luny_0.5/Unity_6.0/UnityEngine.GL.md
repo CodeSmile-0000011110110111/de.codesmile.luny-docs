@@ -1,17 +1,20 @@
 # GL
 class in UnityEngine
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/GL-invertCulling.html">invertCulling</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/GL-modelview.html">modelview</a> : Matrix4x4
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/GL-sRGBWrite.html">sRGBWrite</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/GL-wireframe.html">wireframe</a> : Boolean
+
 ## Static Fields
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/GL-LINE_STRIP.html">LINE_STRIP</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/GL-LINES.html">LINES</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/GL-QUADS.html">QUADS</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/GL-TRIANGLE_STRIP.html">TRIANGLE_STRIP</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/GL-TRIANGLES.html">TRIANGLES</a> : Int32
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/GL.Begin.html">Begin</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/GL.Clear.html">Clear</a> (2 overloads)

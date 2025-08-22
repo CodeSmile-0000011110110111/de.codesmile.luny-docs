@@ -1,8 +1,10 @@
 # EventService
 class in UnityEditor.MPE
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EventService-isConnected.html">isConnected</a> : Boolean
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EventService.CancelRequest.html">CancelRequest</a> returns Boolean (2 overloads)
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EventService.Clear.html">Clear</a>

@@ -1,6 +1,7 @@
 # PlayableGraph
 struct in UnityEngine.Playables
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ValueType.html">ValueType</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayableGraph.Destroy.html">Destroy</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayableGraph.Evaluate.html">Evaluate</a> (2 overloads)
@@ -16,5 +17,6 @@ struct in UnityEngine.Playables
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayableGraph.Play.html">Play</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayableGraph.SetTimeUpdateMode.html">SetTimeUpdateMode</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayableGraph.Stop.html">Stop</a>
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PlayableGraph.Create.html">Create</a> returns PlayableGraph (2 overloads)

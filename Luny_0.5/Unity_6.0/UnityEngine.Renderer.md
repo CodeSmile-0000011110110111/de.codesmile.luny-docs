@@ -1,6 +1,7 @@
 # Renderer
 class in UnityEngine
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Component.html">Component</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Renderer-allowOcclusionWhenDynamic.html">allowOcclusionWhenDynamic</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Renderer-bounds.html">bounds</a> : Bounds
@@ -37,6 +38,7 @@ class in UnityEngine
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Renderer-sortingOrder.html">sortingOrder</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Renderer-staticShadowCaster.html">staticShadowCaster</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Renderer-worldToLocalMatrix.html">worldToLocalMatrix</a> : Matrix4x4
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Renderer.GetPropertyBlock.html">GetPropertyBlock</a> (2 overloads)
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Renderer.HasPropertyBlock.html">HasPropertyBlock</a> returns Boolean

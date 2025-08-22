@@ -1,11 +1,13 @@
 # Gizmos
 class in UnityEngine
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Gizmos-color.html">color</a> : Color
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Gizmos-exposure.html">exposure</a> : Texture
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Gizmos-matrix.html">matrix</a> : Matrix4x4
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Gizmos-probeSize.html">probeSize</a> : Single
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Gizmos.CalculateLOD.html">CalculateLOD</a> returns Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Gizmos.DrawCube.html">DrawCube</a>

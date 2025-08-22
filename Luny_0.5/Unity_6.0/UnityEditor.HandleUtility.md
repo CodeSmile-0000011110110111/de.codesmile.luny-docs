@@ -1,12 +1,14 @@
 # HandleUtility
 class in UnityEditor
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/HandleUtility-acceleration.html">acceleration</a> : Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/HandleUtility-handleMaterial.html">handleMaterial</a> : Material
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/HandleUtility-nearestControl.html">nearestControl</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/HandleUtility-niceMouseDelta.html">niceMouseDelta</a> : Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/HandleUtility-niceMouseDeltaZoom.html">niceMouseDeltaZoom</a> : Single
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/HandleUtility.AddControl.html">AddControl</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/HandleUtility.AddDefaultControl.html">AddDefaultControl</a>

@@ -1,6 +1,7 @@
 # Light
 class in UnityEngine
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Behaviour.html">Behaviour</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Light-areaSize.html">areaSize</a> : Vector2
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Light-bakingOutput.html">bakingOutput</a> : LightBakingOutput
@@ -39,6 +40,7 @@ class in UnityEngine
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Light-useColorTemperature.html">useColorTemperature</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Light-useShadowMatrixOverride.html">useShadowMatrixOverride</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Light-useViewFrustumForShadowCasterCull.html">useViewFrustumForShadowCasterCull</a> : Boolean
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Light.AddCommandBuffer.html">AddCommandBuffer</a> (2 overloads)
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Light.AddCommandBufferAsync.html">AddCommandBufferAsync</a> (2 overloads)

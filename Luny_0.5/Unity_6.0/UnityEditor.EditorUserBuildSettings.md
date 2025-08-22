@@ -1,6 +1,7 @@
 # EditorUserBuildSettings
 class in UnityEditor
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUserBuildSettings-activeBuildTarget.html">activeBuildTarget</a> : BuildTarget
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUserBuildSettings-activeScriptCompilationDefines.html">activeScriptCompilationDefines</a> : String[]
@@ -72,6 +73,7 @@ class in UnityEditor
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUserBuildSettings-wsaUWPBuildType.html">wsaUWPBuildType</a> : WSAUWPBuildType
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUserBuildSettings-wsaUWPSDK.html">wsaUWPSDK</a> : String
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUserBuildSettings-wsaUWPVisualStudioVersion.html">wsaUWPVisualStudioVersion</a> : String
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUserBuildSettings.GetBuildLocation.html">GetBuildLocation</a> returns String
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorUserBuildSettings.GetPlatformSettings.html">GetPlatformSettings</a> returns String (2 overloads)

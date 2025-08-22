@@ -1,6 +1,7 @@
 # ModelImporter
 class in UnityEditor
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetImporter.html">AssetImporter</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-addCollider.html">addCollider</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-animationCompression.html">animationCompression</a> : ModelImporterAnimationCompression
@@ -78,9 +79,11 @@ class in UnityEditor
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-useFileUnits.html">useFileUnits</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-useSRGBMaterialColor.html">useSRGBMaterialColor</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter-weldVertices.html">weldVertices</a> : Boolean
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter.CreateDefaultMaskForClip.html">CreateDefaultMaskForClip</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter.ExtractTextures.html">ExtractTextures</a> returns Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter.SearchAndRemapMaterials.html">SearchAndRemapMaterials</a> returns Boolean
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporter.GetReferencedClipsForModelPath.html">GetReferencedClipsForModelPath</a> returns String[]

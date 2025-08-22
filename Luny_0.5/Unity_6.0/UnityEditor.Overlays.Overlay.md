@@ -1,6 +1,7 @@
 # Overlay
 class in UnityEditor.Overlays
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Overlay-collapsed.html">collapsed</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Overlay-collapsedIcon.html">collapsedIcon</a> : Texture2D
@@ -17,6 +18,7 @@ class in UnityEditor.Overlays
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Overlay-minSize.html">minSize</a> : Vector2
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Overlay-rootVisualElement.html">rootVisualElement</a> : VisualElement
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Overlay-size.html">size</a> : Vector2
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Overlay.Close.html">Close</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Overlay.CreateContent.html">CreateContent</a> returns VisualElement
@@ -25,5 +27,6 @@ class in UnityEditor.Overlays
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Overlay.OnWillBeDestroyed.html">OnWillBeDestroyed</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Overlay.RefreshPopup.html">RefreshPopup</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Overlay.Undock.html">Undock</a>
+
 ## Static Fields
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Overlay-ussClassName.html">ussClassName</a> : String

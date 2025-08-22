@@ -1,6 +1,7 @@
 # GraphicsSettings
 class in UnityEngine.Rendering
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/GraphicsSettings-allConfiguredRenderPipelines.html">allConfiguredRenderPipelines</a> : RenderPipelineAsset[]
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/GraphicsSettings-cameraRelativeLightCulling.html">cameraRelativeLightCulling</a> : Boolean
@@ -19,6 +20,7 @@ class in UnityEngine.Rendering
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/GraphicsSettings-transparencySortAxis.html">transparencySortAxis</a> : Vector3
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/GraphicsSettings-transparencySortMode.html">transparencySortMode</a> : TransparencySortMode
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/GraphicsSettings-useScriptableRenderPipelineBatching.html">useScriptableRenderPipelineBatching</a> : Boolean
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/GraphicsSettings.GetCustomShader.html">GetCustomShader</a> returns Shader
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/GraphicsSettings.GetGraphicsSettings.html">GetGraphicsSettings</a> returns Object

@@ -1,8 +1,10 @@
 # AnimationUtility
 class in UnityEditor
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Static Fields
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AnimationUtility-onCurveWasModified.html">onCurveWasModified</a> : OnCurveWasModified
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AnimationUtility.CalculateTransformPath.html">CalculateTransformPath</a> returns String
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AnimationUtility.ConstrainToPolynomialCurve.html">ConstrainToPolynomialCurve</a>

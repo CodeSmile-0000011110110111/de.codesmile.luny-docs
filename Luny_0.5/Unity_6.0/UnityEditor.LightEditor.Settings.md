@@ -1,6 +1,7 @@
 # Settings
 class in UnityEditor
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-areaSizeX.html">areaSizeX</a> : SerializedProperty
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-areaSizeY.html">areaSizeY</a> : SerializedProperty
@@ -39,6 +40,7 @@ class in UnityEditor
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-shadowsType.html">shadowsType</a> : SerializedProperty
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-spotAngle.html">spotAngle</a> : SerializedProperty
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings-useColorTemperature.html">useColorTemperature</a> : SerializedProperty
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.ApplyModifiedProperties.html">ApplyModifiedProperties</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Settings.DrawArea.html">DrawArea</a>

@@ -1,6 +1,7 @@
 # iOS
 class in UnityEditor
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/iOS-appInBackgroundBehavior.html">appInBackgroundBehavior</a> : iOSAppInBackgroundBehavior
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/iOS-appleDeveloperTeamID.html">appleDeveloperTeamID</a> : String
@@ -33,6 +34,7 @@ class in UnityEditor
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/iOS-useOnDemandResources.html">useOnDemandResources</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/iOS-VisionOSManualProvisioningProfileID.html">VisionOSManualProvisioningProfileID</a> : String
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/iOS-VisionOSManualProvisioningProfileType.html">VisionOSManualProvisioningProfileType</a> : ProvisioningProfileType
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/iOS.SetiPadLaunchScreenType.html">SetiPadLaunchScreenType</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/iOS.SetiPhoneLaunchScreenType.html">SetiPhoneLaunchScreenType</a>

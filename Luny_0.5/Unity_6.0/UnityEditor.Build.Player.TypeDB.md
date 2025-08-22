@@ -1,6 +1,7 @@
 # TypeDB
 class in UnityEditor.Build.Player
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/TypeDB.Dispose.html">Dispose</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/TypeDB.Equals.html">Equals</a> returns Boolean

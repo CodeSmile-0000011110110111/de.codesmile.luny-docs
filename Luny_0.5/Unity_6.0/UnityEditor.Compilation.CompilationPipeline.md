@@ -1,8 +1,10 @@
 # CompilationPipeline
 class in UnityEditor.Compilation
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CompilationPipeline-codeOptimization.html">codeOptimization</a> : CodeOptimization
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CompilationPipeline.AssemblyDefinitionReferenceGUIDToGUID.html">AssemblyDefinitionReferenceGUIDToGUID</a> returns String
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/CompilationPipeline.GetAssemblies.html">GetAssemblies</a> returns Assembly[] (2 overloads)

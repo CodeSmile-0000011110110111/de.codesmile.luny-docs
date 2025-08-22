@@ -1,6 +1,7 @@
 # AnimatorStateMachine
 class in UnityEditor.Animations
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AnimatorStateMachine-anyStatePosition.html">anyStatePosition</a> : Vector3
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AnimatorStateMachine-anyStateTransitions.html">anyStateTransitions</a> : AnimatorStateTransition[]
@@ -12,6 +13,7 @@ class in UnityEditor.Animations
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AnimatorStateMachine-parentStateMachinePosition.html">parentStateMachinePosition</a> : Vector3
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AnimatorStateMachine-stateMachines.html">stateMachines</a> : ChildAnimatorStateMachine[]
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AnimatorStateMachine-states.html">states</a> : ChildAnimatorState[]
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AnimatorStateMachine.AddAnyStateTransition.html">AddAnyStateTransition</a> returns AnimatorStateTransition (2 overloads)
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AnimatorStateMachine.AddEntryTransition.html">AddEntryTransition</a> returns AnimatorTransition (2 overloads)

@@ -1,6 +1,7 @@
 # MaterialProperty
 class in UnityEditor
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialProperty-applyPropertyCallback.html">applyPropertyCallback</a> : ApplyPropertyCallback
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialProperty-colorValue.html">colorValue</a> : Color
@@ -17,6 +18,7 @@ class in UnityEditor
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialProperty-textureValue.html">textureValue</a> : Texture
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialProperty-type.html">type</a> : PropType
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialProperty-vectorValue.html">vectorValue</a> : Vector4
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialProperty.ReadFromMaterialPropertyBlock.html">ReadFromMaterialPropertyBlock</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialProperty.WriteToMaterialPropertyBlock.html">WriteToMaterialPropertyBlock</a>

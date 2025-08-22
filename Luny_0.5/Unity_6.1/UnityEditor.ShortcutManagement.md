@@ -1,0 +1,10 @@
+# UnityEditor.ShortcutManagement
+[<< Back to Modules](index.md)
+- [ActiveProfileChangedEventArgs](UnityEditor.ShortcutManagement.ActiveProfileChangedEventArgs.md)
+- [KeyCombination](UnityEditor.ShortcutManagement.KeyCombination.md)
+- [ShortcutArguments](UnityEditor.ShortcutManagement.ShortcutArguments.md)
+- [ShortcutBinding](UnityEditor.ShortcutManagement.ShortcutBinding.md)
+- [ShortcutBindingChangedEventArgs](UnityEditor.ShortcutManagement.ShortcutBindingChangedEventArgs.md)
+- [ShortcutManager](UnityEditor.ShortcutManagement.ShortcutManager.md)
+- [ShortcutModifiers](UnityEditor.ShortcutManagement.ShortcutModifiers.md)
+- [ShortcutStage](UnityEditor.ShortcutManagement.ShortcutStage.md)

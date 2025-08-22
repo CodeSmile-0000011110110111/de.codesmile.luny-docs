@@ -1,8 +1,10 @@
 # MaterialPropertyBlock
 class in UnityEngine
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialPropertyBlock-isEmpty.html">isEmpty</a> : Boolean
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialPropertyBlock.Clear.html">Clear</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MaterialPropertyBlock.CopyProbeOcclusionArrayFrom.html">CopyProbeOcclusionArrayFrom</a> (2 overloads)

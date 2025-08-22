@@ -1,6 +1,7 @@
 # FrameDataView
 class in UnityEditor.Profiling
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/FrameDataView-frameFps.html">frameFps</a> : Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/FrameDataView-frameGpuTimeMs.html">frameGpuTimeMs</a> : Single
@@ -17,6 +18,7 @@ class in UnityEditor.Profiling
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/FrameDataView-threadIndex.html">threadIndex</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/FrameDataView-threadName.html">threadName</a> : String
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/FrameDataView-valid.html">valid</a> : Boolean
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/FrameDataView.Dispose.html">Dispose</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/FrameDataView.GetCategoryInfo.html">GetCategoryInfo</a> returns ProfilerCategoryInfo
@@ -34,6 +36,7 @@ class in UnityEditor.Profiling
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/FrameDataView.GetUnityObjectNativeTypeInfoCount.html">GetUnityObjectNativeTypeInfoCount</a> returns Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/FrameDataView.HasCounterValue.html">HasCounterValue</a> returns Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/FrameDataView.ResolveMethodInfo.html">ResolveMethodInfo</a> returns MethodInfo
+
 ## Static Fields
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/FrameDataView-invalidMarkerId.html">invalidMarkerId</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/FrameDataView-invalidThreadId.html">invalidThreadId</a> : UInt64

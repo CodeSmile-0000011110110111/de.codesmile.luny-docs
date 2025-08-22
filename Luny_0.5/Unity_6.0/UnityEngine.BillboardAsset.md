@@ -1,6 +1,7 @@
 # BillboardAsset
 class in UnityEngine
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/BillboardAsset-bottom.html">bottom</a> : Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/BillboardAsset-height.html">height</a> : Single
@@ -9,6 +10,7 @@ class in UnityEngine
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/BillboardAsset-material.html">material</a> : Material
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/BillboardAsset-vertexCount.html">vertexCount</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/BillboardAsset-width.html">width</a> : Single
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/BillboardAsset.GetImageTexCoords.html">GetImageTexCoords</a> returns Vector4[]
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/BillboardAsset.GetIndices.html">GetIndices</a> returns UInt16[]

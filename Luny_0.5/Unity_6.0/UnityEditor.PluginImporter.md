@@ -1,10 +1,12 @@
 # PluginImporter
 class in UnityEditor
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetImporter.html">AssetImporter</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PluginImporter-DefineConstraints.html">DefineConstraints</a> : String[]
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PluginImporter-isNativePlugin.html">isNativePlugin</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PluginImporter-isPreloaded.html">isPreloaded</a> : Boolean
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PluginImporter.ClearSettings.html">ClearSettings</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PluginImporter.GetCompatibleWithAnyPlatform.html">GetCompatibleWithAnyPlatform</a> returns Boolean
@@ -25,6 +27,7 @@ class in UnityEditor
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PluginImporter.SetIcon.html">SetIcon</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PluginImporter.SetPlatformData.html">SetPlatformData</a> (2 overloads)
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PluginImporter.ShouldIncludeInBuild.html">ShouldIncludeInBuild</a> returns Boolean
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PluginImporter.GetAllImporters.html">GetAllImporters</a> returns PluginImporter[]
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PluginImporter.GetImporters.html">GetImporters</a> returns PluginImporter[] (4 overloads)

@@ -1,6 +1,7 @@
 # ModelImporterClipAnimation
 class in UnityEditor
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporterClipAnimation-additiveReferencePoseFrame.html">additiveReferencePoseFrame</a> : Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporterClipAnimation-curves.html">curves</a> : ClipAnimationInfoCurve[]
@@ -28,6 +29,7 @@ class in UnityEditor
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporterClipAnimation-rotationOffset.html">rotationOffset</a> : Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporterClipAnimation-takeName.html">takeName</a> : String
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporterClipAnimation-wrapMode.html">wrapMode</a> : WrapMode
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporterClipAnimation.ConfigureClipFromMask.html">ConfigureClipFromMask</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ModelImporterClipAnimation.Equals.html">Equals</a> returns Boolean

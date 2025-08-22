@@ -1,11 +1,13 @@
 # Debug
 class in UnityEngine
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Debug-developerConsoleEnabled.html">developerConsoleEnabled</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Debug-developerConsoleVisible.html">developerConsoleVisible</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Debug-isDebugBuild.html">isDebugBuild</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Debug-unityLogger.html">unityLogger</a> : ILogger
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Debug.Assert.html">Assert</a> (6 overloads)
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Debug.AssertFormat.html">AssertFormat</a> (2 overloads)

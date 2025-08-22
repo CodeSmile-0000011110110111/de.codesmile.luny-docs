@@ -1,6 +1,7 @@
 # RenderPipelineAsset
 class in UnityEngine.Rendering
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ScriptableObject.html">ScriptableObject</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/RenderPipelineAsset-autodeskInteractiveMaskedShader.html">autodeskInteractiveMaskedShader</a> : Shader
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/RenderPipelineAsset-autodeskInteractiveShader.html">autodeskInteractiveShader</a> : Shader

@@ -1,21 +1,25 @@
 # Color
 struct in UnityEngine
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ValueType.html">ValueType</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Color-gamma.html">gamma</a> : Color
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Color-grayscale.html">grayscale</a> : Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Color-Item.html">Item</a> : Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Color-linear.html">linear</a> : Color
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Color-maxColorComponent.html">maxColorComponent</a> : Single
+
 ## Fields
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Color-a.html">a</a> : Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Color-b.html">b</a> : Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Color-g.html">g</a> : Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Color-r.html">r</a> : Single
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Color.Equals.html">Equals</a> returns Boolean (2 overloads)
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Color.GetHashCode.html">GetHashCode</a> returns Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Color.ToString.html">ToString</a> returns String (2 overloads)
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Color-black.html">black</a> : Color
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Color-blue.html">blue</a> : Color
@@ -28,10 +32,12 @@ struct in UnityEngine
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Color-red.html">red</a> : Color
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Color-white.html">white</a> : Color
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Color-yellow.html">yellow</a> : Color
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Color.HSVToRGB.html">HSVToRGB</a> returns Color (2 overloads)
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Color.Lerp.html">Lerp</a> returns Color
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Color.LerpUnclamped.html">LerpUnclamped</a> returns Color
+
 ## Operators
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Color.op_Addition.html">op_Addition</a> returns Color
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Color.op_Division.html">op_Division</a> returns Color

@@ -1,6 +1,7 @@
 # SerializedObject
 class in UnityEditor
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedObject-context.html">context</a> : Object
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedObject-forceChildVisibility.html">forceChildVisibility</a> : Boolean
@@ -9,6 +10,7 @@ class in UnityEditor
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedObject-maxArraySizeForMultiEditing.html">maxArraySizeForMultiEditing</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedObject-targetObject.html">targetObject</a> : Object
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedObject-targetObjects.html">targetObjects</a> : Object[]
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedObject.ApplyModifiedProperties.html">ApplyModifiedProperties</a> returns Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SerializedObject.ApplyModifiedPropertiesWithoutUndo.html">ApplyModifiedPropertiesWithoutUndo</a> returns Boolean

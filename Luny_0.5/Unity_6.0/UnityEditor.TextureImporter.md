@@ -1,6 +1,7 @@
 # TextureImporter
 class in UnityEditor
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AssetImporter.html">AssetImporter</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/TextureImporter-allowAlphaSplitting.html">allowAlphaSplitting</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/TextureImporter-alphaIsTransparency.html">alphaIsTransparency</a> : Boolean
@@ -51,6 +52,7 @@ class in UnityEditor
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/TextureImporter-wrapModeU.html">wrapModeU</a> : TextureWrapMode
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/TextureImporter-wrapModeV.html">wrapModeV</a> : TextureWrapMode
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/TextureImporter-wrapModeW.html">wrapModeW</a> : TextureWrapMode
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/TextureImporter.ClearPlatformTextureSettings.html">ClearPlatformTextureSettings</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/TextureImporter.DoesSourceTextureHaveAlpha.html">DoesSourceTextureHaveAlpha</a> returns Boolean
@@ -60,6 +62,7 @@ class in UnityEditor
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/TextureImporter.ReadTextureSettings.html">ReadTextureSettings</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/TextureImporter.SetPlatformTextureSettings.html">SetPlatformTextureSettings</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/TextureImporter.SetTextureSettings.html">SetTextureSettings</a>
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/TextureImporter.IsDefaultPlatformTextureFormatValid.html">IsDefaultPlatformTextureFormatValid</a> returns Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/TextureImporter.IsPlatformTextureFormatValid.html">IsPlatformTextureFormatValid</a> returns Boolean

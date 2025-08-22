@@ -1,0 +1,66 @@
+# QualitySettings
+class in UnityEngine
+ / Inherits from: <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
+## Static Properties
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-activeColorSpace.html">activeColorSpace</a> : ColorSpace
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-anisotropicFiltering.html">anisotropicFiltering</a> : AnisotropicFiltering
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-antiAliasing.html">antiAliasing</a> : Int32
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-asyncUploadBufferSize.html">asyncUploadBufferSize</a> : Int32
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-asyncUploadPersistentBuffer.html">asyncUploadPersistentBuffer</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-asyncUploadTimeSlice.html">asyncUploadTimeSlice</a> : Int32
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-billboardsFaceCameraPosition.html">billboardsFaceCameraPosition</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-count.html">count</a> : Int32
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-desiredColorSpace.html">desiredColorSpace</a> : ColorSpace
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-enableLODCrossFade.html">enableLODCrossFade</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-globalTextureMipmapLimit.html">globalTextureMipmapLimit</a> : Int32
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-lodBias.html">lodBias</a> : Single
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-maximumLODLevel.html">maximumLODLevel</a> : Int32
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-maxQueuedFrames.html">maxQueuedFrames</a> : Int32
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-names.html">names</a> : String[]
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-particleRaycastBudget.html">particleRaycastBudget</a> : Int32
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-pixelLightCount.html">pixelLightCount</a> : Int32
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-realtimeGICPUUsage.html">realtimeGICPUUsage</a> : Int32
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-realtimeReflectionProbes.html">realtimeReflectionProbes</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-renderPipeline.html">renderPipeline</a> : RenderPipelineAsset
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-resolutionScalingFixedDPIFactor.html">resolutionScalingFixedDPIFactor</a> : Single
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-shadowCascade2Split.html">shadowCascade2Split</a> : Single
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-shadowCascade4Split.html">shadowCascade4Split</a> : Vector3
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-shadowCascades.html">shadowCascades</a> : Int32
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-shadowDistance.html">shadowDistance</a> : Single
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-shadowmaskMode.html">shadowmaskMode</a> : ShadowmaskMode
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-shadowNearPlaneOffset.html">shadowNearPlaneOffset</a> : Single
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-shadowProjection.html">shadowProjection</a> : ShadowProjection
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-shadowResolution.html">shadowResolution</a> : ShadowResolution
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-shadows.html">shadows</a> : ShadowQuality
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-skinWeights.html">skinWeights</a> : SkinWeights
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-softParticles.html">softParticles</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-softVegetation.html">softVegetation</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-streamingMipmapsActive.html">streamingMipmapsActive</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-streamingMipmapsAddAllCameras.html">streamingMipmapsAddAllCameras</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-streamingMipmapsMaxFileIORequests.html">streamingMipmapsMaxFileIORequests</a> : Int32
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-streamingMipmapsMaxLevelReduction.html">streamingMipmapsMaxLevelReduction</a> : Int32
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-streamingMipmapsMemoryBudget.html">streamingMipmapsMemoryBudget</a> : Single
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-streamingMipmapsRenderersPerFrame.html">streamingMipmapsRenderersPerFrame</a> : Int32
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-terrainBasemapDistance.html">terrainBasemapDistance</a> : Single
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-terrainBillboardStart.html">terrainBillboardStart</a> : Single
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-terrainDetailDensityScale.html">terrainDetailDensityScale</a> : Single
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-terrainDetailDistance.html">terrainDetailDistance</a> : Single
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-terrainFadeLength.html">terrainFadeLength</a> : Single
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-terrainMaxTrees.html">terrainMaxTrees</a> : Single
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-terrainPixelError.html">terrainPixelError</a> : Single
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-terrainQualityOverrides.html">terrainQualityOverrides</a> : TerrainQualityOverrides
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-terrainTreeDistance.html">terrainTreeDistance</a> : Single
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-useLegacyDetailDistribution.html">useLegacyDetailDistribution</a> : Boolean
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings-vSyncCount.html">vSyncCount</a> : Int32
+
+## Static Methods
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings.DecreaseLevel.html">DecreaseLevel</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings.GetQualityLevel.html">GetQualityLevel</a> returns Int32
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings.GetQualitySettings.html">GetQualitySettings</a> returns Object
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings.GetRenderPipelineAssetAt.html">GetRenderPipelineAssetAt</a> returns RenderPipelineAsset
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings.GetTextureMipmapLimitSettings.html">GetTextureMipmapLimitSettings</a> returns TextureMipmapLimitSettings
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings.IncreaseLevel.html">IncreaseLevel</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings.SetLODSettings.html">SetLODSettings</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings.SetQualityLevel.html">SetQualityLevel</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/QualitySettings.SetTextureMipmapLimitSettings.html">SetTextureMipmapLimitSettings</a>

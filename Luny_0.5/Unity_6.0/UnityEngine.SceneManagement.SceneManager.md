@@ -1,10 +1,12 @@
 # SceneManager
 class in UnityEngine.SceneManagement
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SceneManager-loadedSceneCount.html">loadedSceneCount</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SceneManager-sceneCount.html">sceneCount</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SceneManager-sceneCountInBuildSettings.html">sceneCountInBuildSettings</a> : Int32
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SceneManager.CreateScene.html">CreateScene</a> returns Scene (2 overloads)
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SceneManager.GetActiveScene.html">GetActiveScene</a> returns Scene

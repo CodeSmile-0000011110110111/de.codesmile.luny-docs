@@ -1,6 +1,7 @@
 # PackageInfo
 class in UnityEditor.PackageManager
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PackageInfo-assetPath.html">assetPath</a> : String
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PackageInfo-author.html">author</a> : AuthorInfo
@@ -27,6 +28,7 @@ class in UnityEditor.PackageManager
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PackageInfo-type.html">type</a> : String
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PackageInfo-version.html">version</a> : String
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PackageInfo-versions.html">versions</a> : VersionsInfo
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PackageInfo.FindForAssembly.html">FindForAssembly</a> returns PackageInfo
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/PackageInfo.FindForAssetPath.html">FindForAssetPath</a> returns PackageInfo

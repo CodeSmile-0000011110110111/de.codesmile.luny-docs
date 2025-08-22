@@ -1,9 +1,11 @@
 # AnimatorController
 class in UnityEditor.Animations
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/RuntimeAnimatorController.html">RuntimeAnimatorController</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AnimatorController-layers.html">layers</a> : AnimatorControllerLayer[]
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AnimatorController-parameters.html">parameters</a> : AnimatorControllerParameter[]
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AnimatorController.AddEffectiveStateMachineBehaviour.html">AddEffectiveStateMachineBehaviour</a> returns StateMachineBehaviour
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AnimatorController.AddLayer.html">AddLayer</a> (2 overloads)
@@ -17,6 +19,7 @@ class in UnityEditor.Animations
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AnimatorController.RemoveParameter.html">RemoveParameter</a> (2 overloads)
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AnimatorController.SetStateEffectiveBehaviours.html">SetStateEffectiveBehaviours</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AnimatorController.SetStateEffectiveMotion.html">SetStateEffectiveMotion</a> (2 overloads)
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AnimatorController.AllocateAnimatorClip.html">AllocateAnimatorClip</a> returns AnimationClip
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AnimatorController.CreateAnimatorControllerAtPath.html">CreateAnimatorControllerAtPath</a> returns AnimatorController

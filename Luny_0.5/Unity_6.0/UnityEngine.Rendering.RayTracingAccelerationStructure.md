@@ -1,6 +1,7 @@
 # RayTracingAccelerationStructure
 class in UnityEngine.Rendering
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/RayTracingAccelerationStructure.AddInstance.html">AddInstance</a> returns Int32 (7 overloads)
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/RayTracingAccelerationStructure.AddVFXInstances.html">AddVFXInstances</a>

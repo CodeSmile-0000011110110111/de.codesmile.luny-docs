@@ -1,6 +1,7 @@
 # Application
 class in UnityEngine.Device
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Application-absoluteURL.html">absoluteURL</a> : String
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Application-backgroundLoadingPriority.html">backgroundLoadingPriority</a> : ThreadPriority
@@ -33,6 +34,7 @@ class in UnityEngine.Device
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Application-temporaryCachePath.html">temporaryCachePath</a> : String
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Application-unityVersion.html">unityVersion</a> : String
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Application-version.html">version</a> : String
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Application.CanStreamedLevelBeLoaded.html">CanStreamedLevelBeLoaded</a> returns Boolean (2 overloads)
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Application.GetStackTraceLogType.html">GetStackTraceLogType</a> returns StackTraceLogType

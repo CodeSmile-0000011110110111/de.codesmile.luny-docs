@@ -1,6 +1,7 @@
 # TrailRenderer
 class in UnityEngine
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Renderer.html">Renderer</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/TrailRenderer-alignment.html">alignment</a> : LineAlignment
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/TrailRenderer-autodestruct.html">autodestruct</a> : Boolean
@@ -22,6 +23,7 @@ class in UnityEngine
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/TrailRenderer-time.html">time</a> : Single
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/TrailRenderer-widthCurve.html">widthCurve</a> : AnimationCurve
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/TrailRenderer-widthMultiplier.html">widthMultiplier</a> : Single
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/TrailRenderer.AddPosition.html">AddPosition</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/TrailRenderer.AddPositions.html">AddPositions</a>

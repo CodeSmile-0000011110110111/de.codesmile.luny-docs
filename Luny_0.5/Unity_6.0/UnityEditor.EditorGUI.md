@@ -1,10 +1,12 @@
 # EditorGUI
 class in UnityEditor
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUI-actionKey.html">actionKey</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUI-indentLevel.html">indentLevel</a> : Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUI-showMixedValue.html">showMixedValue</a> : Boolean
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUI.BeginChangeCheck.html">BeginChangeCheck</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorGUI.BeginDisabledGroup.html">BeginDisabledGroup</a>

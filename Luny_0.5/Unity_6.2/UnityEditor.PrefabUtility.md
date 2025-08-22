@@ -1,0 +1,67 @@
+# PrefabUtility
+class in UnityEditor
+ / Inherits from: <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
+## Static Fields
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility-prefabInstanceUpdated.html">prefabInstanceUpdated</a> : PrefabInstanceUpdated
+
+## Static Methods
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.ApplyAddedComponent.html">ApplyAddedComponent</a>
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.ApplyAddedGameObject.html">ApplyAddedGameObject</a>
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.ApplyAddedGameObjects.html">ApplyAddedGameObjects</a>
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.ApplyObjectOverride.html">ApplyObjectOverride</a>
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.ApplyPrefabInstance.html">ApplyPrefabInstance</a>
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.ApplyPrefabInstances.html">ApplyPrefabInstances</a>
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.ApplyRemovedComponent.html">ApplyRemovedComponent</a>
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.ApplyRemovedGameObject.html">ApplyRemovedGameObject</a>
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.ConvertToPrefabInstance.html">ConvertToPrefabInstance</a>
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.ConvertToPrefabInstances.html">ConvertToPrefabInstances</a>
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.FindAllInstancesOfPrefab.html">FindAllInstancesOfPrefab</a> returns GameObject[] (2 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.GetIconForGameObject.html">GetIconForGameObject</a> returns Texture2D
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.GetNearestPrefabInstanceRoot.html">GetNearestPrefabInstanceRoot</a> returns GameObject
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.GetOriginalSourceRootWhereGameObjectIsAdded.html">GetOriginalSourceRootWhereGameObjectIsAdded</a> returns GameObject
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.GetOutermostPrefabInstanceRoot.html">GetOutermostPrefabInstanceRoot</a> returns GameObject
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.GetPrefabAssetPathOfNearestInstanceRoot.html">GetPrefabAssetPathOfNearestInstanceRoot</a> returns String
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.GetPrefabAssetType.html">GetPrefabAssetType</a> returns PrefabAssetType
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.GetPrefabInstanceHandle.html">GetPrefabInstanceHandle</a> returns Object
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.GetPrefabInstanceStatus.html">GetPrefabInstanceStatus</a> returns PrefabInstanceStatus
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.GetPropertyModifications.html">GetPropertyModifications</a> returns PropertyModification[]
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.HasManagedReferencesWithMissingTypes.html">HasManagedReferencesWithMissingTypes</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.HasPrefabInstanceAnyOverrides.html">HasPrefabInstanceAnyOverrides</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.InstantiatePrefab.html">InstantiatePrefab</a> returns Object (3 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.IsAddedComponentOverride.html">IsAddedComponentOverride</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.IsAddedGameObjectOverride.html">IsAddedGameObjectOverride</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.IsAnyPrefabInstanceRoot.html">IsAnyPrefabInstanceRoot</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.IsDefaultOverride.html">IsDefaultOverride</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.IsOutermostPrefabInstanceRoot.html">IsOutermostPrefabInstanceRoot</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.IsPartOfAnyPrefab.html">IsPartOfAnyPrefab</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.IsPartOfImmutablePrefab.html">IsPartOfImmutablePrefab</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.IsPartOfModelPrefab.html">IsPartOfModelPrefab</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.IsPartOfNonAssetPrefabInstance.html">IsPartOfNonAssetPrefabInstance</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.IsPartOfPrefabAsset.html">IsPartOfPrefabAsset</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.IsPartOfPrefabInstance.html">IsPartOfPrefabInstance</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.IsPartOfPrefabThatCanBeAppliedTo.html">IsPartOfPrefabThatCanBeAppliedTo</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.IsPartOfRegularPrefab.html">IsPartOfRegularPrefab</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.IsPartOfVariantPrefab.html">IsPartOfVariantPrefab</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.IsPrefabAssetMissing.html">IsPrefabAssetMissing</a> returns Boolean
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.LoadPrefabContents.html">LoadPrefabContents</a> returns GameObject
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.LoadPrefabContentsIntoPreviewScene.html">LoadPrefabContentsIntoPreviewScene</a>
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.MergePrefabInstance.html">MergePrefabInstance</a>
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.RecordPrefabInstancePropertyModifications.html">RecordPrefabInstancePropertyModifications</a>
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.RemoveUnusedOverrides.html">RemoveUnusedOverrides</a>
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.ReplacePrefabAssetOfPrefabInstance.html">ReplacePrefabAssetOfPrefabInstance</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.ReplacePrefabAssetOfPrefabInstances.html">ReplacePrefabAssetOfPrefabInstances</a> (2 overloads)
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.RevertAddedComponent.html">RevertAddedComponent</a>
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.RevertAddedGameObject.html">RevertAddedGameObject</a>
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.RevertObjectOverride.html">RevertObjectOverride</a>
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.RevertPrefabInstance.html">RevertPrefabInstance</a>
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.RevertRemovedComponent.html">RevertRemovedComponent</a>
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.RevertRemovedGameObject.html">RevertRemovedGameObject</a>
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.SaveAsPrefabAsset.html">SaveAsPrefabAsset</a> returns GameObject
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.SaveAsPrefabAssetAndConnect.html">SaveAsPrefabAssetAndConnect</a> returns GameObject
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.SavePrefabAsset.html">SavePrefabAsset</a> returns GameObject
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.SetPropertyModifications.html">SetPropertyModifications</a>
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.UnloadPrefabContents.html">UnloadPrefabContents</a>
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.UnpackAllInstancesOfPrefab.html">UnpackAllInstancesOfPrefab</a>
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.UnpackPrefabInstance.html">UnpackPrefabInstance</a>
+- <a href="https://docs.unity3d.com/6000.2/Documentation/ScriptReference/PrefabUtility.UnpackPrefabInstanceAndReturnNewOutermostRoots.html">UnpackPrefabInstanceAndReturnNewOutermostRoots</a> returns GameObject[]

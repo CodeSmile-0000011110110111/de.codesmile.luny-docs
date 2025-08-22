@@ -1,10 +1,12 @@
 # Component
 class in UnityEngine
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Component-gameObject.html">gameObject</a> : GameObject
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Component-tag.html">tag</a> : String
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Component-transform.html">transform</a> : Transform
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Component.BroadcastMessage.html">BroadcastMessage</a> (4 overloads)
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Component.CompareTag.html">CompareTag</a> returns Boolean (2 overloads)

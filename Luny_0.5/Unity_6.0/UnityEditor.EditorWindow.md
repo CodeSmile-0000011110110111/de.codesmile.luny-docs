@@ -1,6 +1,7 @@
 # EditorWindow
 class in UnityEditor
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ScriptableObject.html">ScriptableObject</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorWindow-autoRepaintOnSceneChange.html">autoRepaintOnSceneChange</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorWindow-dataModeController.html">dataModeController</a> : IDataModeController
@@ -19,6 +20,7 @@ class in UnityEditor
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorWindow-wantsLessLayoutEvents.html">wantsLessLayoutEvents</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorWindow-wantsMouseEnterLeaveWindow.html">wantsMouseEnterLeaveWindow</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorWindow-wantsMouseMove.html">wantsMouseMove</a> : Boolean
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorWindow.BeginWindows.html">BeginWindows</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorWindow.Close.html">Close</a>
@@ -38,9 +40,11 @@ class in UnityEditor
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorWindow.ShowPopup.html">ShowPopup</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorWindow.ShowTab.html">ShowTab</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorWindow.ShowUtility.html">ShowUtility</a>
+
 ## Static Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorWindow-focusedWindow.html">focusedWindow</a> : EditorWindow
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorWindow-mouseOverWindow.html">mouseOverWindow</a> : EditorWindow
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorWindow.FocusWindowIfItsOpen.html">FocusWindowIfItsOpen</a>
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorWindow.GetWindow.html">GetWindow</a> returns EditorWindow (4 overloads)

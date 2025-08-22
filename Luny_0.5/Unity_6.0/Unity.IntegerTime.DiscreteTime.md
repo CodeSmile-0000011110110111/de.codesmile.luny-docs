@@ -1,13 +1,16 @@
 # DiscreteTime
 struct in Unity.IntegerTime
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ValueType.html">ValueType</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Fields
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/DiscreteTime-Value.html">Value</a> : Int64
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/DiscreteTime.CompareTo.html">CompareTo</a> returns Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/DiscreteTime.Equals.html">Equals</a> returns Boolean (2 overloads)
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/DiscreteTime.GetHashCode.html">GetHashCode</a> returns Int32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/DiscreteTime.ToString.html">ToString</a> returns String
+
 ## Static Fields
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/DiscreteTime-MaxValue.html">MaxValue</a> : DiscreteTime
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/DiscreteTime-MaxValueSeconds.html">MaxValueSeconds</a> : Int64
@@ -42,8 +45,10 @@ struct in Unity.IntegerTime
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/DiscreteTime-Tick96Khz.html">Tick96Khz</a> : UInt32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/DiscreteTime-TicksPerSecond.html">TicksPerSecond</a> : UInt32
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/DiscreteTime-Zero.html">Zero</a> : DiscreteTime
+
 ## Static Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/DiscreteTime.FromTicks.html">FromTicks</a> returns DiscreteTime
+
 ## Operators
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/DiscreteTime.op_Addition.html">op_Addition</a> returns DiscreteTime
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/DiscreteTime.op_Division.html">op_Division</a> returns DiscreteTime (2 overloads)

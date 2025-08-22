@@ -1,10 +1,12 @@
 # EditorTool
 class in UnityEditor.EditorTools
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ScriptableObject.html">ScriptableObject</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEditor.CoreModule.html">UnityEditor.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorTool-gridSnapEnabled.html">gridSnapEnabled</a> : Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorTool-target.html">target</a> : Object
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorTool-toolbarIcon.html">toolbarIcon</a> : GUIContent
+
 ## Methods
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorTool.IsAvailable.html">IsAvailable</a> returns Boolean
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/EditorTool.OnActivated.html">OnActivated</a>

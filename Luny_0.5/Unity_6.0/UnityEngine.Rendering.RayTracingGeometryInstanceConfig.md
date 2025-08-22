@@ -1,6 +1,7 @@
 # RayTracingGeometryInstanceConfig
 struct in UnityEngine.Rendering
  / Inherits from: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/ValueType.html">ValueType</a> / Implemented in: <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UnityEngine.CoreModule.html">UnityEngine.CoreModule</a>
+
 ## Properties
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/RayTracingGeometryInstanceConfig-accelerationStructureBuildFlags.html">accelerationStructureBuildFlags</a> : RayTracingAccelerationStructureBuildFlags
 - <a href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/RayTracingGeometryInstanceConfig-accelerationStructureBuildFlagsOverride.html">accelerationStructureBuildFlagsOverride</a> : Boolean
