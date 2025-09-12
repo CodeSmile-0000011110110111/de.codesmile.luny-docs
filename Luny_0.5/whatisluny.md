@@ -1,4 +1,8 @@
-Luny enables you to write Lua scripts in Unity as an alternative to C#. The UnityEditor and UnityEngine APIs are available in Lua. 
+#### [Back to Index](index.md)
+
+# What is Luny?
+
+Luny (/ˈluːni/) enables you to write Lua scripts in Unity as an alternative to C#. The UnityEditor and UnityEngine APIs are available in Lua. 
 
 Scripts hot reload automatically when you save. Hot reloading works with Editor and Runtime scripts, and even in builds.
 
@@ -21,3 +25,5 @@ script.Update = function()
     script.transform.position = pos
 end
 ```
+
+#### [Back to Index](index.md)

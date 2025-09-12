@@ -1,4 +1,6 @@
-﻿# Hot Reload
+﻿#### [Back to Index](index.md)
+
+# Script Hot Reload
 
 Hot reloading happens upon saving a script. That means you can save in the text editor or IDE and without focusing Unity Editor the script will be reloaded. This allows you to keep coding uninterrupted while merely observing the effects in the Unity Editor window.
 
@@ -23,3 +25,5 @@ The events called during a hot reload are, in this order:
 - OnEnable
 
 OnScriptLoad and OnScriptUnload exist specifically to add code only needed for hot reloading a script.
+
+#### [Back to Index](index.md)
