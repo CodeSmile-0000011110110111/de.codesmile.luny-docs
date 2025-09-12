@@ -46,9 +46,9 @@ Create a new Editor Lua script in a `/Editor` folder:
 
 ![Create Editor Lua Script](img/create-editor-lua-script.png)
 
-If you're not in a
+Note: If this menu item is grayed out, then try again in a folder named `Editor` or a folder whose Assembly Definition makes it an 'Editor-only' assembly.
 
-Capture the script's context table in a local variable, where `...` is Lua's _varargs_ keyword similar to C# `params`:
+Capture the script's context table in a local variable. The three dots `...` is Lua's _varargs_ keyword similar to C# `params` and not to be confused with the three seashells.
 ```
 local script = ...
 ```
