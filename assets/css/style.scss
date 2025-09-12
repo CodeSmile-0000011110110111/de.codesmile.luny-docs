@@ -4,7 +4,8 @@
 @import "{{ site.theme }}";
 
 :root {
-  --headercolor: #90bbff;
+  --headercolor: #d0d0ff;
+  --linkcolor: #7099ff;
 }
 
 /* MeyerWeb Reset */
@@ -82,7 +83,7 @@ h4, h5, h6 {
 }
 
 a {
-  color:#5580ff;
+  color:var(--linkcolor);
   font-weight:200;
   text-decoration:none;
 }
