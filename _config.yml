@@ -4,6 +4,7 @@ description: Program Unity in Lua
 url: https://docs.lunyscript.com
 baseurl: ''
 repository: CodeSmile-0000011110110111/de.codesmile.luny-docs
+github: [metadata]
 google_analytics: [GA tracking ID]
 markdown: GFM 
 plugins:
