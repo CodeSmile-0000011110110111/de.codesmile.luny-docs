@@ -20,7 +20,7 @@ In the Unity Editor:
 > [!WARNING]
 > Unity packages added 'from git URL' are read-only! You can't modify the package contents.
 
-# Cloning the Luny Package Repository (writable)
+# Cloning the Luny Package (writable)
 
 If you wish to modify the Luny package contents, you should clone the repository locally. 
 

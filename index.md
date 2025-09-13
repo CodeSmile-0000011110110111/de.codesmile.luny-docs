@@ -1,4 +1,4 @@
-# Luny Manual
+# Luny Documentation
 
 [![Luny Logo](LunyLogo.png)](https://lunyscript.com)
 
@@ -12,7 +12,7 @@ For more info visit [LunyScript.com](https://lunyscript.com) and the [Luny Unity
 
 ---
 
-- ## [Luny 0.5 Manual](Luny_0.5/index)
+- ## [Luny 0.5 Documentation](Luny_0.5/index)
 
 ---
 
