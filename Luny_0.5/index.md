@@ -23,7 +23,7 @@ Please consider sponsoring Luny on [Patreon](http://www.patreon.com/c/codesmile)
 ## Advanced Concepts
 
 > [!IMPORTANT]
-> Since the Luny code generator is not yet available, Contexts and Modules have little use at this point.
+> Since the Luny code generator is not yet available, Contexts and Modules have little use for you at this point.
 
 - [Lua Module](luacontext.md)
 - [Lua Context](luamodule.md)
