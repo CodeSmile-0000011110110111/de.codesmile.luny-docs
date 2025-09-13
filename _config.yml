@@ -4,8 +4,13 @@ description: Program Unity in Lua
 google_analytics: [GA tracking ID]
 markdown: GFM 
 plugins:
-- jekyll-gfm-admonitions
-- jekyll-optional-front-matter
+  - jekyll-gfm-admonitions
+  - jekyll-optional-front-matter
+  - jekyll-remote-theme
+whitelist:
+  - jekyll-gfm-admonitions
+  - jekyll-optional-front-matter
+  - jekyll-remote-theme
   
 exclude: 
   - "**/*.ts" # Exclude source code files!
