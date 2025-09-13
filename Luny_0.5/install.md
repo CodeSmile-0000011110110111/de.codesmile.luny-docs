@@ -6,8 +6,8 @@ For a quick "just open it" trial run, use the [Luny-Examples repository](https:/
 
 Just clone the project or download it as zip, then unzip locally. Open it in a Unity Editor version which matches at least the major/minor version (ie 6.0).
 
-> [!TIP]
-> The Luny package is embedded and not upgradeable to ensure the project works smoothly. To upgrade Luny in that project, first uninstall the Luny package, then install it from Git as explained above.
+> [!WARNING]
+> The Luny package is locally embedded in the project and cannot be upgraded. If you want to use Luny for production, one of the following steps is recommended.
 
 # Installing Luny Package (read-only)
 
@@ -20,12 +20,11 @@ In the Unity Editor:
 > [!WARNING]
 > Unity packages added 'from git URL' are read-only! You can't modify the package contents.
 
-# Cloning the Luny Package (writable)
+# Cloning the Luny Package Repository (writable)
 
-If you wish to modify the Luny package contents, you should clone the repository locally. If you want to send pull requests with your changes, please fork the project first, then pull your fork. Refer to GitHub documentation if you need help with that.
+If you wish to modify the Luny package contents, you should clone the repository locally. 
 
-> [!CAUTION]
-> Do not clone a package repository anywhere under your Unity project folder! Doing so will cause issues either with installing the package or with source control of the Unity project itself.
+If you want to send pull requests with your changes, please fork the project first, then pull your fork. Refer to GitHub documentation if you need help with that.
 
 Assuming you have a local clone of the Luny repository somewhere on your file system, you can add it to a Unity project as follows:
 
