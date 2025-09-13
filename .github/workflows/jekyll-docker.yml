@@ -27,6 +27,8 @@ jobs:
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll \
         -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+        -v ${{ github.workspace }}/vendor/bundle:/usr/local/bundle \
+        -w /srv/jekyll \
         jekyll/builder:latest \
         /bin/bash -c "chmod -R 777 /srv/jekyll && bundle install && jekyll build --future"
 
