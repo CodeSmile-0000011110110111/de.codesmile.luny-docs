@@ -14,4 +14,8 @@ group :jekyll_plugins do
 	gem 'jekyll-optional-front-matter'
 end
 
+gem 'github-pages'
+gem 'jekyll-gfm-admonitions'
+gem 'jekyll-optional-front-matter'
+
 gem 'jekyll-remote-theme'
