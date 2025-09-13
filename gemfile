@@ -1,5 +1,13 @@
 source 'https://rubygems.org'
 
+gem 'nokogiri'
+gem 'rack', '~> 2.2.4'
+gem 'rspec'
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+gem 'fiddle'
+gem 'base64'
+gem 'bigdecimal'
+gem 'logger'
 gem 'jekyll'
 
 group :jekyll_plugins do
@@ -7,10 +15,4 @@ group :jekyll_plugins do
   gem 'jekyll-gfm-admonitions'
   gem 'jekyll-optional-front-matter'
   gem 'jekyll-remote-theme'
-
-  gem 'nokogiri'
-  gem 'rack', '~> 2.2.4'
-  gem 'rspec'
-  gem 'wdm', '>= 0.1.0' if Gem.win_platform?
-  gem 'fiddle'
 end
