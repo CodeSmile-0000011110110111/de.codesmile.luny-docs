@@ -19,24 +19,41 @@ Let's move an object at runtime through a Lua script.
 
 In the Project view, navigate to a folder where you want to create the scripts. It should not be an "Editor" folder or assembly.
 
-Right-click and use `Create / Luny / Luny C# + Lua Script`:
+Right-click and choose `Create / Luny / LunyScript C# + Lua`:
 
-[image]
+![create lunyscript pair](img/create-luny-script-pair.png)
 
 After naming the asset - for example "TestScript" - two assets will be created: a C# (TestScript.cs) and accompanying Lua (TestScript.lua) asset.
 
-Create a GameObject in the scene and select it. Then drag & drop the C# script onto its Inspector window, or use **Add Component** in the Inspector to add the C# script.
+![lunyscript pair](img/luny-script-pair.png)
 
-Since the Lua script has the same name as the C# script it will automatically get assigned to the script reference field.
+Create a GameObject in the scene and select it. Then drag & drop the C# script onto its Inspector window, or use **Add Component** in the Inspector to add the C# script. It should look like this:
 
-Enter playmode now. You should get a message printed to the Console from the Lua script.
+![lunyscript inspector](img/lunyscript-inspector.png)
+
+Since the Lua script has the same name as the C# script it will automatically get assigned to the _Lua Asset_ field.
+
+## Play with it!
+
+Enter playmode now. You should get a message printed to the Console from the Lua script:
+
+![lunyscript playmode log](img/lunyscript-playmode-log.png)
 
 Stay in playmode. Open the Lua script. Edit the string that gets logged. Save the Lua script. 
 
-Notice how the Console message gets printed again automatically.
+```
+-- assign script's context table to a local variable (... is Lua's varargs operator):
+local script = ...
 
+-- Unity event messages call Lua functions of the same name in the 'script' table:
+script.OnEnable = function()
+    print("Hello again after hot reload, " .. script.Name .. ".lua")
+end
 ```
-code here
-```
+
+Notice how the changed Console message gets printed immediately after saving:
+
+![lunyscript after hotreload](img/lunyscript-after-hotreload-log.png)
+
 
 #### [Back to Index](index.md)
