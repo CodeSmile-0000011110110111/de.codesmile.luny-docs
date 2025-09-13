@@ -1,7 +1,6 @@
 ﻿
 #### [Back to Index](index.md)
 
-# Create Your First Editor Lua Script 
 
 I encourage you to have your editor window sized so that you can see the Unity Editor's 'Console' window somewhere on the side.
 
@@ -13,7 +12,8 @@ warn("Hello!")     -- Debug.LogWarning equivalent
 error("Hello!")    -- Debug.LogError equivalent
 ```
 
-## Example Editor Lua Script
+# Create Your First Editor Lua Script 
+
 Use case: We need an Editor utility script that automatically opens new Scene assets.
 
 Exactly the kind of script we often wish for but rarely write because of the friction imposed upon us. Particularly when we need to figure many things out one by one:
@@ -40,7 +40,7 @@ script.OnPostprocessAllAssets = function(imported)
 end
 ```
 
-## Your First Editor Script
+## Creating an Editor Lua Script
 
 Create a new Editor Lua script in a `/Editor` folder:
 
@@ -60,6 +60,7 @@ script.OnPostprocessAllAssets = function(imported, deleted, moved, movedFrom)
 end
 ```
 
+## How the script works ...
 You can omit unused, trailing arguments for clarity and brevity:
 ```
 script.OnPostprocessAllAssets = function(imported)
@@ -130,6 +131,7 @@ if script.Reloads == nil then script.Reloads = 0 end
 ```
 I could show you how you can make multiple statements on the same line, but I do not wish to endorse this style.
 
+## Tables are awesome!
 If you ever find need for structuring things, use a table. The table is Lua's sole collection type, mimicking both a list and a key-value store. How you format the braces is entirely up to you:
 
 ```
@@ -157,6 +159,7 @@ Some example use-cases for embedded functionality right in the game and config d
 
 What you can't do: mining bitcoins on user's devices. Generally speaking.
 
+## Editing Lua Scripts
 Most IDEs and text editors support syntax highlighting, error checking, and auto-completion suggestions for Lua, either built-in or via a plugin. Check your editor's plugin manager.
 
 #### [Back to Index](index.md)
