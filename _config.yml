@@ -3,8 +3,8 @@ title: Luny Docs
 description: Program Unity in Lua
 markdown: GFM 
 plugins:
-  - jekyll-gfm-admonitions
-  - jekyll-optional-front-matter
+- jekyll-gfm-admonitions
+- jekyll-optional-front-matter
   
 exclude: 
   - "**/*.ts" # Exclude source code files!

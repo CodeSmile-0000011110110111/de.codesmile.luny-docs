@@ -5,6 +5,7 @@ gem 'rack', '~> 2.2.4'
 gem 'rspec'
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 gem 'fiddle'
+
 gem 'jekyll'
 
 group :jekyll_plugins do
@@ -12,3 +13,5 @@ group :jekyll_plugins do
 	gem 'jekyll-gfm-admonitions'
 	gem 'jekyll-optional-front-matter'
 end
+
+gem 'jekyll-remote-theme'
