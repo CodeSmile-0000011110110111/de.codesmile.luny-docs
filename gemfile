@@ -8,14 +8,8 @@ gem 'fiddle'
 
 gem 'jekyll'
 
-group :jekyll_plugins do
-	gem 'github-pages'
-	gem 'jekyll-gfm-admonitions'
-	gem 'jekyll-optional-front-matter'
-end
-
-gem 'github-pages'
-gem 'jekyll-gfm-admonitions'
-gem 'jekyll-optional-front-matter'
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll-gfm-admonitions", group: :jekyll_plugins
+gem "jekyll-optional-front-matter", group: :jekyll_plugins
 
 gem 'jekyll-remote-theme'
