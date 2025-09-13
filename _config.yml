@@ -1,6 +1,7 @@
-theme: jekyll-theme-dinky
+remote_theme: pages-themes/dinky@v0.2.0
 title: Luny Docs
 description: Program Unity in Lua
+google_analytics: [GA tracking ID]
 markdown: GFM 
 plugins:
 - jekyll-gfm-admonitions
@@ -19,6 +20,7 @@ exclude:
   - gemfiles/
   - Gemfile
   - Gemfile.lock
+  - vendor
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
