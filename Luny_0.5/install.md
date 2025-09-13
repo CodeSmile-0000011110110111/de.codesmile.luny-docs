@@ -6,7 +6,7 @@ For a quick "just open it" trial run, use the [Luny-Examples repository](https:/
 
 Just clone the project or download it as zip, then unzip locally. Open it in a Unity Editor version which matches at least the major/minor version (ie 6.0).
 
-> [!IMPORTANT]
+> [!TIP]
 > The Luny package is embedded and not upgradeable to ensure the project works smoothly. To upgrade Luny in that project, first uninstall the Luny package, then install it from Git as explained above.
 
 # Installing Luny Package (read-only)
@@ -17,7 +17,7 @@ In the Unity Editor:
 - Click [➕] and **Install package from git URL...**
 - Enter URL: `https://github.com/CodeSmile-0000011110110111/de.codesmile.luny.git`
 
-> [!IMPORTANT]
+> [!WARNING]
 > Unity packages added 'from git URL' are read-only! You can't modify the package contents.
 
 # Cloning the Luny Package (writable)

@@ -1,14 +1,14 @@
-group :jekyll_plugins do
-   
-	source 'https://rubygems.org'
-	gem 'nokogiri'
-	gem 'rack', '~> 2.2.4'
-	gem 'rspec'
-	gem "github-pages", group: :jekyll_plugins
-	gem 'wdm', '>= 0.1.0' if Gem.win_platform?
-	gem 'fiddle'
-   
-   # ... Add this line:
-   gem "jekyll-gfm-admonitions"
-end
+source 'https://rubygems.org'
 
+gem 'jekyll'
+gem 'nokogiri'
+gem 'rack', '~> 2.2.4'
+gem 'rspec'
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+gem 'fiddle'
+
+group :jekyll_plugins do
+	gem "github-pages", group: :jekyll_plugins
+	gem 'jekyll-gfm-admonitions'
+	gem 'jekyll-optional-front-matter'
+end
