@@ -1,6 +1,8 @@
 remote_theme: pages-themes/dinky@v0.2.0
 title: Luny Docs
 description: Program Unity in Lua
+url: https://docs.lunyscript.com
+baseurl: ''
 google_analytics: [GA tracking ID]
 markdown: GFM 
 plugins:
