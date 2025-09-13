@@ -20,6 +20,15 @@ Please consider sponsoring Luny on [Patreon](http://www.patreon.com/c/codesmile)
 - [Create an Editor Script](createeditorscript.md)
 - [Create a MonoBehaviour Script](createmonobehaviourscript.md)
 
+## Advanced Concepts
+
+> [!IMPORTANT]
+> Since the Luny code generator is not yet available, Contexts and Modules have little use at this point.
+
+- [Lua Module](luacontext.md)
+- [Lua Context](luamodule.md)
+
+
 # API Reference
 
 - **Unity 6.3 Luny API** (coming soon ..)

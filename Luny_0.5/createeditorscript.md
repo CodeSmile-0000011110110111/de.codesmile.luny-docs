@@ -13,7 +13,7 @@ warn("Hello!")     -- Debug.LogWarning equivalent
 error("Hello!")    -- Debug.LogError equivalent
 ```
 
-## Example Editor Script
+## Example Editor Lua Script
 Use case: We need an Editor utility script that automatically opens new Scene assets.
 
 Exactly the kind of script we often wish for but rarely write because of the friction imposed upon us. Particularly when we need to figure many things out one by one:
