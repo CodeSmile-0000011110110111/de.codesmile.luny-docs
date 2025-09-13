@@ -33,6 +33,10 @@ jobs:
         jekyll/builder:latest \
         /bin/bash -c "chmod -R 777 /srv/jekyll && bundle install && jekyll build --future"
 
+    - name: Setup Pages
+      id: pages
+      uses: actions/configure-pages@v5
+        
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
