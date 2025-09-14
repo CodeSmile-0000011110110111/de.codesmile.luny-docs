@@ -27,13 +27,15 @@ After naming the asset - for example "TestScript" - two assets will be created: 
 
 ![lunyscript pair](img/luny-script-pair.png)
 
-Create a GameObject in the scene and select it. Then drag & drop the C# script onto its Inspector window, or use **Add Component** in the Inspector to add the C# script. It should look like this:
+Create a GameObject in the scene. Choose any GameObject that is visible, like `3D Object/Cube` or `2D Object/Sprites/Square`.
+
+Then select the new GameObject. Drag & drop the C# script from the Project window onto the GameObject's Inspector window. Alternatively use **Add Component** in the Inspector to add the C# script. It should look similar to this:
 
 ![lunyscript inspector](img/lunyscript-inspector.png)
 
 Since the Lua script has the same name as the C# script it will automatically get assigned to the _Lua Asset_ field.
 
-## Play with it!
+## Hot Reloading
 
 Enter playmode now. You should get a message printed to the Console from the Lua script:
 
@@ -54,6 +56,25 @@ end
 Notice how the changed Console message gets printed immediately after saving:
 
 ![lunyscript after hotreload](img/lunyscript-after-hotreload-log.png)
+
+## Let's Move It!
+
+Now let's move the GameObject around in the scene for a simple visual test.
+
+Add the following Update function to the Lua script:
+```
+script.Update = function()
+    local x = script.transform.position.x
+    script.transform.position = Vector3(x + 0.1 * Time.deltaTime, 0, 0)
+end
+```
+
+Enter Playmode and observe the GameObject moving around. Keep changing the script and save, and observe how each change takes effect immediately. For instance you could change the + to - to make it move in the opposite direction. Or change the 0.1 to 0.2 to make it move faster.
+
+## Let's Inspectorize these values!
+
+You can also edit values in the `script` table via the Inspector.
+
 
 
 #### [Back to Index](index.md)
