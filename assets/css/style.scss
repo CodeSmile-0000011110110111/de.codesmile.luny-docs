@@ -4,6 +4,9 @@
 @import "{{ site.theme }}";
 
 :root {
+    --wrapperwidth: 1080px;
+    --maxwidth: 770px;
+
     --color: #d3d3d3;
     --backgroundcolor: #0B0A07;
     --codecolor: #aabbff;
@@ -156,7 +159,7 @@ hr {
 img {
   position: relative;
   margin: 0 auto;
-  max-width: 650px;
+  max-width:var(--maxwidth);
   padding: 5px;
   margin: 10px 0 32px 0;
   border: 1px solid #ccc;
@@ -226,7 +229,7 @@ td {
 
 /* Wrapper */
 .wrapper {
-  width:960px;
+  width:var(--wrapperwidth);
 }
 
 
@@ -341,7 +344,7 @@ a.buttons:hover {
 /* Section - for main page content */
 
 section {
-  width:650px;
+  width:var(--maxwidth);
   float:right;
   padding-bottom:50px;
 }
