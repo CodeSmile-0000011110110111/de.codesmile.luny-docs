@@ -31,7 +31,7 @@ jobs:
         -w /srv/jekyll \
         -e "PAGES_REPO_NWO=${{ github.repository }}" \
         jekyll/builder:latest \
-        /bin/bash -c "chmod -R 777 /srv/jekyll && bundle install && jekyll build --future"
+        /bin/bash -c "chmod -R 777 /srv/jekyll && bundle install && jekyll build --future --verbose"
 
     - name: Setup Pages
       id: pages
